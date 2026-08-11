@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-08-05T22:56:13.749850+00:00",
+    "generated": "2026-08-11T03:20:44.820080+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -44,15 +44,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 65.72
+        "rate": 65.51
       },
       {
         "currency": "ALL",
-        "rate": 81.07
+        "rate": 80.66
       },
       {
         "currency": "AMD",
-        "rate": 366.47
+        "rate": 366.5
       },
       {
         "currency": "ANG",
@@ -60,11 +60,11 @@
       },
       {
         "currency": "AOA",
-        "rate": 926.54
+        "rate": 925.26
       },
       {
         "currency": "ARS",
-        "rate": 1496.45
+        "rate": 1498.09
       },
       {
         "currency": "AUD",
@@ -80,7 +80,7 @@
       },
       {
         "currency": "BAM",
-        "rate": 1.7
+        "rate": 1.69
       },
       {
         "currency": "BBD",
@@ -88,11 +88,11 @@
       },
       {
         "currency": "BDT",
-        "rate": 123.71
+        "rate": 123.59
       },
       {
         "currency": "BGN",
-        "rate": 1.7
+        "rate": 1.69
       },
       {
         "currency": "BHD",
@@ -100,7 +100,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2991.62
+        "rate": 2991.46
       },
       {
         "currency": "BMD",
@@ -112,12 +112,12 @@
       },
       {
         "currency": "BOB",
-        "rate": 12.17
+        "rate": 11.96
       }
     ]
   },
   "entities": [],
   "events": [],
   "timeseries": [],
-  "llm_summary": "The live‑mode monitoring of the MENA‑energy‑flow project uses real‑time GDELT news feeds and current exchange‑rate data to track shifts in regional energy markets. No new events have been logged, indicating a period of stability or limited salient developments. Exchange‑rate movements suggest only modest currency pressure, which may affect import costs for energy commodities. Analysts should continue to watch for emerging geopolitical or economic triggers that could alter the flow dynamics."
+  "llm_summary": "Pending API key..."
 }
