@@ -1,0 +1,26 @@
+# MENA Energy Flow Tracker Configuration
+project:
+  id: mena-energy-flow
+  name: "MENA Energy Flow Tracker"
+  description: "Oil & gas flow monitoring through strategic chokepoints."
+
+openrouter:
+  model: "openrouter/free"
+  fallback_model: "openrouter/free"
+
+gdelt_query: "oil gas energy pipeline chokepoint"
+include_forex: true
+
+sources:
+  - name: "GDELT"
+
+refresh:
+  interval_hours: 6
+  retry_attempts: 3
+
+scoring:
+  scale: "1-10"
+  thresholds:
+    high: 7
+    medium: 4
+    low: 0

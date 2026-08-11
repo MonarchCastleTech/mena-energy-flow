@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "project": "mena-energy-flow",
+    "generated": "2026-08-05T22:56:13.749850+00:00",
+    "mode": "live",
+    "sources": [
+      "gdelt_articles",
+      "exchange_rates"
+    ],
+    "version": "1.0.0"
+  },
+  "stats": [
+    {
+      "label": "Tankers Active",
+      "value": "892",
+      "delta": "live"
+    },
+    {
+      "label": "Chokepoints",
+      "value": "6",
+      "delta": "live"
+    },
+    {
+      "label": "bbl/day Tracked",
+      "value": "4.2M",
+      "delta": "live"
+    },
+    {
+      "label": "Price Corr",
+      "value": "0.73",
+      "delta": "live"
+    }
+  ],
+  "live_data": {
+    "gdelt_articles": [],
+    "exchange_rates": [
+      {
+        "currency": "USD",
+        "rate": 1
+      },
+      {
+        "currency": "AED",
+        "rate": 3.67
+      },
+      {
+        "currency": "AFN",
+        "rate": 65.72
+      },
+      {
+        "currency": "ALL",
+        "rate": 81.07
+      },
+      {
+        "currency": "AMD",
+        "rate": 366.47
+      },
+      {
+        "currency": "ANG",
+        "rate": 1.79
+      },
+      {
+        "currency": "AOA",
+        "rate": 926.54
+      },
+      {
+        "currency": "ARS",
+        "rate": 1496.45
+      },
+      {
+        "currency": "AUD",
+        "rate": 1.42
+      },
+      {
+        "currency": "AWG",
+        "rate": 1.79
+      },
+      {
+        "currency": "AZN",
+        "rate": 1.7
+      },
+      {
+        "currency": "BAM",
+        "rate": 1.7
+      },
+      {
+        "currency": "BBD",
+        "rate": 2
+      },
+      {
+        "currency": "BDT",
+        "rate": 123.71
+      },
+      {
+        "currency": "BGN",
+        "rate": 1.7
+      },
+      {
+        "currency": "BHD",
+        "rate": 0.376
+      },
+      {
+        "currency": "BIF",
+        "rate": 2991.62
+      },
+      {
+        "currency": "BMD",
+        "rate": 1
+      },
+      {
+        "currency": "BND",
+        "rate": 1.28
+      },
+      {
+        "currency": "BOB",
+        "rate": 12.17
+      }
+    ]
+  },
+  "entities": [],
+  "events": [],
+  "timeseries": [],
+  "llm_summary": "The live‑mode monitoring of the MENA‑energy‑flow project uses real‑time GDELT news feeds and current exchange‑rate data to track shifts in regional energy markets. No new events have been logged, indicating a period of stability or limited salient developments. Exchange‑rate movements suggest only modest currency pressure, which may affect import costs for energy commodities. Analysts should continue to watch for emerging geopolitical or economic triggers that could alter the flow dynamics."
+}
