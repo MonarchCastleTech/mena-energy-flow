@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-08-12T07:56:38.802431+00:00",
+    "generated": "2026-08-12T13:53:31.638190+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -45,12 +45,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Xinran Group Expands Integrated Energy Equipment Solutions Across Global Markets",
-        "url": "https://www.prnewswire.com:443/news-releases/xinran-group-expands-integrated-energy-equipment-solutions-across-global-markets-302848352.html",
-        "domain": "prnewswire.com",
-        "language": "English",
+        "title": "Džej di Vens poručio da je Ukrajina pauzirala napade na naftne tankere",
+        "url": "https://informer.rs/planeta/vesti/1141124/ukrajina-napad-dronovima-naftni-tankeri",
+        "domain": "informer.rs",
+        "language": "Serbian",
         "tone": 0,
-        "seendate": "20260811T134500Z",
+        "seendate": "20260812T114500Z",
         "source": "GDELT"
       },
       {
@@ -90,15 +90,6 @@
         "source": "GDELT"
       },
       {
-        "title": "Армения заинтересовалась азербайджанским газом",
-        "url": "https://vestikavkaza.ru/analytics/armenia-zainteresovalas-azerbajdzanskim-gazom.html",
-        "domain": "vestikavkaza.ru",
-        "language": "Russian",
-        "tone": 0,
-        "seendate": "20260811T120000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "アラスカＬＮＧ計画 、 輸送日数や安定性に利点 開発企業グレンファーンの幹部 ： 時事ドットコム",
         "url": "https://www.jiji.com/jc/article?k=2026081200195&g=eco",
         "domain": "jiji.com",
@@ -117,6 +108,15 @@
         "source": "GDELT"
       },
       {
+        "title": "多元工况下天然气压缩机组选型2026 ： 国内外供应商能力梳理 _ 中华网",
+        "url": "https://m.tech.china.com/redian/2026/0812/082026_1939166.html",
+        "domain": "m.tech.china.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260812T120000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Petrolio e gas in altalena , poi gli spiragli su Hormuz tranquillizzano i mercati",
         "url": "https://www.ilmessaggero.it/economia/news/petrolio_gas_prezzi-9702826.html",
         "domain": "ilmessaggero.it",
@@ -132,6 +132,15 @@
         "language": "English",
         "tone": 0,
         "seendate": "20260812T011500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Ucrânia cessa ataques em porto russo após EUA pedirem",
+        "url": "https://www.gazetadopovo.com.br/mundo/ucrania-deixa-bombardear-petroleiros-porto-russo-apos-pedido-vice-trump/",
+        "domain": "gazetadopovo.com.br",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260812T121500Z",
         "source": "GDELT"
       },
       {
@@ -168,6 +177,15 @@
         "language": "Spanish",
         "tone": 0,
         "seendate": "20260812T040000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Российские поставщики нефти начали диктовать свои условия Китаю",
+        "url": "https://www.pravda.ru/economics/2388063-china-buys-russian-oil/",
+        "domain": "pravda.ru",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260812T100000Z",
         "source": "GDELT"
       },
       {
@@ -225,21 +243,21 @@
         "source": "GDELT"
       },
       {
-        "title": "Triveni Turbine drops after Q1 PAT declines 21 % YoY to Rs 51 cr",
-        "url": "https://www.business-standard.com/markets/capital-market-news/triveni-turbine-drops-after-q1-pat-declines-21-yoy-to-rs-51-cr-126081100796_1.html",
-        "domain": "business-standard.com",
+        "title": "L & T Energy Hydrocarbon Onshore Signs Six - Year EPC Agreement With Petroleum Development Oman",
+        "url": "https://www.hydrocarbononline.com/doc/l-t-energy-hydrocarbon-onshore-signs-six-year-epc-agreement-with-petroleum-development-oman-0001",
+        "domain": "hydrocarbononline.com",
         "language": "English",
         "tone": 0,
-        "seendate": "20260811T093000Z",
+        "seendate": "20260812T091500Z",
         "source": "GDELT"
       },
       {
-        "title": "Сотрудничество России и Казахстана – во благо обеих стран",
-        "url": "https://stanradar.com/news/full/60406-sotrudnichestvo-rossii-i-kazahstana-vo-blago-obeih-stran.html",
-        "domain": "stanradar.com",
-        "language": "Russian",
+        "title": "关于无人机如何选型热成像模组和激光测距模组的介绍 _ 中华网",
+        "url": "https://hea.china.com/hea/xinwen/2026/0812/082026_1938950.html",
+        "domain": "hea.china.com",
+        "language": "Chinese",
         "tone": 0,
-        "seendate": "20260812T030000Z",
+        "seendate": "20260812T091500Z",
         "source": "GDELT"
       },
       {
@@ -252,6 +270,24 @@
         "source": "GDELT"
       },
       {
+        "title": "Сотрудничество России и Казахстана – во благо обеих стран",
+        "url": "https://stanradar.com/news/full/60406-sotrudnichestvo-rossii-i-kazahstana-vo-blago-obeih-stran.html",
+        "domain": "stanradar.com",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260812T030000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Powering India Energy Freedom",
+        "url": "http://www.indiagazette.com/news/279236203/powering-india-energy-freedom",
+        "domain": "indiagazette.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260812T080000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "YPF Sociedad Anónima Q2 Earnings Call Highlights",
         "url": "https://www.themarketsdaily.com/2026/08/11/ypf-sociedad-anonima-q2-earnings-call-highlights.html",
         "domain": "themarketsdaily.com",
@@ -261,12 +297,12 @@
         "source": "GDELT"
       },
       {
-        "title": "ETF日報 ： 超跌反彈已進入後半程 ， 指數仍有修復空間",
-        "url": "https://portal.sina.com.hk/finance/sina/2026/08/11/1883319/etf%E6%97%A5%E5%A0%B1%EF%BC%9A%E8%B6%85%E8%B7%8C%E5%8F%8D%E5%BD%88%E5%B7%B2%E9%80%B2%E5%85%A5%E5%BE%8C%E5%8D%8A%E7%A8%8B%EF%BC%8C%E6%8C%87%E6%95%B8%E4%BB%8D%E6%9C%89%E4%BF%AE%E5%BE%A9%E7%A9%BA/",
-        "domain": "portal.sina.com.hk",
-        "language": "Chinese",
+        "title": "External Crises Shouldnt Dictate Africa Fuel Prices , Regulators Insist",
+        "url": "https://leadership.ng/external-crises-shouldnt-dictate-africas-fuel-prices-regulators-insist/",
+        "domain": "leadership.ng",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260811T131500Z",
+        "seendate": "20260812T083000Z",
         "source": "GDELT"
       },
       {
@@ -276,15 +312,6 @@
         "language": "English",
         "tone": 0,
         "seendate": "20260812T024500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Weekly Sanctions Update : August 10 , 2026",
-        "url": "https://www.mondaq.com:443/unitedstates/money-laundering/1828844/weekly-sanctions-update-august-10-2026",
-        "domain": "mondaq.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T093000Z",
         "source": "GDELT"
       },
       {
@@ -315,6 +342,24 @@
         "source": "GDELT"
       },
       {
+        "title": "America emergency oil vault : A history of the Strategic Petroleum Reserve - Las Vegas Sun News",
+        "url": "https://lasvegassun.com/news/2026/aug/12/americas-emergency-oil-vault-a-history-of-the-stra/",
+        "domain": "lasvegassun.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260812T104500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Enbridge Inc ( ENB ) To Go Ex - Dividend on August 14th",
+        "url": "https://www.themarketsdaily.com/2026/08/12/enbridge-inc-enb-to-go-ex-dividend-on-august-14th.html",
+        "domain": "themarketsdaily.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260812T121500Z",
+        "source": "GDELT"
+      },
+      {
         "title": "OPINION - Mecca Joint Defense Agreement : Strategic complementarity and regional integration",
         "url": "https://aa.com.tr/en/opinion/opinion-mecca-joint-defense-agreement-strategic-complementarity-and-regional-integration/4024413",
         "domain": "aa.com.tr",
@@ -339,6 +384,24 @@
         "language": "English",
         "tone": 0,
         "seendate": "20260811T203000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Western Wealth Management LLC Buys 28 , 091 Shares of Enbridge Inc $ENB",
+        "url": "https://www.themarketsdaily.com/2026/08/12/western-wealth-management-llc-buys-28091-shares-of-enbridge-inc-enb.html",
+        "domain": "themarketsdaily.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260812T091500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": " « Где взять столько нефти ». Помогут ли новые НПЗ решить проблему нехватки топлива в Центральной Азии ? ",
+        "url": "https://www.azattyqasia.org/a/gde-vzyat-stolko-nefti-pomogut-li-novye-npz-reshit-problemu-nehvatki-topliva-v-tsentralnoy-azii/33826687.html",
+        "domain": "azattyqasia.org",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260812T074500Z",
         "source": "GDELT"
       },
       {
@@ -396,15 +459,6 @@
         "source": "GDELT"
       },
       {
-        "title": "Sanctions Update : August 10 , 2026",
-        "url": "https://www.mondaq.com:443/unitedstates/export-controls-trade-investment-sanctions/1828776/sanctions-update-august-10-2026",
-        "domain": "mondaq.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T093000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Peyto Reports Second Quarter 2026 Results",
         "url": "https://www.manilatimes.net/2026/08/12/tmt-newswire/globenewswire/peyto-reports-second-quarter-2026-results/2403516",
         "domain": "manilatimes.net",
@@ -423,66 +477,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Zefiro Methane Corp .: Zefiro Receives Front - Page Newspaper Coverage , Highlighting Recent Momentum in Nationwide Orphan Well Plugging Efforts",
-        "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69274005-zefiro-methane-corp-zefiro-receives-front-page-newspaper-coverage-highlighting-recent-momentum-in-nationwide-orphan-well-plugging-efforts-296.htm",
-        "domain": "finanznachrichten.de",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T093000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Phillips 66 Q2 Earnings Call Highlights",
         "url": "https://www.dailypolitical.com/2026/08/11/phillips-66-q2-earnings-call-highlights.html",
         "domain": "dailypolitical.com",
         "language": "English",
         "tone": 0,
         "seendate": "20260811T163000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "百花奖 ， 不渡85花|杨幂|唐嫣|赵丽颖|刘诗诗|最佳女配|最佳女主角",
-        "url": "https://www.163.com/dy/article/L43234VL0518AFNU.html",
-        "domain": "163.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260811T131500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Franco - Nevada Reports Q2 2026 Results",
-        "url": "https://www.prnewswire.com/news-releases/franco-nevada-reports-q2-2026-results-302848909.html",
-        "domain": "prnewswire.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T221500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Подводные дроны приходят в нашу жизнь",
-        "url": "https://ru.apa.az/infrastruktura/podvodnye-drony-prixodyat-v-nasu-zizn-666664",
-        "domain": "ru.apa.az",
-        "language": "Russian",
-        "tone": 0,
-        "seendate": "20260812T063000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Press Release",
-        "url": "https://www.mining.com/press-release?id=6a7ba06b84aa856c05dad485",
-        "domain": "mining.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260812T021500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Select Water Solutions ( WTTR ) Q2 2026 Earnings Call Transcript",
-        "url": "https://www.fool.com/earnings/call-transcripts/2026/08/11/select-water-solutions-wttr-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
-        "domain": "fool.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260812T023000Z",
         "source": "GDELT"
       }
     ],
