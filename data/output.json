@@ -1,11 +1,10 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-08-11T19:31:09.163804+00:00",
+    "generated": "2026-08-12T03:01:04.714331+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
-      "energy_news",
       "exchange_rates"
     ],
     "version": "1.0.0"
@@ -34,413 +33,6 @@
   ],
   "live_data": {
     "gdelt_articles": [],
-    "energy_news": [
-      {
-        "title": "Afeganistão reforça setor de refino e projeta hub energético com projeto de gasoduto regional",
-        "url": "https://www.brasil247.com/mundo/afeganistao-reforca-setor-de-refino-e-projeta-hub-energetico-com-projeto-de-gasoduto-regional/",
-        "domain": "brasil247.com",
-        "language": "Portuguese",
-        "tone": 0,
-        "seendate": "20260811T023000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "As Carbon Capture & Storage Gathers Steam , New Consumer Watchdog Report Questions Its Threat To The Public And Lifeline For Fossil Fuels",
-        "url": "http://www.prnewswire.com/news-releases/as-carbon-capture--storage-gathers-steam-new-consumer-watchdog-report-questions-its-threat-to-the-public-and-lifeline-for-fossil-fuels-302847674.html",
-        "domain": "prnewswire.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T033000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "As Carbon Capture & Storage Gathers Steam , New Consumer Watchdog Report Questions Its Threat To The Public And Lifeline For Fossil Fuels",
-        "url": "https://www.prnewswire.com/news-releases/as-carbon-capture--storage-gathers-steam-new-consumer-watchdog-report-questions-its-threat-to-the-public-and-lifeline-for-fossil-fuels-302847674.html",
-        "domain": "prnewswire.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T023000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Xinran Group Expands Integrated Energy Equipment Solutions Across Global Markets",
-        "url": "https://www.prnewswire.com:443/news-releases/xinran-group-expands-integrated-energy-equipment-solutions-across-global-markets-302848352.html",
-        "domain": "prnewswire.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T134500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "KIOGE 2026 celebra i 30 anni di collaborazione tra il settore energetico globale e lAsia centrale",
-        "url": "https://www.ilgiornale.it/news/business-wire/kioge-2026-celebra-i-30-anni-di-collaborazione-tra-il-settore-energetico-globale-e-lasia-centrale/",
-        "domain": "ilgiornale.it",
-        "language": "Italian",
-        "tone": 0,
-        "seendate": "20260811T144500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "  Będziemy się bronić . Polska i Litwa szykują się na prowokację",
-        "url": "https://www.money.pl/biznes/polska-i-sasiedzi-szykuja-sie-na-rosyjska-prowokacje-bedziemy-sie-bronic-7317042865555520a.html",
-        "domain": "money.pl",
-        "language": "Polish",
-        "tone": 0,
-        "seendate": "20260810T234500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Армения заинтересовалась азербайджанским газом",
-        "url": "https://vestikavkaza.ru/analytics/armenia-zainteresovalas-azerbajdzanskim-gazom.html",
-        "domain": "vestikavkaza.ru",
-        "language": "Russian",
-        "tone": 0,
-        "seendate": "20260811T120000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Добыча нефти в Казахстане в январе - июле снизилась на 8 , 9 % ",
-        "url": "https://1prime.ru/20260811/dobycha-872183941.html",
-        "domain": "1prime.ru",
-        "language": "Russian",
-        "tone": 0,
-        "seendate": "20260811T074500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "ONGC awards offshore contracts to L & T Energy Hydrocarbon Offshore",
-        "url": "http://www.bgnes.com/economy/ongc-awards-offshore-contracts-to-l-t-energy-hydrocarbon-offshore",
-        "domain": "bgnes.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T030000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "UGI Q3 Earnings Call Highlights",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ugi-q3-earnings-call-highlights-120406736.html",
-        "domain": "finance.yahoo.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T211500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "বৈরী আবহাওয়ায় এলএনজি কার্গো ভিড়তে না পারায় আবারও গ্যাস সংকট",
-        "url": "https://www.dhakatimes24.com/2026/08/11/410273",
-        "domain": "dhakatimes24.com",
-        "language": "Bengali",
-        "tone": 0,
-        "seendate": "20260811T033000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "YPF presentó su balance y vende Metrogas : la reacción de la acción en Buenos Aires y Nueva York",
-        "url": "https://tn.com.ar/economia/2026/08/11/suben-las-acciones-de-ypf-tras-la-presentacion-del-balance-y-la-venta-de-metrogas/",
-        "domain": "tn.com.ar",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260811T153000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Mexico Wont Frac All Their Basins , Yet They Keep Importing U . S . Gas",
-        "url": "https://www.forbes.com/sites/ianpalmer/2026/08/10/mexico-wont-frac-all-their-basins-yet-they-keep-importing-us-gas/",
-        "domain": "forbes.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T011500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Bengasi , bomba contro il generale di Haftar : cosa sta succedendo in Libia e perché riguarda lItalia",
-        "url": "https://it.euronews.com/2026/08/11/bengasi-bomba-contro-il-generale-di-haftar-cosa-sta-succedendo-in-libia-e-perche-riguarda-",
-        "domain": "it.euronews.com",
-        "language": "Italian",
-        "tone": 0,
-        "seendate": "20260811T144500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Presidents Museveni and Samia Suluhu Launch New Phase of Uganda - Tanzania Energy Partnership",
-        "url": "https://www.tanzanianewsreports.com/presidents-museveni-and-samia-suluhu-launch-new-phase-of-uganda-tanzania-energy-partnership/",
-        "domain": "tanzanianewsreports.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T160000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Польща , Латвія , Литва та Естонія посилюють захист дамб , електростанцій і газової інфраструктури",
-        "url": "https://www.obozrevatel.com/ukr/novosti-mir/polscha-i-kraini-baltii-posilyuyut-zahist-kritichnoi-infrastrukturi-cherez-zagrozu-rosijskih-provokatsij-reuters.htm",
-        "domain": "obozrevatel.com",
-        "language": "Ukrainian",
-        "tone": 0,
-        "seendate": "20260810T211500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Huge fire breaks out at Libya Zawiya refinery after drone attack | Oil and Gas News",
-        "url": "https://www.aljazeera.com/news/2026/8/11/huge-fire-breaks-out-at-libyas-zawiya-refinery-after-drone-attack",
-        "domain": "aljazeera.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T054500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Triveni Turbine drops after Q1 PAT declines 21 % YoY to Rs 51 cr",
-        "url": "https://www.business-standard.com/markets/capital-market-news/triveni-turbine-drops-after-q1-pat-declines-21-yoy-to-rs-51-cr-126081100796_1.html",
-        "domain": "business-standard.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T093000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Reviewing ENN Energy ( XNGSF ) & Its Competitors",
-        "url": "https://www.dailypolitical.com/2026/08/11/reviewing-enn-energy-xngsf-its-competitors.html",
-        "domain": "dailypolitical.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T183000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "ETF日報 ： 超跌反彈已進入後半程 ， 指數仍有修復空間",
-        "url": "https://portal.sina.com.hk/finance/sina/2026/08/11/1883319/etf%E6%97%A5%E5%A0%B1%EF%BC%9A%E8%B6%85%E8%B7%8C%E5%8F%8D%E5%BD%88%E5%B7%B2%E9%80%B2%E5%85%A5%E5%BE%8C%E5%8D%8A%E7%A8%8B%EF%BC%8C%E6%8C%87%E6%95%B8%E4%BB%8D%E6%9C%89%E4%BF%AE%E5%BE%A9%E7%A9%BA/",
-        "domain": "portal.sina.com.hk",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260811T131500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Il miraggio delle alternative alla via obbligata di Hormuz",
-        "url": "https://www.cdt.ch/news/il-miraggio-delle-alternative-alla-via-obbligata-di-hormuz-436381",
-        "domain": "cdt.ch",
-        "language": "Italian",
-        "tone": 0,
-        "seendate": "20260810T233000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Угорська MOL домовилася з Хорватією про транзит нафти Finance . ua",
-        "url": "https://news.finance.ua/ua/uhors-ka-mol-domovylasya-z-horvatiyeyu-pro-tranzyt-nafty",
-        "domain": "news.finance.ua",
-        "language": "Ukrainian",
-        "tone": 0,
-        "seendate": "20260810T220000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "यूक्रेन ने रूस के औद्योगिक शहर को बनाया निशाना , 13 की मौत और 39 घायल",
-        "url": "https://www.deshbandhu.co.in/world/russia-ukraine-war-ukrainian-strike-on-russian-industrial-city-13-dead-39-injured-314954",
-        "domain": "deshbandhu.co.in",
-        "language": "Hindi",
-        "tone": 0,
-        "seendate": "20260810T200000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Energy Transfer ( NYSE : ET ) Upgraded at Wall Street Zen",
-        "url": "https://www.tickerreport.com/banking-finance/13538084/energy-transfer-nyseet-upgraded-at-wall-street-zen.html",
-        "domain": "tickerreport.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T064500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Weekly Sanctions Update : August 10 , 2026",
-        "url": "https://www.mondaq.com:443/unitedstates/money-laundering/1828844/weekly-sanctions-update-august-10-2026",
-        "domain": "mondaq.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T093000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Horacio Marín elevó la apuesta de Argentina LNG : YPF proyecta hasta u$s55 . 000 millones en exportaciones",
-        "url": "https://www.ambito.com/energia/horacio-marin-elevo-la-apuesta-argentina-lng-ypf-proyecta-us55000-millones-exportaciones-n6309574",
-        "domain": "ambito.com",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260811T184500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "OPAL ( OPAL ) Q2 2026 Earnings Call Transcript",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/opal-opal-q2-2026-earnings-022829227.html",
-        "domain": "finance.yahoo.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T030000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "British Columbia declares state of emergency as wildfires force 22 , 000 from their homes",
-        "url": "https://www.wsws.org/en/articles/2026/08/11/atvr-a11.html",
-        "domain": "wsws.org",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T030000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Полша и Балтийските държави засилват охраната на критичната инфраструктура",
-        "url": "https://manager.bg/%D1%81%D0%B2%D1%8F%D1%82/polsha-i-baltiiskite-darzavi-zasilvat-ohranata-na-kritichnata-infrastruktura",
-        "domain": "manager.bg",
-        "language": "Bulgarian",
-        "tone": 0,
-        "seendate": "20260810T200000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "THE SHELL LEAKS FILES : 10 AUGUST 2026 – Royal Dutch Shell Plc . com",
-        "url": "https://royaldutchshellplc.com/2026/08/10/the-shell-leaks-files-10-august-2026/",
-        "domain": "royaldutchshellplc.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T221500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Sanctions Update : August 10 , 2026",
-        "url": "https://www.mondaq.com:443/unitedstates/export-controls-trade-investment-sanctions/1828776/sanctions-update-august-10-2026",
-        "domain": "mondaq.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T093000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Zefiro Methane Corp .: Zefiro Receives Front - Page Newspaper Coverage , Highlighting Recent Momentum in Nationwide Orphan Well Plugging Efforts",
-        "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69274005-zefiro-methane-corp-zefiro-receives-front-page-newspaper-coverage-highlighting-recent-momentum-in-nationwide-orphan-well-plugging-efforts-296.htm",
-        "domain": "finanznachrichten.de",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T093000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Phillips 66 Q2 Earnings Call Highlights",
-        "url": "https://www.tickerreport.com/banking-finance/13537880/phillips-66-q2-earnings-call-highlights.html",
-        "domain": "tickerreport.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T223000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Phillips 66 Q2 Earnings Call Highlights",
-        "url": "https://www.dailypolitical.com/2026/08/11/phillips-66-q2-earnings-call-highlights.html",
-        "domain": "dailypolitical.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T163000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "百花奖 ， 不渡85花|杨幂|唐嫣|赵丽颖|刘诗诗|最佳女配|最佳女主角",
-        "url": "https://www.163.com/dy/article/L43234VL0518AFNU.html",
-        "domain": "163.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260811T131500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Сводка событий в Иране и странах Ближнего Востока за 10 августа 2026 г . ",
-        "url": "https://anna-news.info/svodka-sobytij-v-irane-i-stranah-blizhnego-vostoka-za-10-avgusta-2026-g/",
-        "domain": "anna-news.info",
-        "language": "Russian",
-        "tone": 0,
-        "seendate": "20260811T044500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "  Ляпас Росії  та  порушення табу . Навіщо Зеленський уперше приїхав до Сербії та чому  підгорає  у росіян",
-        "url": "https://gordonua.com/ukr/section-politics/news-poshchechyna-rossyy-y-narushenye-tabu-zachem-zelenskyy-vpervyie-pryekhal-v-serbyyu-y-pochemu-podhoraet-u-rossyyan-11-08-2026.html",
-        "domain": "gordonua.com",
-        "language": "Ukrainian",
-        "tone": 0,
-        "seendate": "20260811T170000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Republican Dave Bronson says  tough  term as mayor gives him an edge in governor race",
-        "url": "https://alaskapublic.org/news/politics/elections/2026-08-10/republican-dave-bronson-says-tough-term-as-mayor-gives-him-an-edge-in-governors-race",
-        "domain": "alaskapublic.org",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T223000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Republican Dave Bronson says  tough  term as mayor gives him an edge in governor race",
-        "url": "https://www.kyuk.org/alaska-state-news/2026-08-10/republican-dave-bronson-says-tough-term-as-mayor-gives-him-an-edge-in-governors-race",
-        "domain": "kyuk.org",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T011500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Republican Dave Bronson says  tough  term as mayor gives him an edge in governor race",
-        "url": "https://www.kmxt.org/alaska-statewide-news/2026-08-10/republican-dave-bronson-says-tough-term-as-mayor-gives-him-an-edge-in-governors-race",
-        "domain": "kmxt.org",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T230000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Mesa Laboratories Q1 Earnings Call Highlights",
-        "url": "https://www.dailypolitical.com/2026/08/10/mesa-laboratories-q1-earnings-call-highlights.html",
-        "domain": "dailypolitical.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T004500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Mesa Laboratories Q1 Earnings Call Highlights",
-        "url": "https://www.tickerreport.com/banking-finance/13537931/mesa-laboratories-q1-earnings-call-highlights.html",
-        "domain": "tickerreport.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T003000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Select Water Solutions Q2 Earnings Call Highlights",
-        "url": "https://www.dailypolitical.com/2026/08/10/select-water-solutions-q2-earnings-call-highlights.html",
-        "domain": "dailypolitical.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T033000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "AECOM reports third quarter fiscal 2026 results",
-        "url": "https://montrealgazette.com/press-releases/business-wire/aecom-reports-third-quarter-fiscal-2026-results/",
-        "domain": "montrealgazette.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T211500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Trump tariffs fallout : China moves to join Brazil WTO challenge of US forced labor duties",
-        "url": "https://www.undercurrentnews.com/2026/08/11/trump-tariffs-fallout/",
-        "domain": "undercurrentnews.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T163000Z",
-        "source": "GDELT"
-      }
-    ],
     "exchange_rates": [
       {
         "currency": "USD",
@@ -452,15 +44,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 65.51
+        "rate": 65.23
       },
       {
         "currency": "ALL",
-        "rate": 80.66
+        "rate": 80.6
       },
       {
         "currency": "AMD",
-        "rate": 366.5
+        "rate": 366.49
       },
       {
         "currency": "ANG",
@@ -468,11 +60,11 @@
       },
       {
         "currency": "AOA",
-        "rate": 925.26
+        "rate": 926.67
       },
       {
         "currency": "ARS",
-        "rate": 1498.09
+        "rate": 1492.18
       },
       {
         "currency": "AUD",
@@ -496,7 +88,7 @@
       },
       {
         "currency": "BDT",
-        "rate": 123.59
+        "rate": 123.53
       },
       {
         "currency": "BGN",
@@ -508,7 +100,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2991.46
+        "rate": 2991.59
       },
       {
         "currency": "BMD",
@@ -520,7 +112,7 @@
       },
       {
         "currency": "BOB",
-        "rate": 11.96
+        "rate": 11.93
       }
     ]
   },
