@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 64" role="img" aria-labelledby="title desc">
+  <title id="title">MENA Energy Flow Tracker</title>
+  <desc id="desc">MENA Energy Flow Tracker product logo</desc>
+  <g fill="none" stroke="#2dd4bf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M32 7C25 19 15 29 15 40a17 17 0 0 0 34 0C49 29 39 19 32 7Z"/><path d="M22 41c5-5 14-5 20 0M39 34l5 7-7 2"/></g>
+  <text x="70" y="30" fill="#f1f5f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" letter-spacing=".2">MENA Energy</text>
+  <text x="70" y="51" fill="#2dd4bf" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" letter-spacing=".2">Flow</text>
+</svg>
