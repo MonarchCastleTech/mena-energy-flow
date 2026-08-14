@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-08-13T19:31:02.575034+00:00",
+    "generated": "2026-08-14T03:02:43.419195+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -32,116 +32,7 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [
-      {
-        "title": "Report Outlines Plans by U . S ., Israel and Saudi to Bypass Iran in Oil Exports – NaturalNews . com",
-        "url": "https://www.naturalnews.com/2026-08-12-us-israel-saudi-to-bypass-iran-oil-exports.html",
-        "domain": "naturalnews.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260812T204500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "World Insights : Hormuz Strait crisis prompts global energy rethink - Xinhua",
-        "url": "https://english.news.cn/20260813/b619556eaa2740c1ac1e8299fb1d758b/c.html",
-        "domain": "english.news.cn",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260813T050000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "World Insights : Hormuz Strait crisis prompts global energy rethink",
-        "url": "http://www.austinglobe.com/news/279237918/world-insights-hormuz-strait-crisis-prompts-global-energy-rethink",
-        "domain": "austinglobe.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260813T050000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "World Insights : Hormuz Strait crisis prompts global energy rethink",
-        "url": "http://www.bignewsnetwork.com/news/279237918/world-insights-hormuz-strait-crisis-prompts-global-energy-rethink",
-        "domain": "bignewsnetwork.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260813T050000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "World Insights : Hormuz Strait crisis prompts global energy rethink",
-        "url": "http://www.australianherald.com/news/279237918/world-insights-hormuz-strait-crisis-prompts-global-energy-rethink",
-        "domain": "australianherald.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260813T091500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "World Insights : Hormuz Strait crisis prompts global energy rethink",
-        "url": "http://www.arabherald.com/news/279237918/world-insights-hormuz-strait-crisis-prompts-global-energy-rethink",
-        "domain": "arabherald.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260813T070000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "World Insights : Hormuz Strait crisis prompts global energy rethink",
-        "url": "http://www.iranherald.com/news/279237918/world-insights-hormuz-strait-crisis-prompts-global-energy-rethink",
-        "domain": "iranherald.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260813T034500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "World Insights : Hormuz Strait crisis prompts global energy rethink",
-        "url": "http://www.iraqsun.com/news/279237918/world-insights-hormuz-strait-crisis-prompts-global-energy-rethink",
-        "domain": "iraqsun.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260813T041500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "World Insights : Hormuz Strait crisis prompts global energy rethink",
-        "url": "http://www.middleeaststar.com/news/279237918/world-insights-hormuz-strait-crisis-prompts-global-energy-rethink",
-        "domain": "middleeaststar.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260813T061500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "World Insights : Hormuz Strait crisis prompts global energy rethink",
-        "url": "http://www.kenyastar.com/news/279237918/world-insights-hormuz-strait-crisis-prompts-global-energy-rethink",
-        "domain": "kenyastar.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260813T063000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "World Insights : Hormuz Strait crisis prompts global energy rethink",
-        "url": "http://www.batonrougepost.com/news/279237918/world-insights-hormuz-strait-crisis-prompts-global-energy-rethink",
-        "domain": "batonrougepost.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260813T061500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "World Insights : Hormuz Strait crisis prompts global energy rethink",
-        "url": "http://www.russiaherald.com/news/279237918/world-insights-hormuz-strait-crisis-prompts-global-energy-rethink",
-        "domain": "russiaherald.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260813T064500Z",
-        "source": "GDELT"
-      }
-    ],
+    "gdelt_articles": [],
     "exchange_rates": [
       {
         "currency": "USD",
@@ -153,7 +44,7 @@
       },
       {
         "currency": "AFN",
-        "rate": 65.11
+        "rate": 65.28
       },
       {
         "currency": "ALL",
@@ -161,7 +52,7 @@
       },
       {
         "currency": "AMD",
-        "rate": 366.02
+        "rate": 365.98
       },
       {
         "currency": "ANG",
@@ -169,11 +60,11 @@
       },
       {
         "currency": "AOA",
-        "rate": 923.71
+        "rate": 925.58
       },
       {
         "currency": "ARS",
-        "rate": 1492.55
+        "rate": 1491.84
       },
       {
         "currency": "AUD",
@@ -197,7 +88,7 @@
       },
       {
         "currency": "BDT",
-        "rate": 123.23
+        "rate": 122.89
       },
       {
         "currency": "BGN",
@@ -209,7 +100,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2990.55
+        "rate": 2991.47
       },
       {
         "currency": "BMD",
@@ -221,202 +112,12 @@
       },
       {
         "currency": "BOB",
-        "rate": 11.87
+        "rate": 11.78
       }
     ]
   },
-  "entities": [
-    {
-      "id": 1,
-      "name": "Report Outlines Plans by U . S ., Israel and Saudi to Bypass",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260812T204500Z",
-      "source": "naturalnews.com"
-    },
-    {
-      "id": 2,
-      "name": "World Insights : Hormuz Strait crisis prompts global energy ",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260813T050000Z",
-      "source": "english.news.cn"
-    },
-    {
-      "id": 3,
-      "name": "World Insights : Hormuz Strait crisis prompts global energy ",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260813T050000Z",
-      "source": "austinglobe.com"
-    },
-    {
-      "id": 4,
-      "name": "World Insights : Hormuz Strait crisis prompts global energy ",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260813T050000Z",
-      "source": "bignewsnetwork.com"
-    },
-    {
-      "id": 5,
-      "name": "World Insights : Hormuz Strait crisis prompts global energy ",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260813T091500Z",
-      "source": "australianherald.com"
-    },
-    {
-      "id": 6,
-      "name": "World Insights : Hormuz Strait crisis prompts global energy ",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260813T070000Z",
-      "source": "arabherald.com"
-    },
-    {
-      "id": 7,
-      "name": "World Insights : Hormuz Strait crisis prompts global energy ",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260813T034500Z",
-      "source": "iranherald.com"
-    },
-    {
-      "id": 8,
-      "name": "World Insights : Hormuz Strait crisis prompts global energy ",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260813T041500Z",
-      "source": "iraqsun.com"
-    },
-    {
-      "id": 9,
-      "name": "World Insights : Hormuz Strait crisis prompts global energy ",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260813T061500Z",
-      "source": "middleeaststar.com"
-    },
-    {
-      "id": 10,
-      "name": "World Insights : Hormuz Strait crisis prompts global energy ",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260813T063000Z",
-      "source": "kenyastar.com"
-    }
-  ],
-  "events": [
-    {
-      "title": "Report Outlines Plans by U . S ., Israel and Saudi to Bypass Iran in Oil Exports – NaturalNews . com",
-      "url": "https://www.naturalnews.com/2026-08-12-us-israel-saudi-to-bypass-iran-oil-exports.html",
-      "domain": "naturalnews.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260812T204500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "World Insights : Hormuz Strait crisis prompts global energy rethink - Xinhua",
-      "url": "https://english.news.cn/20260813/b619556eaa2740c1ac1e8299fb1d758b/c.html",
-      "domain": "english.news.cn",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260813T050000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "World Insights : Hormuz Strait crisis prompts global energy rethink",
-      "url": "http://www.austinglobe.com/news/279237918/world-insights-hormuz-strait-crisis-prompts-global-energy-rethink",
-      "domain": "austinglobe.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260813T050000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "World Insights : Hormuz Strait crisis prompts global energy rethink",
-      "url": "http://www.bignewsnetwork.com/news/279237918/world-insights-hormuz-strait-crisis-prompts-global-energy-rethink",
-      "domain": "bignewsnetwork.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260813T050000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "World Insights : Hormuz Strait crisis prompts global energy rethink",
-      "url": "http://www.australianherald.com/news/279237918/world-insights-hormuz-strait-crisis-prompts-global-energy-rethink",
-      "domain": "australianherald.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260813T091500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "World Insights : Hormuz Strait crisis prompts global energy rethink",
-      "url": "http://www.arabherald.com/news/279237918/world-insights-hormuz-strait-crisis-prompts-global-energy-rethink",
-      "domain": "arabherald.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260813T070000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "World Insights : Hormuz Strait crisis prompts global energy rethink",
-      "url": "http://www.iranherald.com/news/279237918/world-insights-hormuz-strait-crisis-prompts-global-energy-rethink",
-      "domain": "iranherald.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260813T034500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "World Insights : Hormuz Strait crisis prompts global energy rethink",
-      "url": "http://www.iraqsun.com/news/279237918/world-insights-hormuz-strait-crisis-prompts-global-energy-rethink",
-      "domain": "iraqsun.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260813T041500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "World Insights : Hormuz Strait crisis prompts global energy rethink",
-      "url": "http://www.middleeaststar.com/news/279237918/world-insights-hormuz-strait-crisis-prompts-global-energy-rethink",
-      "domain": "middleeaststar.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260813T061500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "World Insights : Hormuz Strait crisis prompts global energy rethink",
-      "url": "http://www.kenyastar.com/news/279237918/world-insights-hormuz-strait-crisis-prompts-global-energy-rethink",
-      "domain": "kenyastar.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260813T063000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "World Insights : Hormuz Strait crisis prompts global energy rethink",
-      "url": "http://www.batonrougepost.com/news/279237918/world-insights-hormuz-strait-crisis-prompts-global-energy-rethink",
-      "domain": "batonrougepost.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260813T061500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "World Insights : Hormuz Strait crisis prompts global energy rethink",
-      "url": "http://www.russiaherald.com/news/279237918/world-insights-hormuz-strait-crisis-prompts-global-energy-rethink",
-      "domain": "russiaherald.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260813T064500Z",
-      "source": "GDELT"
-    }
-  ],
+  "entities": [],
+  "events": [],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
