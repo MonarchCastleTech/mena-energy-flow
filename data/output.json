@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-08-14T13:49:20.531263+00:00",
+    "generated": "2026-08-14T19:20:58.866232+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
