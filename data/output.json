@@ -1,10 +1,11 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-08-16T02:00:42.291641+00:00",
+    "generated": "2026-08-16T07:04:56.788743+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
+      "energy_news",
       "exchange_rates"
     ],
     "version": "1.0.0"
@@ -33,6 +34,305 @@
   ],
   "live_data": {
     "gdelt_articles": [],
+    "energy_news": [
+      {
+        "title": "Phillips 66 wants to build pipeline to California",
+        "url": "https://www.kcra.com/article/phillips-66-california-cross-country-pipeline/73443166",
+        "domain": "kcra.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260816T020000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  ONGC can create a reliable gas supply eco system in Tamil Nadu  ",
+        "url": "https://www.thehindu.com/news/cities/Tiruchirapalli/ongc-can-create-a-reliable-gas-supply-eco-system-in-tamil-nadu/article71349477.ece",
+        "domain": "thehindu.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T131500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Strait of Hormuz crisis underscores need for diversified energy routes : Report",
+        "url": "https://www.prokerala.com/news/articles/a1800829.html",
+        "domain": "prokerala.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T153000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Hormuški tjesnac : potraga za alternativnom naftnom rutom",
+        "url": "https://www.dw.com/hr/hormu%C5%A1ki-tjesnac-potraga-za-alternativnom-naftnom-rutom/a-78375239",
+        "domain": "dw.com",
+        "language": "Croatian",
+        "tone": 0,
+        "seendate": "20260815T233000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Hormuški tjesnac : potraga za alternativnom naftnom rutom",
+        "url": "https://www.dw.com/bs/hormu%C5%A1ki-tjesnac-potraga-za-alternativnom-naftnom-rutom/a-78378788",
+        "domain": "dw.com",
+        "language": "Croatian",
+        "tone": 0,
+        "seendate": "20260816T053000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Letters to the editor , Aug . 15 :  If we dont deliver oil to global markets to satisfy the growing demands of developing countries , others will  ",
+        "url": "https://www.theglobeandmail.com/opinion/letters/article-if-we-dont-deliver-oil-to-global-markets-to-satisfy-demand-others-will/",
+        "domain": "theglobeandmail.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T084500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Weretilneck :  La mayor inversión privada de la historia será en Río Negro  ",
+        "url": "https://www.noticiasnet.com.ar/noticias/2026/08/15/218401-weretilneck-la-mayor-inversion-privada-de-la-historia-sera-en-rio-negro",
+        "domain": "noticiasnet.com.ar",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260815T173000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Pétrole , hélicoptères militaires , électricité : lAlgérie accélère avec le Niger",
+        "url": "https://www.tsa-algerie.com/energie-helicopteres-militaires-aides-comment-lalgerie-rebatit-ses-relations-avec-le-niger/",
+        "domain": "tsa-algerie.com",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260815T083000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "U . S . oil reserves are so low amid Trump Iran war the caverns holding them could be damaged",
+        "url": "https://www.independent.co.uk/news/world/americas/us-politics/strategic-petroleum-reserve-trump-iran-war-gas-prices-b3033680.html",
+        "domain": "independent.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T233000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Strait of Hormuz crisis underscores need for diversified energy routes : Report",
+        "url": "https://ianslive.in/strait-of-hormuz-crisis-underscores-need-for-diversified-energy-routes-report--20260815183451",
+        "domain": "ianslive.in",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T154500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Peter Thiel invierte US$76 millones en Vista y refuerza su apuesta por Vaca Muerta",
+        "url": "https://www.rionegro.com.ar/energia/peter-thiel-invierte-us76-millones-en-vista-y-refuerza-su-apuesta-por-vaca-muerta-4685480/",
+        "domain": "rionegro.com.ar",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260816T040000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Peter Thiel pone un pie en Vaca Muerta con una apuesta por una petrolera argentina",
+        "url": "https://www.lanacion.com.ar/economia/peter-thiel-pone-un-pie-en-vaca-muerta-con-una-apuesta-por-una-petrolera-argentina-nid15082026/",
+        "domain": "lanacion.com.ar",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260816T014500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Oppenheimer & Co . Inc . Sells 49 , 016 Shares of Energy Transfer LP $ET",
+        "url": "https://www.themarketsdaily.com/2026/08/15/oppenheimer-co-inc-sells-49016-shares-of-energy-transfer-lp-et.html",
+        "domain": "themarketsdaily.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T123000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Weretilneck :  La mayor inversión privada de la historia será en Río Negro  ",
+        "url": "https://www.anroca.com.ar/noticias/2026/08/15/218545-weretilneck-la-mayor-inversion-privada-de-la-historia-sera-en-rio-negro",
+        "domain": "anroca.com.ar",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260815T154500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Renewable Energy Stocks To Follow Today – August 15th",
+        "url": "https://www.themarketsdaily.com/2026/08/15/renewable-energy-stocks-to-follow-today-august-15th.html",
+        "domain": "themarketsdaily.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T184500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Phillips 66 $PSX Shares Bought by Oregon Public Employees Retirement Fund",
+        "url": "https://www.dailypolitical.com/2026/08/15/phillips-66-psx-shares-bought-by-oregon-public-employees-retirement-fund.html",
+        "domain": "dailypolitical.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T110000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Phillips 66 $PSX Shares Sold by Sumitomo Mitsui Trust Group Inc . ",
+        "url": "https://www.dailypolitical.com/2026/08/15/phillips-66-psx-shares-sold-by-sumitomo-mitsui-trust-group-inc.html",
+        "domain": "dailypolitical.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T103000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "YPF solicitó incluir en el Rigi un proyecto para exportar gas natural licuado de Vaca Muerta – Noticias y Protagonistas",
+        "url": "https://noticiasyprotagonistas.com/actualidad/ypf-solicito-incluir-en-el-rigi-un-proyecto-para-exportar-gas-natural-licuado-de-vaca-muerta/",
+        "domain": "noticiasyprotagonistas.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260815T174500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Brokerages Set Mplx Lp ( NYSE : MPLX ) Price Target at $62 . 80",
+        "url": "https://www.tickerreport.com/banking-finance/13545100/brokerages-set-mplx-lp-nysemplx-price-target-at-62-80.html",
+        "domain": "tickerreport.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260816T061500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Nigeria Approves New Deepwater Oil Framework To Unlock $50 Billion Investment",
+        "url": "https://naija247news.com/nigeria-approves-new-deepwater-oil-framework-to-unlock-50-billion-investment/",
+        "domain": "naija247news.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T220000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Minería , energía e infraestructura : cómo transformar proyectos en desarrollo territorial",
+        "url": "https://www.ambito.com/energia/mineria-e-infraestructura-como-transformar-proyectos-desarrollo-territorial-n6311174",
+        "domain": "ambito.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260815T184500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Enbridge Inc $ENB Shares Sold by Catalyst Capital Advisors LLC",
+        "url": "https://www.themarketsdaily.com/2026/08/15/enbridge-inc-enb-shares-sold-by-catalyst-capital-advisors-llc.html",
+        "domain": "themarketsdaily.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T090000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Peter Thiel invierte USD 76 millones en Vista Energy , la mayor exportadora de petróleo del país :: Diario Pregon de Jujuy",
+        "url": "https://www.pregon.com.ar/nota/-70386/2026/08/peter-thiel-invierte-usd-76-millones-en-vista-energy-la-mayor-exportadora-de-petroleo-del-pais",
+        "domain": "pregon.com.ar",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260816T020000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "El magnate Peter Thiel eligió Vaca Muerta con una inversión que sorprende al mercado",
+        "url": "https://www.lv12.com.ar/peter-thiel/el-magnate-peter-thiel-eligio-vaca-muerta-una-inversion-que-sorprende-al-mercado-n202159",
+        "domain": "lv12.com.ar",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260816T053000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Central Puerto Q2 Earnings Call Highlights",
+        "url": "https://www.themarketsdaily.com/2026/08/15/central-puerto-q2-earnings-call-highlights.html",
+        "domain": "themarketsdaily.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T123000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Nigeria Considers Crude Swaps To Resolve Refinery Supply Bottleneck",
+        "url": "https://naija247news.com/nigeria-considers-crude-swaps-to-resolve-refinery-supply-bottleneck/",
+        "domain": "naija247news.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T173000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Bogart Wealth LLC Buys 15 , 268 Shares of Kinder Morgan , Inc . $KMI",
+        "url": "https://www.tickerreport.com/banking-finance/13543944/bogart-wealth-llc-buys-15268-shares-of-kinder-morgan-inc-kmi.html",
+        "domain": "tickerreport.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T083000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "NAKED AND THE DEAD : Mystery deaths in Jeffrey Epstein kinky clique",
+        "url": "https://edmontonsun.com/news/world/mystery-deaths-jeffrey-epstein-kinky-clique/wcm/fe5bb45c-cf86-43ad-9899-738088fba5ec",
+        "domain": "edmontonsun.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T191500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Argentina mining under the radar : record exports , lithium boom , and RIGI investment",
+        "url": "https://buenosairesherald.com/business/mining/argentinas-mining-under-the-radar-record-exports-lithium-boom-and-rigi-investment",
+        "domain": "buenosairesherald.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T150000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Construction News and Trends | Construction Dive",
+        "url": "https://www.constructiondive.com/?page=2&_sp=92be43de-55d1-41ae-8e76-afbed18017a8",
+        "domain": "constructiondive.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260816T000000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Riley Exploration Permian ( NYSE : REPX ) CEO Sells $448 , 125 . 00 in Stock",
+        "url": "https://www.tickerreport.com/banking-finance/13544133/riley-exploration-permian-nyserepx-ceo-sells-448125-00-in-stock.html",
+        "domain": "tickerreport.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T093000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "DEP OKs Clean - Seas plastics site permit despite local fears | Energy and Environment",
+        "url": "https://www.wvgazettemail.com/news/energy_and_environment/slap-in-the-face-dep-oks-clean-seas-plastics-site-permit-despite-community-fears/article_b0b2c56c-6f3a-4e3e-b309-df0a7f48163a.html",
+        "domain": "wvgazettemail.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T111500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "The Middle East Under Transactional Diplomacy",
+        "url": "https://www.fairobserver.com/world-news/middle-east-news/the-middle-east-under-transactional-diplomacy/",
+        "domain": "fairobserver.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T223000Z",
+        "source": "GDELT"
+      }
+    ],
     "exchange_rates": [
       {
         "currency": "USD",
