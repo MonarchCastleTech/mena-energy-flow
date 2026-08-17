@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-08-17T01:58:29.376700+00:00",
+    "generated": "2026-08-17T07:28:00.775220+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -32,7 +32,17 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [],
+    "gdelt_articles": [
+      {
+        "title": "A New Game of Monopoly : Middle Eastern Pipelines Cannot Replace the Strait of Hormuz",
+        "url": "https://www.fairobserver.com/economics/a-new-game-of-monopoly-middle-eastern-pipelines-cannot-replace-the-strait-of-hormuz/",
+        "domain": "fairobserver.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260816T174500Z",
+        "source": "GDELT"
+      }
+    ],
     "exchange_rates": [
       {
         "currency": "USD",
@@ -116,8 +126,27 @@
       }
     ]
   },
-  "entities": [],
-  "events": [],
+  "entities": [
+    {
+      "id": 1,
+      "name": "A New Game of Monopoly : Middle Eastern Pipelines Cannot Rep",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260816T174500Z",
+      "source": "fairobserver.com"
+    }
+  ],
+  "events": [
+    {
+      "title": "A New Game of Monopoly : Middle Eastern Pipelines Cannot Replace the Strait of Hormuz",
+      "url": "https://www.fairobserver.com/economics/a-new-game-of-monopoly-middle-eastern-pipelines-cannot-replace-the-strait-of-hormuz/",
+      "domain": "fairobserver.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260816T174500Z",
+      "source": "GDELT"
+    }
+  ],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
