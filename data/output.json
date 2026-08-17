@@ -1,11 +1,10 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-08-16T18:51:17.091911+00:00",
+    "generated": "2026-08-17T01:58:29.376700+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
-      "energy_news",
       "exchange_rates"
     ],
     "version": "1.0.0"
@@ -34,323 +33,6 @@
   ],
   "live_data": {
     "gdelt_articles": [],
-    "energy_news": [
-      {
-        "title": "Energy Transfer Just Raised Its 2026 Guidance . Is the Stock Still a Buy ? ",
-        "url": "https://www.fool.com/investing/2026/08/16/energy-transfer-just-raised-its-2026-guidance-is/?source=iedfolrf0000001",
-        "domain": "fool.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260816T153000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Phillips 66 wants to build pipeline to California",
-        "url": "https://www.kcra.com/article/phillips-66-california-cross-country-pipeline/73443166",
-        "domain": "kcra.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260816T020000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "От Ормуз до Магреб : геополитическият обхват на кризата в Персийския залив ᐉ Новини от Fakti . bg - Мнения",
-        "url": "https://fakti.bg/mnenia/1074468-ot-ormuz-do-magreb-geopoliticheskiat-obhvat-na-krizata-v-persiiskia-zaliv",
-        "domain": "fakti.bg",
-        "language": "Bulgarian",
-        "tone": 0,
-        "seendate": "20260816T081500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Hormuški tjesnac : potraga za alternativnom naftnom rutom",
-        "url": "https://www.dw.com/bs/hormu%C5%A1ki-tjesnac-potraga-za-alternativnom-naftnom-rutom/a-78378788",
-        "domain": "dw.com",
-        "language": "Croatian",
-        "tone": 0,
-        "seendate": "20260816T053000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "A New Game of Monopoly : Middle Eastern Pipelines Cannot Replace the Strait of Hormuz",
-        "url": "https://www.fairobserver.com/economics/a-new-game-of-monopoly-middle-eastern-pipelines-cannot-replace-the-strait-of-hormuz/",
-        "domain": "fairobserver.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260816T174500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Hormuški tjesnac : potraga za alternativnom naftnom rutom",
-        "url": "https://www.dw.com/hr/hormu%C5%A1ki-tjesnac-potraga-za-alternativnom-naftnom-rutom/a-78375239",
-        "domain": "dw.com",
-        "language": "Croatian",
-        "tone": 0,
-        "seendate": "20260815T233000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "تجاه طهران وواشنطن .. تحرك رسمي لتحرير النفط العراقي عبر مضيق هرمز – كتابات",
-        "url": "https://kitabat.com/news/%D8%AA%D8%AC%D8%A7%D9%87-%D8%B7%D9%87%D8%B1%D8%A7%D9%86-%D9%88%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D8%AA%D8%AD%D8%B1%D9%83-%D8%B1%D8%B3%D9%85%D9%8A-%D9%84%D8%AA%D8%AD%D8%B1%D9%8A%D8%B1-%D8%A7%D9%84/",
-        "domain": "kitabat.com",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260816T181500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Why Canada needs a second gateway beyond Lower Mainland",
-        "url": "https://calgaryherald.com/opinion/columnists/the-northern-advantage-why-canada-needs-a-second-gateway-beyond-lower-mainland",
-        "domain": "calgaryherald.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260816T131500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "甘当海底  拓荒人 ， 他12年死磕  硬骨头  | 感动海南的身边好人⑰ - 南海网",
-        "url": "https://www.hinews.cn/page?n=2839117&m=1&s=1044",
-        "domain": "hinews.cn",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260816T170000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Peter Thiel invierte US$76 millones en Vista y refuerza su apuesta por Vaca Muerta",
-        "url": "https://www.rionegro.com.ar/energia/peter-thiel-invierte-us76-millones-en-vista-y-refuerza-su-apuesta-por-vaca-muerta-4685480/",
-        "domain": "rionegro.com.ar",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260816T040000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "U . S . oil reserves are so low amid Trump Iran war the caverns holding them could be damaged",
-        "url": "https://www.independent.co.uk/news/world/americas/us-politics/strategic-petroleum-reserve-trump-iran-war-gas-prices-b3033680.html",
-        "domain": "independent.co.uk",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260815T233000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Making Nigeria oil wealth work harder for Nigerians",
-        "url": "https://thenationonlineng.net/making-nigerias-oil-wealth-work-harder-for-nigerians/",
-        "domain": "thenationonlineng.net",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260816T070000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Azərbaycanın enerji zəfəri : Türkiyədən Avropaya uzanan körpü",
-        "url": "https://serqqapisi.az/butun-xeberler/azerbaycanin-enerji-zeferi-turkiyeden-avropaya-uzanan-korpu",
-        "domain": "serqqapisi.az",
-        "language": "Azerbaijani",
-        "tone": 0,
-        "seendate": "20260816T124500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Renewable Energy Stocks To Watch Now – August 13th",
-        "url": "https://www.dailypolitical.com/2026/08/16/renewable-energy-stocks-to-watch-now-august-13th.html",
-        "domain": "dailypolitical.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260816T123000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Peter Thiel pone un pie en Vaca Muerta con una apuesta por una petrolera argentina",
-        "url": "https://www.lanacion.com.ar/economia/peter-thiel-pone-un-pie-en-vaca-muerta-con-una-apuesta-por-una-petrolera-argentina-nid15082026/",
-        "domain": "lanacion.com.ar",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260816T014500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Brokerages Set Mplx Lp ( NYSE : MPLX ) Price Target at $62 . 80",
-        "url": "https://www.tickerreport.com/banking-finance/13545100/brokerages-set-mplx-lp-nysemplx-price-target-at-62-80.html",
-        "domain": "tickerreport.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260816T061500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Can China Turn Energy Dependence into Diplomatic Power in the Middle East ? ",
-        "url": "https://www.middleeastmonitor.com/20260816-can-china-turn-energy-dependence-into-diplomatic-power-in-the-middle-east/",
-        "domain": "middleeastmonitor.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260816T113000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Daiwa Securities Group Inc . Trims Holdings in Phillips 66 $PSX",
-        "url": "https://www.tickerreport.com/banking-finance/13545187/daiwa-securities-group-inc-trims-holdings-in-phillips-66-psx.html",
-        "domain": "tickerreport.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260816T083000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Phillips 66 ( PSX ) To Go Ex - Dividend on August 18th",
-        "url": "https://www.dailypolitical.com/2026/08/16/phillips-66-psx-to-go-ex-dividend-on-august-18th.html",
-        "domain": "dailypolitical.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260816T113000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Nigeria Approves New Deepwater Oil Framework To Unlock $50 Billion Investment",
-        "url": "https://naija247news.com/nigeria-approves-new-deepwater-oil-framework-to-unlock-50-billion-investment/",
-        "domain": "naija247news.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260815T220000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Peter Thiel invierte USD 76 millones en Vista Energy , la mayor exportadora de petróleo del país :: Diario Pregon de Jujuy",
-        "url": "https://www.pregon.com.ar/nota/-70386/2026/08/peter-thiel-invierte-usd-76-millones-en-vista-energy-la-mayor-exportadora-de-petroleo-del-pais",
-        "domain": "pregon.com.ar",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260816T020000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "El magnate Peter Thiel eligió Vaca Muerta con una inversión que sorprende al mercado",
-        "url": "https://www.lv12.com.ar/peter-thiel/el-magnate-peter-thiel-eligio-vaca-muerta-una-inversion-que-sorprende-al-mercado-n202159",
-        "domain": "lv12.com.ar",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260816T053000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Fox Run Management L . L . C . Purchases New Stake in Kinder Morgan , Inc . $KMI",
-        "url": "https://www.tickerreport.com/banking-finance/13545185/fox-run-management-l-l-c-purchases-new-stake-in-kinder-morgan-inc-kmi.html",
-        "domain": "tickerreport.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260816T083000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "EQS Newswire : SINOPEC Engineering ( Group ) Co ., Ltd : EN [ Press Release ] SEG Announces 2026 Interim Results",
-        "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69323426-eqs-newswire-sinopec-engineering-group-co-ltd-en-press-release-seg-announces-2026-interim-results-023.htm",
-        "domain": "finanznachrichten.de",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260816T133000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "EN [ Press Release ] SEG Announces 2026 Interim Results",
-        "url": "https://www.finanzen.ch/nachrichten/aktien/en-[press-release]-seg-announces-2026-interim-results-1036461562",
-        "domain": "finanzen.ch",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260816T134500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Il prezzo della frattura : la guerra russo - ucraina e il conto pagato dalleconomia europea – Analisi Difesa",
-        "url": "https://www.analisidifesa.it/2026/08/il-prezzo-della-frattura-la-guerra-russo-ucraina-e-il-conto-pagato-dalleconomia-europea/",
-        "domain": "analisidifesa.it",
-        "language": "Italian",
-        "tone": 0,
-        "seendate": "20260816T071500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "A look at key news events in July 2026 – Winnipeg Free Press",
-        "url": "https://www.winnipegfreepress.com/canada/2026/08/16/a-look-at-key-news-events-in-july-2026",
-        "domain": "winnipegfreepress.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260816T134500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Construction News and Trends | Construction Dive",
-        "url": "https://www.constructiondive.com/?page=2&_sp=dadb70bd-b194-49ef-9e8a-07d018eb3715",
-        "domain": "constructiondive.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260816T094500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Construction News and Trends | Construction Dive",
-        "url": "https://www.constructiondive.com/?page=2&_sp=92be43de-55d1-41ae-8e76-afbed18017a8",
-        "domain": "constructiondive.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260816T000000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "NAKED AND THE DEAD : Mystery deaths in Jeffrey Epstein kinky clique",
-        "url": "https://edmontonsun.com/news/world/mystery-deaths-jeffrey-epstein-kinky-clique/wcm/fe5bb45c-cf86-43ad-9899-738088fba5ec",
-        "domain": "edmontonsun.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260815T191500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Afinado Efecto Multiplicador",
-        "url": "https://laverdad.com.mx/2026/08/afinado-efecto-multiplicador/",
-        "domain": "laverdad.com.mx",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260816T084500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "TFR Capital LLC . Buys New Shares in MasTec , Inc . $MTZ",
-        "url": "https://www.dailypolitical.com/2026/08/16/tfr-capital-llc-buys-new-shares-in-mastec-inc-mtz.html",
-        "domain": "dailypolitical.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260816T110000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "A look at key news events in July 2026 - Medicine Hat NewsMedicine Hat News",
-        "url": "https://medicinehatnews.com/news/national-news/2026/08/16/a-look-at-key-news-events-in-july-2026/",
-        "domain": "medicinehatnews.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260816T164500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "The Middle East Under Transactional Diplomacy",
-        "url": "https://www.fairobserver.com/world-news/middle-east-news/the-middle-east-under-transactional-diplomacy/",
-        "domain": "fairobserver.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260815T223000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Explainer : What Iran ratification of the Caspian Sea convention means for its rights and security",
-        "url": "https://www.presstv.co.uk/Detail/2026/08/16/774447/explainer-what-iran-ratification-caspian-sea-convention-means-rights-security",
-        "domain": "presstv.co.uk",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260816T080000Z",
-        "source": "GDELT"
-      }
-    ],
     "exchange_rates": [
       {
         "currency": "USD",
@@ -362,15 +44,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 65.23
+        "rate": 65.3
       },
       {
         "currency": "ALL",
-        "rate": 80.61
+        "rate": 80.25
       },
       {
         "currency": "AMD",
-        "rate": 366
+        "rate": 365.77
       },
       {
         "currency": "ANG",
@@ -378,7 +60,7 @@
       },
       {
         "currency": "AOA",
-        "rate": 925.12
+        "rate": 919.86
       },
       {
         "currency": "ARS",
@@ -406,7 +88,7 @@
       },
       {
         "currency": "BDT",
-        "rate": 122.85
+        "rate": 122.72
       },
       {
         "currency": "BGN",
@@ -418,7 +100,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2995.39
+        "rate": 2985.21
       },
       {
         "currency": "BMD",
@@ -430,7 +112,7 @@
       },
       {
         "currency": "BOB",
-        "rate": 11.77
+        "rate": 11.68
       }
     ]
   },
