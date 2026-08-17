@@ -1,10 +1,11 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-08-17T07:28:00.775220+00:00",
+    "generated": "2026-08-17T13:11:31.931833+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
+      "energy_news",
       "exchange_rates"
     ],
     "version": "1.0.0"
@@ -32,7 +33,89 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [
+    "gdelt_articles": [],
+    "energy_news": [
+      {
+        "title": "Energy Transfer Just Raised Its 2026 Guidance . Is the Stock Still a Buy ? ",
+        "url": "https://www.fool.com/investing/2026/08/16/energy-transfer-just-raised-its-2026-guidance-is/?source=iedfolrf0000001",
+        "domain": "fool.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260816T153000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Nigeria : $25bn Nigeria - Morocco Gas Pipeline Dream Drags",
+        "url": "https://allafrica.com/stories/202608170149.html",
+        "domain": "allafrica.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T060000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "给长输管线焊枪装上  万向调节器 （ 我身边的最强大脑 ） ",
+        "url": "https://baijiahao.baidu.com/s?id=1873723836892759430",
+        "domain": "baijiahao.baidu.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260817T011500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "给长输管线焊枪装上  万向调节器 （ 我身边的最强大脑 ） ",
+        "url": "https://baijiahao.baidu.com/s?id=1873719555934204511",
+        "domain": "baijiahao.baidu.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260816T224500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "جريدة البلاد | لتجاوز مضيق هرمز .. خط أنابيب النفط بين سوريا والعراق لن يرى النور  قريباً  ",
+        "url": "https://www.albiladpress.com/news/2026/6517/finance/1014536.html",
+        "domain": "albiladpress.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260817T110000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "India steel pipe makers tap West Asia as all eyes on energy transport",
+        "url": "https://www.livemint.com/market/steel-pipe-stocks-west-asia-oil-gas-pipeline-demand-welspun-corp-jindal-saw-man-industries-ratnamani-11786944806720.html",
+        "domain": "livemint.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T104500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Mogu li naftovodi da obiđu Ormuski moreuz ? ",
+        "url": "https://www.danas.rs/svet/mogu-li-naftovodi-da-obidju-ormuski-moreuz/",
+        "domain": "danas.rs",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260817T053000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "伊朗戰爭考驗能源安全 英媒 ： 中國20年布局降低能源衝擊 | 兩岸要聞 | 兩岸",
+        "url": "https://udn.com/news/story/7331/9696164",
+        "domain": "udn.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260817T043000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Analytici : Irak si na nový ropovod cez Sýriu bude musieť počkať 4 roky",
+        "url": "https://www.teraz.sk/ekonomika/analytici-irak-si-na-novy-ropovod-cez/985554-clanok.html",
+        "domain": "teraz.sk",
+        "language": "Slovak",
+        "tone": 0,
+        "seendate": "20260817T124500Z",
+        "source": "GDELT"
+      },
       {
         "title": "A New Game of Monopoly : Middle Eastern Pipelines Cannot Replace the Strait of Hormuz",
         "url": "https://www.fairobserver.com/economics/a-new-game-of-monopoly-middle-eastern-pipelines-cannot-replace-the-strait-of-hormuz/",
@@ -40,6 +123,330 @@
         "language": "English",
         "tone": 0,
         "seendate": "20260816T174500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "تجاه طهران وواشنطن .. تحرك رسمي لتحرير النفط العراقي عبر مضيق هرمز – كتابات",
+        "url": "https://kitabat.com/news/%D8%AA%D8%AC%D8%A7%D9%87-%D8%B7%D9%87%D8%B1%D8%A7%D9%86-%D9%88%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D8%AA%D8%AD%D8%B1%D9%83-%D8%B1%D8%B3%D9%85%D9%8A-%D9%84%D8%AA%D8%AD%D8%B1%D9%8A%D8%B1-%D8%A7%D9%84/",
+        "domain": "kitabat.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260816T181500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "खाड़ी देशों ने होर्मुज में  नए सामान्य  को स्वीकारा : नियंत्रण ईरान के पास - gulf countries accept new normal in hormuz iran in control",
+        "url": "https://www.punjabkesari.in/blogs/news/gulf-countries-accept--new-normal--in-hormuz-iran-in-control-2369503",
+        "domain": "punjabkesari.in",
+        "language": "Hindi",
+        "tone": 0,
+        "seendate": "20260817T023000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "$25bn Nigeria - Morocco gas pipeline dream drags",
+        "url": "https://dailytrust.com/25bn-nigeria-morocco-gas-pipeline-dream-drags/",
+        "domain": "dailytrust.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T043000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "甘当海底  拓荒人 ， 他12年死磕  硬骨头  | 感动海南的身边好人⑰ - 南海网",
+        "url": "https://www.hinews.cn/page?n=2839117&m=1&s=1044",
+        "domain": "hinews.cn",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260816T170000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Why Canada needs a second gateway beyond Lower Mainland",
+        "url": "https://calgaryherald.com/opinion/columnists/the-northern-advantage-why-canada-needs-a-second-gateway-beyond-lower-mainland",
+        "domain": "calgaryherald.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260816T131500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Peter Thiel desembarca en Vaca Muerta con inversión de u$s 76 . 000 . 000",
+        "url": "http://diariojornada.com.ar/421902/economia/peter_thiel_desembarca_en_vaca_muerta_con_inversion_de_us_76000000",
+        "domain": "diariojornada.com.ar",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260816T210000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": " « Газпром добыча Надым » отправил школьные наборы детям Волновахского района ДНР",
+        "url": "https://energyland.info/news-show--neftegaz-286160",
+        "domain": "energyland.info",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260817T123000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Head to Head Analysis : Chesapeake Utilities ( NYSE : CPK ) versus ENN Energy ( OTCMKTS : XNGSF ) ",
+        "url": "https://www.dailypolitical.com/2026/08/16/head-to-head-analysis-chesapeake-utilities-nysecpk-versus-enn-energy-otcmktsxngsf.html",
+        "domain": "dailypolitical.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260816T203000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "আমাদের গোপন করার কিছু নেই , জনগণের জন্যই কাজ করছি : নজরুল ইসলাম খান",
+        "url": "https://dailyinqilab.com/national/news/929343",
+        "domain": "dailyinqilab.com",
+        "language": "Bengali",
+        "tone": 0,
+        "seendate": "20260817T110000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Tunnel for oil pipeline in Straits of Mackinac approved",
+        "url": "https://www.saultstar.com/news/local-news/tunnel-for-oil-pipeline-in-straits-of-mackinac-approved",
+        "domain": "saultstar.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T064500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Tunnel for oil pipeline in Straits of Mackinac approved",
+        "url": "https://www.nugget.ca:443/news/local-news/tunnel-for-oil-pipeline-in-straits-of-mackinac-approved",
+        "domain": "nugget.ca",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T034500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Tunnel for oil pipeline in Straits of Mackinac approved",
+        "url": "https://www.northernnews.ca:443/news/local-news/tunnel-for-oil-pipeline-in-straits-of-mackinac-approved",
+        "domain": "northernnews.ca",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T060000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Tunnel for oil pipeline in Straits of Mackinac approved",
+        "url": "https://www.midnorthmonitor.com:443/news/local-news/tunnel-for-oil-pipeline-in-straits-of-mackinac-approved",
+        "domain": "midnorthmonitor.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T044500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Tunnel for oil pipeline in Straits of Mackinac approved",
+        "url": "https://www.saultstar.com:443/news/local-news/tunnel-for-oil-pipeline-in-straits-of-mackinac-approved",
+        "domain": "saultstar.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T034500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Tunnel for oil pipeline in Straits of Mackinac approved",
+        "url": "https://www.elliotlakestandard.ca:443/news/local-news/tunnel-for-oil-pipeline-in-straits-of-mackinac-approved",
+        "domain": "elliotlakestandard.ca",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T051500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "How to build a $3tr West African energy market",
+        "url": "https://thenationonlineng.net/how-to-build-a-3tr-west-african-energy-market/",
+        "domain": "thenationonlineng.net",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T063000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Tunnel for oil pipeline in Straits of Mackinac approved",
+        "url": "https://www.thesudburystar.com:443/news/local-news/tunnel-for-oil-pipeline-in-straits-of-mackinac-approved",
+        "domain": "thesudburystar.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T054500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Tunnel for oil pipeline in Straits of Mackinac approved",
+        "url": "https://www.timminspress.com:443/news/local-news/tunnel-for-oil-pipeline-in-straits-of-mackinac-approved",
+        "domain": "timminspress.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T073000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Peter Thiel entra a Vaca Muerta : su fondo compró 76 millones de dólares en acciones de Vista",
+        "url": "https://www.anbariloche.com.ar/noticias/2026/08/16/114292-peter-thiel-entra-a-vaca-muerta-su-fondo-compro-76-millones-de-dolares-en-acciones-de-vista",
+        "domain": "anbariloche.com.ar",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260816T194500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Nigeria : The Deepwater Tax Incentive Debate - Will the Billions Reach Nigerians ? ",
+        "url": "https://allafrica.com/stories/202608170157.html",
+        "domain": "allafrica.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T070000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Gigantes del gas y los pobres rebeldes : La ilusión económica de Irán en 2026 y la ceguera occidental",
+        "url": "https://www.periodistadigital.com/masalladelasnoticias/20260817/gigantes-del-gas-y-los-pobres-rebeldes-la-ilusion-economica-de-iran-en-2026-y-la-ceguera-occidental-689405237365/",
+        "domain": "periodistadigital.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260817T063000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  Rusiji potreban keš , Kini energija : Kako ledena pomorska ruta na vrhu sveta zbližava Peking i Moskvu - Svet",
+        "url": "https://www.danas.rs/svet/kina-rusija-arktik-lng/",
+        "domain": "danas.rs",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260816T193000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "সাফল্য বাস্তবতা ও ভবিষ্যৎ চ্যালেঞ্জ",
+        "url": "https://www.dailynayadiganta.com/printed-edition/BIfjehbCAdhB",
+        "domain": "dailynayadiganta.com",
+        "language": "Bengali",
+        "tone": 0,
+        "seendate": "20260817T063000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "GLOBAL BRIEFS - CPA",
+        "url": "https://cpa.org.au/guardian/issue-2202/global-briefs/",
+        "domain": "cpa.org.au",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T084500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Как судоходный маршрут сквозь льды Заполярья сближает Китай и Россию ( CNN , США ) ",
+        "url": "https://inosmi.ru/20260817/sevmorput-279720674.html",
+        "domain": "inosmi.ru",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260817T073000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "GSA Capital Partners LLP Sells 70 , 165 Shares of Kinder Morgan , Inc . $KMI",
+        "url": "https://www.themarketsdaily.com/2026/08/17/gsa-capital-partners-llp-sells-70165-shares-of-kinder-morgan-inc-kmi.html",
+        "domain": "themarketsdaily.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T113000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "The Deepwater Tax incentive debate : Will the billions reach Nigerians ? – Daily Trust",
+        "url": "https://dailytrust.com/the-deepwater-tax-incentive-debate-will-the-billions-reach-nigerians/",
+        "domain": "dailytrust.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T043000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "EQS Newswire : SINOPEC Engineering ( Group ) Co ., Ltd : EN [ Press Release ] SEG Announces 2026 Interim Results",
+        "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69323426-eqs-newswire-sinopec-engineering-group-co-ltd-en-press-release-seg-announces-2026-interim-results-023.htm",
+        "domain": "finanznachrichten.de",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260816T133000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "EN [ Press Release ] SEG Announces 2026 Interim Results",
+        "url": "https://www.finanzen.ch/nachrichten/aktien/en-[press-release]-seg-announces-2026-interim-results-1036461562",
+        "domain": "finanzen.ch",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260816T134500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": " « Гонка ескалацій ». Україна у фокусі світових ЗМІ",
+        "url": "https://www.ostro.org/articles/gonka-eskalatsij-ukrayina-u-fokusi-svitovyh-zmi-i564812",
+        "domain": "ostro.org",
+        "language": "Ukrainian",
+        "tone": 0,
+        "seendate": "20260817T124500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "A look at key news events in July 2026 – Winnipeg Free Press",
+        "url": "https://www.winnipegfreepress.com/canada/2026/08/16/a-look-at-key-news-events-in-july-2026",
+        "domain": "winnipegfreepress.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260816T134500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Construction News and Trends | Construction Dive",
+        "url": "https://www.constructiondive.com/?page=2&_sp=d76b7f50-7a95-4f99-b856-109bf5d00ecd",
+        "domain": "constructiondive.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T091500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "SEG Announces 2026 Interim Results",
+        "url": "http://www.stlouisstar.com/news/279246555/seg-announces-2026-interim-results",
+        "domain": "stlouisstar.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T091500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "SEG Announces 2026 Interim Results",
+        "url": "http://www.californiatelegraph.com/news/279246555/seg-announces-2026-interim-results",
+        "domain": "californiatelegraph.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T084500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "SEG Announces 2026 Interim Results",
+        "url": "http://www.hawaiitelegraph.com/news/279246555/seg-announces-2026-interim-results",
+        "domain": "hawaiitelegraph.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T091500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "A look at key news events in July 2026 - Medicine Hat NewsMedicine Hat News",
+        "url": "https://medicinehatnews.com/news/national-news/2026/08/16/a-look-at-key-news-events-in-july-2026/",
+        "domain": "medicinehatnews.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260816T164500Z",
         "source": "GDELT"
       }
     ],
@@ -126,27 +533,8 @@
       }
     ]
   },
-  "entities": [
-    {
-      "id": 1,
-      "name": "A New Game of Monopoly : Middle Eastern Pipelines Cannot Rep",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260816T174500Z",
-      "source": "fairobserver.com"
-    }
-  ],
-  "events": [
-    {
-      "title": "A New Game of Monopoly : Middle Eastern Pipelines Cannot Replace the Strait of Hormuz",
-      "url": "https://www.fairobserver.com/economics/a-new-game-of-monopoly-middle-eastern-pipelines-cannot-replace-the-strait-of-hormuz/",
-      "domain": "fairobserver.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260816T174500Z",
-      "source": "GDELT"
-    }
-  ],
+  "entities": [],
+  "events": [],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
