@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-08-18T19:02:44.640365+00:00",
+    "generated": "2026-08-19T01:57:07.036418+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -36,12 +36,12 @@
     "gdelt_articles": [],
     "energy_news": [
       {
-        "title": "China targets 440 mln tonnes of oil , gas supply by 2030",
-        "url": "http://www.china.org.cn/2026-08/18/content_118652271.shtml",
-        "domain": "china.org.cn",
-        "language": "English",
+        "title": "Диверсия на газопроводе в Сирии остановила экспорт газа",
+        "url": "https://www.kommersant.ru/doc/8892462",
+        "domain": "kommersant.ru",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260818T011500Z",
+        "seendate": "20260818T233000Z",
         "source": "GDELT"
       },
       {
@@ -72,6 +72,15 @@
         "source": "GDELT"
       },
       {
+        "title": "Кто подорвал экспортный газопровод в Сирии ? ",
+        "url": "https://haqqin.az/newsarchive/391152",
+        "domain": "haqqin.az",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260818T234500Z",
+        "source": "GDELT"
+      },
+      {
         "title": "ARA eyes Q3 2027 gas pipeline launch",
         "url": "https://www.omanobserver.om/article/1194678/business/energy/ara-eyes-q3-2027-gas-pipeline-launch",
         "domain": "omanobserver.om",
@@ -99,30 +108,12 @@
         "source": "GDELT"
       },
       {
-        "title": "خط أنابيب عراقي لتصدير النفط عبر سوريا .. 4 سنوات و15 مليار دولار لتجاوز هرمز",
-        "url": "https://www.alquds.co.uk/%D8%AE%D8%B7-%D8%A3%D9%86%D8%A7%D8%A8%D9%8A%D8%A8-%D8%B9%D8%B1%D8%A7%D9%82%D9%8A-%D9%84%D8%AA%D8%B5%D8%AF%D9%8A%D8%B1-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%B9%D8%A8%D8%B1-%D8%B3%D9%88%D8%B1%D9%8A%D8%A7/",
-        "domain": "alquds.co.uk",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260817T213000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "WhiteWater and partners approve FID for Solitude Pipeline System",
         "url": "https://www.offshore-technology.com/news/whitewater-fid-solitude-pipeline-system/",
         "domain": "offshore-technology.com",
         "language": "English",
         "tone": 0,
         "seendate": "20260818T104500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "China targets 440 mln tonnes of oil , gas supply by 2030 - Xinhua",
-        "url": "https://english.news.cn/20260818/5a0d38a16113490ca609d5442917fe6c/c.html",
-        "domain": "english.news.cn",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260817T201500Z",
         "source": "GDELT"
       },
       {
@@ -144,30 +135,12 @@
         "source": "GDELT"
       },
       {
-        "title": "China targets 440 mln tonnes of oil , gas supply by 2030 - People Daily Online",
-        "url": "http://en.people.cn/n3/2026/0818/c90000-20489510.html",
-        "domain": "en.people.cn",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260818T011500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "  十五五  油气规划落地+国际油价走高 油气股迎来催化 ( 附概念股 )- 股票 - 金融界",
         "url": "https://stock.jrj.com.cn/2026/08/18090458146929.shtml",
         "domain": "stock.jrj.com.cn",
         "language": "Chinese",
         "tone": 0,
         "seendate": "20260818T020000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "WhiteWater - led venture approves Permian - to - Texas gas pipeline project",
-        "url": "https://www.oilandgas360.com/whitewater-led-venture-approves-permian-to-texas-gas-pipeline-project/",
-        "domain": "oilandgas360.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260817T213000Z",
         "source": "GDELT"
       },
       {
@@ -216,21 +189,21 @@
         "source": "GDELT"
       },
       {
+        "title": "Proposed Canadian crude oil pipeline projects",
+        "url": "https://www.oilandgas360.com/proposed-canadian-crude-oil-pipeline-projects/",
+        "domain": "oilandgas360.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260818T221500Z",
+        "source": "GDELT"
+      },
+      {
         "title": "孔明直播 ：《 8月18日热点信息+个股公告 》，_ 中金在线财经号",
         "url": "http://mp.cnfol.com/32038/article/1787014702-142645882.html",
         "domain": "mp.cnfol.com",
         "language": "Chinese",
         "tone": 0,
         "seendate": "20260818T021500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Why Libya Next Oil Pipeline Could Be a Geopolitical Game - Changer",
-        "url": "https://oilprice.com/Energy/Crude-Oil/Why-Libyas-Next-Oil-Pipeline-Could-Be-a-Geopolitical-Game-Changer.html",
-        "domain": "oilprice.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260817T220000Z",
         "source": "GDELT"
       },
       {
@@ -279,12 +252,93 @@
         "source": "GDELT"
       },
       {
+        "title": "Competition Bureau should investigate government for  greenwashing : NDP",
+        "url": "https://www.therecord.com/business/competition-bureau-should-investigate-government-for-greenwashing-ndp/article_9d125432-352a-5e34-9eb1-24cb96103ee8.html",
+        "domain": "therecord.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260818T220000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "PipeSense Enters Offshore Market",
+        "url": "https://www.oedigital.com/news/542215-pipesense-enters-offshore-market",
+        "domain": "oedigital.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260819T011500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Competition Bureau should investigate government for  greenwashing : NDP",
+        "url": "https://cheknews.ca/competition-bureau-should-investigate-government-for-greenwashing-ndp-1342598/",
+        "domain": "cheknews.ca",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260818T230000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "清管步驟如何執行 ！ 浴室排水改善方法 ！ - fc255c69 的部落格",
         "url": "https://blog.udn.com:443/fc255c69/192152461",
         "domain": "blog.udn.com",
         "language": "Chinese",
         "tone": 0,
         "seendate": "20260818T171500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Canada oil producers target late 2027 for Pathways carbon capture decision | 104 . 1 WIKY",
+        "url": "https://wiky.com/2026/08/18/canadas-oil-producers-target-late-2027-for-pathways-carbon-capture-decision/",
+        "domain": "wiky.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260818T190000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Canada oil producers target late 2027 for Pathways carbon capture decision",
+        "url": "https://whbl.com/2026/08/18/canadas-oil-producers-target-late-2027-for-pathways-carbon-capture-decision/",
+        "domain": "whbl.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260818T191500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Canada oil producers target late 2027 for Pathways carbon capture decision | The Mighty 790 KFGO",
+        "url": "https://kfgo.com/2026/08/18/canadas-oil-producers-target-late-2027-for-pathways-carbon-capture-decision/",
+        "domain": "kfgo.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260818T194500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Canada oil producers target late 2027 for Pathways carbon capture decision | WSAU News / Talk 550 AM · 99 . 9 FM",
+        "url": "https://wsau.com/2026/08/18/canadas-oil-producers-target-late-2027-for-pathways-carbon-capture-decision/",
+        "domain": "wsau.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260818T191500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Canada oil producers target late 2027 for Pathways carbon capture decision | 100 . 7 MIX - FM | Today Hit Music",
+        "url": "https://mymixfm.com/2026/08/18/canadas-oil-producers-target-late-2027-for-pathways-carbon-capture-decision/",
+        "domain": "mymixfm.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260818T213000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Canada oil producers target late 2027 for Pathways carbon capture decision | WABX 107 . 5",
+        "url": "https://wabx.net/2026/08/18/canadas-oil-producers-target-late-2027-for-pathways-carbon-capture-decision/",
+        "domain": "wabx.net",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260818T214500Z",
         "source": "GDELT"
       },
       {
@@ -297,21 +351,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Vista Jumps as Thiel Logs Stake",
-        "url": "https://www.rigzone.com/news/wire/vista_jumps_as_thiel_logs_stake-17-aug-2026-184390-article/",
-        "domain": "rigzone.com",
-        "language": "English",
+        "title": "الجزء الثاني من جائحة هرمز",
+        "url": "https://www.argaam.com:443/ar/article/articledetail/id/1930378",
+        "domain": "argaam.com",
+        "language": "Arabic",
         "tone": 0,
-        "seendate": "20260817T201500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Carbon Capture Biggest Problem Isnt Capturing Carbon",
-        "url": "https://oilprice.com/Energy/Energy-General/Carbon-Captures-Biggest-Problem-Isnt-Capturing-Carbon.html",
-        "domain": "oilprice.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260817T204500Z",
+        "seendate": "20260818T200000Z",
         "source": "GDELT"
       },
       {
@@ -342,15 +387,6 @@
         "source": "GDELT"
       },
       {
-        "title": "华尔街见闻早餐FM - Radio | 2026年8月18日",
-        "url": "https://wallstreetcn.com/articles/3779634",
-        "domain": "wallstreetcn.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260818T010000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Iraque planeja oleoduto de US$ 15 bilhões para contornar estreito de Ormuz , diz mídia",
         "url": "https://noticiabrasil.net.br/20260817/iraque-planeja-oleoduto-de-us-15-bilhoes-para-contornar-estreito-de-ormuz-diz-midia-53288053.html",
         "domain": "noticiabrasil.net.br",
@@ -360,12 +396,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Opinion : The greatest privilege in public service is representing you",
-        "url": "https://www.adn.com/opinions/2026/08/17/opinion-the-greatest-privilege-in-public-service-is-representing-you/",
-        "domain": "adn.com",
-        "language": "English",
+        "title": "Le NPD appelle à enquêter sur le gouvernement pour écoblanchiment",
+        "url": "https://www.lapresse.ca/actualites/politique/2026-08-18/le-npd-appelle-a-enqueter-sur-le-gouvernement-pour-ecoblanchiment.php",
+        "domain": "lapresse.ca",
+        "language": "French",
         "tone": 0,
-        "seendate": "20260817T231500Z",
+        "seendate": "20260818T204500Z",
         "source": "GDELT"
       },
       {
@@ -378,30 +414,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Gás para Empregar coloca Uberaba e São Paulo na disputa por investimentos",
-        "url": "https://jmonline.com.br/politica/gas-para-empregar-coloca-uberaba-e-s-o-paulo-na-disputa-por-investimentos-1.657087",
-        "domain": "jmonline.com.br",
-        "language": "Portuguese",
+        "title": "通馬桶回臭處理 ！ 通馬桶正確檢查 ！ - 39430c74 的部落格",
+        "url": "https://blog.udn.com:443/39430c74/192153339",
+        "domain": "blog.udn.com",
+        "language": "Chinese",
         "tone": 0,
-        "seendate": "20260817T221500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Gás para Empregar coloca Uberaba e São Paulo na disputa por investimentos",
-        "url": "https://www.jmonline.com.br/politica/gas-para-empregar-coloca-uberaba-e-s-o-paulo-na-disputa-por-investimentos-1.657087",
-        "domain": "jmonline.com.br",
-        "language": "Portuguese",
-        "tone": 0,
-        "seendate": "20260817T214500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Por Vaca Muerta , solo Neuquén abrió más empresas de las que cerró en el último año",
-        "url": "https://www.iprofesional.com/economia/462446-por-vaca-muerta-solo-neuquen-abrio-mas-empresas-de-las-que-cerro-en-ultimo-ano",
-        "domain": "iprofesional.com",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260817T220000Z",
+        "seendate": "20260818T214500Z",
         "source": "GDELT"
       },
       {
@@ -420,6 +438,15 @@
         "language": "Portuguese",
         "tone": 0,
         "seendate": "20260818T164500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Le NPD appelle à enquêter sur le gouvernement pour écoblanchiment",
+        "url": "https://lactualite.com/actualites/le-npd-appelle-a-enqueter-sur-le-gouvernement-pour-ecoblanchiment/",
+        "domain": "lactualite.com",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260818T204500Z",
         "source": "GDELT"
       },
       {
@@ -450,39 +477,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Trump descarta nuevas conversaciones con Irán y asegura que Ormuz está abierto , pero Teherán mantiene el cierre y el petróleo sube por temor a más interrupciones",
-        "url": "https://www.elimparcial.com/mundo/2026/08/18/trump-descarta-nuevas-conversaciones-con-iran-y-asegura-que-ormuz-esta-abierto-pero-teheran-mantiene-el-cierre-y-el-petroleo-sube-por-temor-a-mas-interrupciones/",
-        "domain": "elimparcial.com",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260818T171500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Peter Thiel takes $76 - million stake in Vaca Muerta producer Vista Energy",
-        "url": "https://www.worldoil.com/news/2026/8/17/peter-thiel-takes-76-million-stake-in-vaca-muerta-producer-vista-energy/",
-        "domain": "worldoil.com",
+        "title": "Competition Bureau should investigate government for  greenwashing : NDP",
+        "url": "https://www.ckom.com/2026/08/18/competition-bureau-should-investigate-government-for-greenwashing-ndp-2/",
+        "domain": "ckom.com",
         "language": "English",
         "tone": 0,
-        "seendate": "20260818T010000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "  You shall not pass : una banda de Gandalfs le armó un piquete a Peter Thiel por su inversión en Vaca Muerta",
-        "url": "https://www.perfil.com/noticias/politica/you-shall-not-pass-una-banda-de-gandalfs-le-armo-un-piquete-a-peter-thiel-por-su-inversion-en-vaca-muerta.phtml",
-        "domain": "perfil.com",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260818T064500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Mistras Group ( MG ) Q2 2026 Earnings Call Transcript",
-        "url": "https://www.fool.com/earnings/call-transcripts/2026/08/17/mistras-group-mg-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
-        "domain": "fool.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260818T041500Z",
+        "seendate": "20260818T223000Z",
         "source": "GDELT"
       }
     ],
@@ -497,15 +497,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 65.23
+        "rate": 65.33
       },
       {
         "currency": "ALL",
-        "rate": 80.16
+        "rate": 80.15
       },
       {
         "currency": "AMD",
-        "rate": 365.59
+        "rate": 365.91
       },
       {
         "currency": "ANG",
@@ -513,11 +513,11 @@
       },
       {
         "currency": "AOA",
-        "rate": 927.79
+        "rate": 929.63
       },
       {
         "currency": "ARS",
-        "rate": 1488.7
+        "rate": 1494.13
       },
       {
         "currency": "AUD",
@@ -541,7 +541,7 @@
       },
       {
         "currency": "BDT",
-        "rate": 122.68
+        "rate": 122.19
       },
       {
         "currency": "BGN",
@@ -553,7 +553,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2991.77
+        "rate": 2992.38
       },
       {
         "currency": "BMD",
@@ -565,7 +565,7 @@
       },
       {
         "currency": "BOB",
-        "rate": 11.63
+        "rate": 11.61
       }
     ]
   },
