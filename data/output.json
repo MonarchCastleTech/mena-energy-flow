@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-08-23T13:09:07.407126+00:00",
+    "generated": "2026-08-23T18:55:06.627017+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -20,7 +20,7 @@
     },
     {
       "label": "News Domains",
-      "value": "40",
+      "value": "39",
       "delta": "deduplicated"
     },
     {
@@ -46,15 +46,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Hormuz crisis hides a deeper oil threat that could outlast the war",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdGZlLVpxRnloUXpBZlZpTTdxTVdNTGo1ZnZkWWR0YlRCRVZaQnIzdW9mN1FRUU5ldUpjLVRRQlBBQUg3YWJxTUd6aTNMNnIwMVNERFFwcmRhWExpTFhYc2FTa25ISlFaUG9kaG5aeWxuWEVIT0J6NUpuZ2NKV0JoYW5feW1UQWgyNnJ5djNucE8yb2o10gGaAUFVX3lxTE1pVUVLdXFUaWZWMVhFZzFYYVh6MkNkNWU0TFpUQkRkYVZCZFdmOGZzR2F3VEhRby1uV2ExMkR0eEpJcWNsMWZDQTJuS2ZlTHNuQ01tWDdUdGs0SVJuQjg3YW1PV2J2b2VLLVRyM2E0VWdMMUc1dkVnNk9pbDRMRVR0NW1ndHVxeC1RenYtWlRGbExtMmFHT0NKUXc?oc=5",
-        "domain": "foxnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T100056Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "U.S. military says it aided passage of 660 million barrels of oil through Strait of Hormuz since May",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPU2tmbVlWOHdGT19tdnFrRnRSMzY4ZzJtUTNhV0xHVlZlOERZVGJtaHlMR3ZVT2IySVJfamFjS3JBUFlXZ1QxUnF4VzJWdnNacDEyeGp2a3p0a0pGS3RINTZZNTJIQ1FFX0hhWlBENWFSM2VPMlhvX21rOWZEalR6Ump2dFdrZEE4bkxZTWxneFXSAZYBQVVfeXFMTlByT2dSRUliWjY3SG9jU1MyNzkyVDJsNHhERkExdU8wSzAwcXR4YXVtMWY3dld3bzByRWVndFB1TnV0LU54eWZQNDduTmFaaG5jNl9QdFhaeXA5aWd0eGlTc3lRVUI3VnYzRG1kZnhNQm1fT0J0NVJ5WGRiTzNZT0FWMDZydFhsVG1UT0c0eWk4WVVqa09R?oc=5",
         "domain": "cnbc",
@@ -73,12 +64,39 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Watch oil tankers’ covert route through Strait of Hormuz",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTmZTVGhNaTlBdk0xYkZKd3Utdk9rMXRUNlMtODRxd1F4QThJR1RMUlg0TlR6QWZvbDlnNVJIMG5haXZpUmdXQ3Qzc1M1YmlPY2RpaEZKMTVKQ2xfX2RRS28zWkZmekp0eTNOOHV5WlFrVTZFMklOTEozS2I3WE9nR3pmOFdhNzZNUTJfQlg2a0JTTGdIaTdoeDNhQmtCNXMySThUMHBrdw?oc=5",
+        "title": "400% Strait Traffic Surge Eases Supply Fears, Will Oil Break Lower Monday?",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1LWkpUVTZvcEFmeDU0eUVhQ2xxcFAyTGlCcUpNRkNRUzQ5VjhhYWdnQ0FSUXhYMkQ0QmJ5aHNmZHVlbXhWRkNYV1lXc0JNa01EcHppZ0tmWlFCRHFjeURUQjA1eVEtMkhRVFRj?oc=5",
+        "domain": "beincrypto",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T181100Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "How the US and Middle East allies flipped the oil script on Iran",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YTC0xeHFnRksyMW1Za2NzTTNEdGNRTkpfRXIxNkppdklHTEpDUUd2QXdZd3EzbXB3SVpuVkFsVkUwNHMweVNnNkYwVHZfM3pyM3BnLXp2eTRjeFFPbXVTTmxjY0ZqdlgwSWRlUm9taTdoUFU?oc=5",
         "domain": "cnn",
         "language": "",
         "tone": 0,
-        "seendate": "20260822T161900Z",
+        "seendate": "20260822T090029Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "How the U.S. Navy Is Helping Get Oil Through the Strait of Hormuz",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKdVo2bm54a2c0RjBwaThneGgtSnYwS0RSQVlhT2xhVW95VjBfRHRvQUNqZmVoSDhWWlAwb1FURVJMNUJXc2VUUVBHeVA5Ti1tRDhZOXVSeGkxMzN4bllFVlpDVmdzUXhYMDNNWUpsU2xRV0tNZ2Z4T3NZWG5ZUQ?oc=5",
+        "domain": "thenewyorktimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260819T143618Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Hormuz crisis hides a deeper oil threat that could outlast the war",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdGZlLVpxRnloUXpBZlZpTTdxTVdNTGo1ZnZkWWR0YlRCRVZaQnIzdW9mN1FRUU5ldUpjLVRRQlBBQUg3YWJxTUd6aTNMNnIwMVNERFFwcmRhWExpTFhYc2FTa25ISlFaUG9kaG5aeWxuWEVIT0J6NUpuZ2NKV0JoYW5feW1UQWgyNnJ5djNucE8yb2o10gGaAUFVX3lxTE1pVUVLdXFUaWZWMVhFZzFYYVh6MkNkNWU0TFpUQkRkYVZCZFdmOGZzR2F3VEhRby1uV2ExMkR0eEpJcWNsMWZDQTJuS2ZlTHNuQ01tWDdUdGs0SVJuQjg3YW1PV2J2b2VLLVRyM2E0VWdMMUc1dkVnNk9pbDRMRVR0NW1ndHVxeC1RenYtWlRGbExtMmFHT0NKUXc?oc=5",
+        "domain": "foxnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T100056Z",
         "source": "GoogleNews"
       },
       {
@@ -91,12 +109,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "How the U.S. Navy Is Helping Get Oil Through the Strait of Hormuz",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKdVo2bm54a2c0RjBwaThneGgtSnYwS0RSQVlhT2xhVW95VjBfRHRvQUNqZmVoSDhWWlAwb1FURVJMNUJXc2VUUVBHeVA5Ti1tRDhZOXVSeGkxMzN4bllFVlpDVmdzUXhYMDNNWUpsU2xRV0tNZ2Z4T3NZWG5ZUQ?oc=5",
-        "domain": "thenewyorktimes",
+        "title": "Iran Authorizes Iraqi Oil Tankers to Transit Strait of Hormuz",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHlvZElDMzJTeUtfdGVqUmsxclJ2ZXkzd29RSVduUjlxUzVBeUpZVWxFTGZvc09hSWpUTDRCVDYwNkhNWkw5OVlQVWlCbjN2RkJNZTBTVERFRzdHc1l0OEZfZXJtdmRqMjVSODItUjByOVo1N1gzSS1adGtiZTNsdXY3YnZ5U0E0MVRzbDZtR193M0d3RDYw?oc=5",
+        "domain": "egyptoilgas",
         "language": "",
         "tone": 0,
-        "seendate": "20260819T143618Z",
+        "seendate": "20260823T081509Z",
         "source": "GoogleNews"
       },
       {
@@ -118,24 +136,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Iran Authorizes Iraqi Oil Tankers to Transit Strait of Hormuz",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHlvZElDMzJTeUtfdGVqUmsxclJ2ZXkzd29RSVduUjlxUzVBeUpZVWxFTGZvc09hSWpUTDRCVDYwNkhNWkw5OVlQVWlCbjN2RkJNZTBTVERFRzdHc1l0OEZfZXJtdmRqMjVSODItUjByOVo1N1gzSS1adGtiZTNsdXY3YnZ5U0E0MVRzbDZtR193M0d3RDYw?oc=5",
-        "domain": "egyptoilgas",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T081459Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Every Chokepoint That Isn't Hormuz",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOXpDWEsyazVqUndPX3FOaDJySnBRenZFTlFISWk4M0plbnRPajNrdFZjdTNWQ3RhWTNQeHdJY2VfRUtDaFZXWW9vSXJMbVUzRENVbTBTNlZXcFNEMHBNalY5ZGU5QV9NOFlYdGJRNFVuR2JvSXhtZThhN290MmxVZ2JLXzJELXVF0gGOAUFVX3lxTE1UMkxPT3V0OXhNbGZEQkFOblRKY0MyMHl2U1ZUdWJ3azdhZFlVeEZQSDN2LVhPRnNmR0dnSFF0R0I3MG1xMElVb3dPaHNKa0RwVVNPVl82dXF5TkZ5cV9lQ21HV2JndWRsTXlmRERFOUR5d2gyUUNlOWZkYTR5VGhRNnFTRVdQdDZmLWJVWmc?oc=5",
-        "domain": "crudeoilpricestodayoilprice.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260822T170000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Iran grants permission for a number of Iraqi oil tankers to pass through Hormuz",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSEVXQTRoYlc4andBREZoNFdRM3NHMVRtbmdqRU9PQ1k0LWZWdEo5TFBIN0NHakJnc3lJVmlTZzJZM2d5djl4bHFMUEdXUWU4TXkzb2ppOWdnLUpWV1UxN29HN2dMZFJDY2M4eU9iMm40aTllUVBacnU0bGFtZ054YVRFeGFpSXo0bF80VWpsSDVNQlhPR2NkVEMySG9ucnZ3VEIxNmt1SE9UZzdrLW1DR0ZlZjMzaklxZEg0?oc=5",
         "domain": "reuters",
@@ -154,24 +154,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Trump Administration Claims Massive Oil Flows Through Hormuz But Industry Data Raises Questions",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWUwwUFYtbGNBU0U0VHVVNU9TMktGLTZQNWdKeWVJMFA4bEhjVnp1SHlLTHNHbmpBSXBPNGY2djFnQWJ3VW1mQnFSbndjMkJfYXctc1ppSXB1ckVXb0NaUDdnNlhzUlpmdHgxNXA4VHRxV0RoMm5LU1pyRXJSNEdDZU5qQ0xvNUk2dDBUaXg4MkdkcXFnajNrME5uRHQxb0ZhekN6a2E1cGkwbkl2amNpdjRadmx0bE9k?oc=5",
-        "domain": "gcaptain",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260822T155424Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "France's Macron and Saudi Crown Prince to discuss oil pipelines to by-pass Strait of Hormuz",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOUdNTU5Hb09OOWhVaS1BNjNLZXZVclUtTHE2UHdrUVNDZXhaNW1zTXhTclZGMnlRTjdScEpqN19uemROT1lNUGJheWswVWpvSlMzdzRuX2M4c1dlWHpPZ1p6eFRYcFM3NWhaRUlOSktUR0llSVI2bC1sNHVjSkt6MlMxaGlqdVc4cnJpZnJHTU5IaFduMkEzeVhIY1FjN0FDdjZKOWQ5MTB5VDgxbmlOWkVwMExWbGhVUGswY21zV2hwWGJSTzYtbkREdU5iNEg1RlNfZGU2cGt3U2p4SGUw?oc=5",
-        "domain": "thenationalnews.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T110250Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Trump claims U.S. has control of the Strait of Hormuz. See gas prices in NC",
         "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdl9rSklOUjMzUFVXVDhBUmJBN2ZjNjFaeUlLY01DLTFWUkMtN2NRcUtqcVppOUViNkZoSzR5X3hjNmh0ZTF4NmxaeXFtcHVoNUtnRGFsRmF3SVlJUHRBdUw2aFBQODM4cW9hZHp0MU15M2E4LURVLVpXRG1hZGZ3ZDAzanJjWEFvY2hvVktZZk1pSjBwNHVyZVZZemJBOUxQbUxYM1c5R2JvdEdoR3dCTDdKVml6cERnTHFVSmRaX2J1bXpubWxYOTFBdlJFcTdiMmc3ZlpDRk5fa3M?oc=5",
         "domain": "theashevillecitizentimes",
@@ -181,12 +163,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "How the US and Middle East allies flipped the oil script on Iran",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YTC0xeHFnRksyMW1Za2NzTTNEdGNRTkpfRXIxNkppdklHTEpDUUd2QXdZd3EzbXB3SVpuVkFsVkUwNHMweVNnNkYwVHZfM3pyM3BnLXp2eTRjeFFPbXVTTmxjY0ZqdlgwSWRlUm9taTdoUFU?oc=5",
-        "domain": "cnn",
+        "title": "Every Chokepoint That Isn't Hormuz",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOXpDWEsyazVqUndPX3FOaDJySnBRenZFTlFISWk4M0plbnRPajNrdFZjdTNWQ3RhWTNQeHdJY2VfRUtDaFZXWW9vSXJMbVUzRENVbTBTNlZXcFNEMHBNalY5ZGU5QV9NOFlYdGJRNFVuR2JvSXhtZThhN290MmxVZ2JLXzJELXVF0gGOAUFVX3lxTE1UMkxPT3V0OXhNbGZEQkFOblRKY0MyMHl2U1ZUdWJ3azdhZFlVeEZQSDN2LVhPRnNmR0dnSFF0R0I3MG1xMElVb3dPaHNKa0RwVVNPVl82dXF5TkZ5cV9lQ21HV2JndWRsTXlmRERFOUR5d2gyUUNlOWZkYTR5VGhRNnFTRVdQdDZmLWJVWmc?oc=5",
+        "domain": "crudeoilpricestodayoilprice.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260822T090029Z",
+        "seendate": "20260822T170000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Strait of Hormuz maritime traffic spikes as US military escorts oil tankers",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGOHZvQTBoZi1qbnRhUkIzS01sNmZ6c0JNcXJZNGhxWG1VTDJQakwyTmcwWUx3OFpEdTFieFdlaG9fWnU4UzNISURSdXVkLUI1QXFWSVpB?oc=5",
+        "domain": "foxnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T152505Z",
         "source": "GoogleNews"
       },
       {
@@ -199,39 +190,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Trump Declares Strait Of Hormuz 'New US Territory', Shares Map To Claim Crucial Oil Route",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRFV2bW5uazUzejlURTc2Mm1UVzFhM0p3U1hmN3JUMG9zbXVHTlF4YU5fUmRXV1ktS21NSmN5Um9zUHBPeDc1QnlSWF9qOGZ5anhRbHQyMlAtSUhyRzN6ZjduTzJnUTJkdVdEY3Z0N0w0b3lVLThWM21BbnVqc1hYbkpBd3lqeThQaTFHdm1Fc0lBdVp2SUlFaklFXzNmc09MUVBJdzFrMk5PVF83MklUSmtzempXeU1QcjY3U0tTbjdSUHhQRWl30gHPAUFVX3lxTFBBaE10NEIwT3U3REdPVkZzbUlES1pPNmRYaGh6UnpXSUoxbmh1YWhSbVlNQnFrVzY3MkdVUUtuZnZ5ZnI0MUlIT29ZeXNuZllUYVExOVB6b1g3VFVfS2ZTaEEtLVdjQ1l3c3pjdmVZblBjeXV6MTh3b21oZFV1clhQQkZ0LVJCN18yd3Zsd2h4SWE4SDZ6bzFhUXZ4b290SG81aUo1Xy1VWTV6WEEzckJudWlxNDJEclhHdFdJaHM5RzRNWXlMUFp4WHlwYnl0MA?oc=5",
-        "domain": "ndtvprofit",
+        "title": "Are ships passing Hormuz more willing to defy Iran or US? What data shows",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOancwTUdheHB0dzJWSHhyNm91UkVsYzBlc1AwSzYyR2xvNVktOE9zZU95aHV0SExDOU9leFJhdzFGVm9QZHpYeGd5alV2eE9PS3cxZUdFbDNpLVhLV1pDeGxKNUdaa01sbVpacFJnMXp1aWoxQVQ1S3NoTDZiLTBsTE1HTXdZZjUtaC1veXB3Vk04ZUpfZnQ2b1VacF9IX25rVHNqazhUX2ExVUxZcnfSAbMBQVVfeXFMT0N1Y2lxb3E3OGdWQzJuZFJNWVNoQXRZOU9JNi1rMzJ1TWhRU0ZlM2NSV3pGMHhNcVdySTNxUmI1b1JmbjN1YV9ReW1xanJiMHMzOFA3NUZTZm91bktrYWoxZXgtcWVoQ0FrZlFONEo4aVk2T0pnc1JSUnNEVGdkRHdNV3FnaHZfZ2plbmR3SjBuWm14QnkzT1ZyQzhab2NJVy0wWXB2bmE0U2lkR2lCZkhjZ0E?oc=5",
+        "domain": "aljazeera",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T060431Z",
+        "seendate": "20260820T085255Z",
         "source": "GoogleNews"
       },
       {
-        "title": "US-Iran War Update: How the Strait of Hormuz Could Move Oil Prices and Global Stock Markets",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTlZUZXk5QjBmRlJpcS01T3VUbEp1bXMtSDRVQUE3NXdib3Z4VUVYamM3eW1vRUdGSVhrTk54VnAyMkZfT0NwbUwzZ2tQTXlfcnpjSGxQRUlEbFFkbUl6d3U3LXUyVkdjSTJHQ1FsOGV2VnNKUWJja3RWNkV5c2hJVGxnbGRVUmJwbWxtdm9ZTVRTXzF5VzlPeUo5bklaVU0wenFOaTNpVTlPSWo3YkZ3RkRQNzNnVmxYR1hMSHZlMm83U1E?oc=5",
-        "domain": "indiainfoline",
+        "title": "Watch oil tankers’ covert route through Strait of Hormuz",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWEROTXBNdkRNSi1VMWI0NVI1S3hkVENWb0F2MWltbEtVVXRsRE9aaFVOUnVnMUNwM2JQYks5bFpxdUtNZFdvZ3FNRWdZcjM3VUczcEZhaHpWeEt0N2RXNHhKSHFzUktxUlQyenE2STVJLVlPZWxlSE1VT21zbGtCUzB6QzBPY19FRWZ0Mmgwby1lcmwwMUV0dTNrMkV5NmtaREd4M0tJZGFncXFt?oc=5",
+        "domain": "cnn",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T083510Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Great Hormuz escape: 80% of traffic goes ‘dark’ as US flips Iran’s playbook",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU2VZbmFWNjJnUkhkRmQtaGFCWm16X2VVV184V1VFdVdfZVlPZzhIQVNSeFpTY0pnX3RjdFMyYVkyS2VXZXBqb2pIOGt4Z2FPZFpVdUM1VXJuclBBY3h1RFo0bFIzbEI4cG5oWXRTLW0wS3dNM1U4LW91RHIwX2J5QW5lRHl4aklveS01YjlIRkR4cDFLLVNGRXlmYVNGRElwcGlSN1pOMNIBugFBVV95cUxPR2FuQXV5MGZRWUhSeTlMTE5LUzV6THdwaXcyMS1GR280NUFneWU2S21Zd2NqT3FBbXQ2Z2R6c2lSYUlSbjJzMGRMc1VsVXV4YlU5MlRPMnIzN0tLa19FMVBIYnQyelRLQV9rdUgwQndqRlBva3Q5eU1RbkRPTHJOTl9PY3NycDBaR2dnZ0tCa0hVaXdFS2FHMmt1U1VtMzE4NXQ4REJheWxrcjBickU4OThqNUp4d3g2RXc?oc=5",
-        "domain": "gulfnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T011700Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "How 'Dark' Tankers In Strait Of Hormuz Are Keeping Oil Prices In Check",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZ3JyNDZlazRLMjRQNTBWaDRiUm9nVnN5MTFWRk9feFkySUV5TlZLdXlnSEFobWx3LWJvMG91NXNTSDB3Snp3Yk9hM0F2NnhEUGhNQ2FLY0daWDUxRmpuazhhN0Uxd2pDN0w2cHVYX01KaDE4aGFhVkJvMEtpckl2SjNySDd6UEJTV0V0bFRHUzRFN2ZreEV6QWg4TkVYOVBXTi1RUm40Nzh1WTFmenlDRGpBanBScUxlOHp6UWNB0gHGAUFVX3lxTFBhS1p6M2hHUjNHWlZCN1BBdXl6WTRVZHliVUV6SGZmQXZrMWRkbkpDWEdNZi1GYmRSVG9zYmhrODN2TXAyNndnSlJhWkY0V0VlYnAwMzAtaWpWNmtCa2phSC04X2NRb21HYkR5MVExRUJNLTUyYWNDOUoyZmZuV0FuVDZaMnNtbXJDcWlWZVFxUHdkX0xpcVZSMGhHZ0k5OEo2V1hkVTg3SDY0NThCSXlvNUl0ZEpVMHJja0FQd2g2OWtJTWIzQQ?oc=5",
-        "domain": "ndtv",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260822T135418Z",
+        "seendate": "20260822T161900Z",
         "source": "GoogleNews"
       },
       {
@@ -244,12 +217,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Are ships passing Hormuz more willing to defy Iran or US? What data shows",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOancwTUdheHB0dzJWSHhyNm91UkVsYzBlc1AwSzYyR2xvNVktOE9zZU95aHV0SExDOU9leFJhdzFGVm9QZHpYeGd5alV2eE9PS3cxZUdFbDNpLVhLV1pDeGxKNUdaa01sbVpacFJnMXp1aWoxQVQ1S3NoTDZiLTBsTE1HTXdZZjUtaC1veXB3Vk04ZUpfZnQ2b1VacF9IX25rVHNqazhUX2ExVUxZcnfSAbMBQVVfeXFMT0N1Y2lxb3E3OGdWQzJuZFJNWVNoQXRZOU9JNi1rMzJ1TWhRU0ZlM2NSV3pGMHhNcVdySTNxUmI1b1JmbjN1YV9ReW1xanJiMHMzOFA3NUZTZm91bktrYWoxZXgtcWVoQ0FrZlFONEo4aVk2T0pnc1JSUnNEVGdkRHdNV3FnaHZfZ2plbmR3SjBuWm14QnkzT1ZyQzhab2NJVy0wWXB2bmE0U2lkR2lCZkhjZ0E?oc=5",
-        "domain": "aljazeera",
+        "title": "France's Macron and Saudi Crown Prince to discuss oil pipelines to by-pass Strait of Hormuz",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOUdNTU5Hb09OOWhVaS1BNjNLZXZVclUtTHE2UHdrUVNDZXhaNW1zTXhTclZGMnlRTjdScEpqN19uemROT1lNUGJheWswVWpvSlMzdzRuX2M4c1dlWHpPZ1p6eFRYcFM3NWhaRUlOSktUR0llSVI2bC1sNHVjSkt6MlMxaGlqdVc4cnJpZnJHTU5IaFduMkEzeVhIY1FjN0FDdjZKOWQ5MTB5VDgxbmlOWkVwMExWbGhVUGswY21zV2hwWGJSTzYtbkREdU5iNEg1RlNfZGU2cGt3U2p4SGUw?oc=5",
+        "domain": "thenationalnews.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260820T085255Z",
+        "seendate": "20260823T110250Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Trump Administration Claims Massive Oil Flows Through Hormuz But Industry Data Raises Questions",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWUwwUFYtbGNBU0U0VHVVNU9TMktGLTZQNWdKeWVJMFA4bEhjVnp1SHlLTHNHbmpBSXBPNGY2djFnQWJ3VW1mQnFSbndjMkJfYXctc1ppSXB1ckVXb0NaUDdnNlhzUlpmdHgxNXA4VHRxV0RoMm5LU1pyRXJSNEdDZU5qQ0xvNUk2dDBUaXg4MkdkcXFnajNrME5uRHQxb0ZhekN6a2E1cGkwbkl2amNpdjRadmx0bE9k?oc=5",
+        "domain": "gcaptain",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T155424Z",
         "source": "GoogleNews"
       },
       {
@@ -271,12 +253,39 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Around 40 Oil Tankers Pass Through Strait of Hormuz Amid US Blockade",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwU2ZNcTUtUERsdm5vNExDRWUxOHVWU3NiZ0xILUVDOUtsZDFhS2Y0ZXFZdnJYbHpmZzYydFZYLTQtWkNCdWVabzlFMlRoalJrUG5sODVVT3BRcm0xNTJnSw?oc=5",
-        "domain": "..",
+        "title": "Trump Declares Strait Of Hormuz 'New US Territory', Shares Map To Claim Crucial Oil Route",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRFV2bW5uazUzejlURTc2Mm1UVzFhM0p3U1hmN3JUMG9zbXVHTlF4YU5fUmRXV1ktS21NSmN5Um9zUHBPeDc1QnlSWF9qOGZ5anhRbHQyMlAtSUhyRzN6ZjduTzJnUTJkdVdEY3Z0N0w0b3lVLThWM21BbnVqc1hYbkpBd3lqeThQaTFHdm1Fc0lBdVp2SUlFaklFXzNmc09MUVBJdzFrMk5PVF83MklUSmtzempXeU1QcjY3U0tTbjdSUHhQRWl30gHPAUFVX3lxTFBBaE10NEIwT3U3REdPVkZzbUlES1pPNmRYaGh6UnpXSUoxbmh1YWhSbVlNQnFrVzY3MkdVUUtuZnZ5ZnI0MUlIT29ZeXNuZllUYVExOVB6b1g3VFVfS2ZTaEEtLVdjQ1l3c3pjdmVZblBjeXV6MTh3b21oZFV1clhQQkZ0LVJCN18yd3Zsd2h4SWE4SDZ6bzFhUXZ4b290SG81aUo1Xy1VWTV6WEEzckJudWlxNDJEclhHdFdJaHM5RzRNWXlMUFp4WHlwYnl0MA?oc=5",
+        "domain": "ndtvprofit",
         "language": "",
         "tone": 0,
-        "seendate": "20260822T182105Z",
+        "seendate": "20260823T060431Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US-Iran War Update: How the Strait of Hormuz Could Move Oil Prices and Global Stock Markets",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTlZUZXk5QjBmRlJpcS01T3VUbEp1bXMtSDRVQUE3NXdib3Z4VUVYamM3eW1vRUdGSVhrTk54VnAyMkZfT0NwbUwzZ2tQTXlfcnpjSGxQRUlEbFFkbUl6d3U3LXUyVkdjSTJHQ1FsOGV2VnNKUWJja3RWNkV5c2hJVGxnbGRVUmJwbWxtdm9ZTVRTXzF5VzlPeUo5bklaVU0wenFOaTNpVTlPSWo3YkZ3RkRQNzNnVmxYR1hMSHZlMm83U1E?oc=5",
+        "domain": "indiainfoline",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T083510Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Saudi Arabia Creates New Red Sea Oil Route As Houthi Threats Disrupt Shipping",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOV0trMmZ0aE1PdWJnVHVJMl8xWUxVLTVWdllmRUd3bUFMX1lSc1VGeWRnczU3ZXhURTI3Nk44SS1WbkZHX0N6SU5CamRMUC1XWXR5U3YyNnM0R2N0bmcyWk1XRXBvUzNUMnF1M09xMUNydnRMMW1kNnJhbnQ0VVN3bG82cFVUbFNWb0ZWNUp4bzFQNTJ1dWNxZHM1R2dNcXJOcmsxX3lmamowLW9FanZMQlgzaUkyRGZ6NTA1WUVIWdIBxAFBVV95cUxNbWxUdGVpcWZGamVYLU9oRFJ5dGFReGxfTTEyODZSdzZya0laLVBtQkFaU3FicDRLTFR0bUZCbjIwSHFRQTJQUjIwdkI2dGlUWUVBaFpoTldxN2ZWbWtzRmxaeFdxWWR4MnFqQkVtYU1JTFYzVlpxOG1YUDdqeWZDODcxc0hqYkxkbXFqaGY1VzhpaTdkMTRmU1VVVEc1OHlJOXNIdDVTVkRTcmtPWFEzUl9BaFh4TWtDRlJwcjlPM1oyMURX?oc=5",
+        "domain": "wion",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T132600Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Great Hormuz escape: 80% of traffic goes ‘dark’ as US flips Iran’s playbook",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU2VZbmFWNjJnUkhkRmQtaGFCWm16X2VVV184V1VFdVdfZVlPZzhIQVNSeFpTY0pnX3RjdFMyYVkyS2VXZXBqb2pIOGt4Z2FPZFpVdUM1VXJuclBBY3h1RFo0bFIzbEI4cG5oWXRTLW0wS3dNM1U4LW91RHIwX2J5QW5lRHl4aklveS01YjlIRkR4cDFLLVNGRXlmYVNGRElwcGlSN1pOMNIBugFBVV95cUxPR2FuQXV5MGZRWUhSeTlMTE5LUzV6THdwaXcyMS1GR280NUFneWU2S21Zd2NqT3FBbXQ2Z2R6c2lSYUlSbjJzMGRMc1VsVXV4YlU5MlRPMnIzN0tLa19FMVBIYnQyelRLQV9rdUgwQndqRlBva3Q5eU1RbkRPTHJOTl9PY3NycDBaR2dnZ0tCa0hVaXdFS2FHMmt1U1VtMzE4NXQ4REJheWxrcjBickU4OThqNUp4d3g2RXc?oc=5",
+        "domain": "gulfnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T011700Z",
         "source": "GoogleNews"
       },
       {
@@ -298,30 +307,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Tehran threatens to close the Strait of Hormuz to oil and warns neighboring countries of 'economic warfare'",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbWtqc3kzTVAxNnZ1M2pfaDJYdTQ3NEc1Q0g3ZkdfT2Y3YWNNMmQ5bGdHb2RWYnNhVllIci1ZeG1qMjVOTkJjcWFQUjRVWTRmbzRCZGh5WlJJSG9nQ2RSa1hJLXF3SHFIc1djTkV4Q2xXODNYUkFzSy1ZUEItSy0xSG11VndhWW9EYk5FSGdtMU1RUE5OcGE2Y2R0TENJMmhkN2FMLUpLQ21oX2hHeEhJ?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T050818Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Trump team out on a limb with claim that oil is flowing through Strait of Hormuz",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOXRtTENjYnA2cUZ5QjdGZ21zZFBZV3Vtc25DamlPYzNyNm9yMkdrVUZtYjNhOFhVOU9BN0lhUVdEZ3FhTUR1Q2Y3V2NoXzUzZ3hmUV8wb29VSnJNelVYRDVOMkNfczVOVTQ1R0FMRHh1MUZPYVNjVVZRTENuSWpNZTNHcGZ5OU9WZl9VbzBpM1JXSW5jcUx5VjdySWd5TEl4VFNzTWpPTUpZTEJlU090UTlURWVLV000?oc=5",
         "domain": "washingtonexaminer",
         "language": "",
         "tone": 0,
         "seendate": "20260820T163800Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "About 40 oil tankers transit Strait of Hormuz Friday: US media",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZGZQUHQ1WWhqRl9Nc1RUZTkzcHE0cUxfblZUcm9NbEl4TUNYb29OQmxGYy10c2Q2U3Rrd2poSlZRQ1FUc3pYbk9oSDZNTGlMZDlVQTlTWEZfZ29uS2RqQlFMZlozeE94OHA3RVNlRWpveDlhUk5TZ3pNNnAyemI5SkU2S3I5a0U4SGctTldUODRtV25hbkFyWXFxZUVleUdlb0tZYS1hV2o3ZHdhUkh1eFE4UQ?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T021100Z",
         "source": "GoogleNews"
       },
       {
@@ -334,39 +325,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "US opens secret oil shipping corridor through Hormuz amid Iran stalemate: Report",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVTNLMTFjUXdfVk0wckM1T1pIV3VFdXRxQWhLVDR6Vk5ZcTR1NGJqZlRFR0x2Ym1QRjFLVWVwYV9GOU04QTJiaVRzWWRNdU9BTVpsWXE3MmFVZEUyR29HU0JKOUZQM3Zfb3lYZDhTcW10Z1Eza1FkbjgzZm0xUVZZYmU4TkN3X0ZhelZXWDF0VmpUdHJxRWd1Y1BXbkJRdFhrTVZTQWZhUWdpTVBtQTIycFZwTW5zeUlCdlpST2IwWS00cWZtVWpqQjZBbnA0M3PSAdQBQVVfeXFMTXR6VEZpT0wzZXUyNjczbTJQY2lncnRXM0ZFMHNLZnJJeUNVZDJNRVV5R1VHY2VwbHliTk4wWXM1eDJHVHR5ei1iX0JPQmZIVVRZQXhOTXlySHJ1bWlTd3ZpaXNYQXdEeHJ0ZGhzVUI5NWNPRHYtOHhPTGxpSXM5VnVfcTVQdFhyTDFhSExoTmlwZi1KbE5ISV9sbUprUmZyRmlidTRvcE5MVk9aSzhwZmpHUmZnbWFfOEs3SEd6dW1wNmV0bTEtVzBFcnlDbUxLWFczVm8?oc=5",
-        "domain": "indiatoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260820T023458Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Iran Conflict Disrupts Global Shipping as Tankers Are Stranded, Damaged",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWkc5RTlPNWtra044MFJzajlyNmhYRWtQT0NJTWdyU2JLUlJGRS1TNTlRVEFzcXJ3bzFRRjNwa0VjUmdCV0o0WG8wUDJzTTdXd3lpQkhWTjdSRW5GbklSTnZMWWE1eHl2WloyRDA1Zmpnck44R0g0MmJnX1hiaEwzbGUxWURFdHIzMVAwOGNBYkJteVpET3YwR2x5d0ZUYU1BUXc?oc=5",
-        "domain": "energynow",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260822T173050Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UAE says new pipeline that will bypass Strait of Hormuz is nearly 50% complete (VIDEO)",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZ2hKRjE5bTZQWldENjd1d2tlX3p0Sk9aTGZOcVpneEdHNXo0RDZvczhleFU0V2VUSFh2akY3a0tPNDQxMVVteXZIQWg3cU9XNU9pd2JVTW11cmhKeFNzanJTTl9nYWlLQm1Cb09xSllkX0UwQ2RzUnhIYWw4T1AwYV82a1prU01MaG5YXzdDOWdseFJEeGluM0RLemxnVkNOY2hpSk9NeW9aVV9IS0J0MkdxTlNuNU0?oc=5",
-        "domain": "moderndiplomacy",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260819T132301Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Autonomous ship operators' liability remains unclear during oil spills",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE55VW1nWnFuTnM2bTFZM2tmRXhkVTA3SlljVVVXSzhYMFpUdmlSQ2ZxQjRfcHd6VzA2NG9hR09OWHNTdFRYdjVmVXdWWloxRmFtbFFOMXpyc2dwM0J1Y2NlbDEwVVhOSVpMbUNKY3VGVG9JM3pJM1lsQ25XOWI?oc=5",
         "domain": "phys.org",
         "language": "",
         "tone": 0,
         "seendate": "20260821T180005Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US opens secret oil shipping corridor through Hormuz amid Iran stalemate: Report",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVTNLMTFjUXdfVk0wckM1T1pIV3VFdXRxQWhLVDR6Vk5ZcTR1NGJqZlRFR0x2Ym1QRjFLVWVwYV9GOU04QTJiaVRzWWRNdU9BTVpsWXE3MmFVZEUyR29HU0JKOUZQM3Zfb3lYZDhTcW10Z1Eza1FkbjgzZm0xUVZZYmU4TkN3X0ZhelZXWDF0VmpUdHJxRWd1Y1BXbkJRdFhrTVZTQWZhUWdpTVBtQTIycFZwTW5zeUlCdlpST2IwWS00cWZtVWpqQjZBbnA0M3PSAdQBQVVfeXFMTXR6VEZpT0wzZXUyNjczbTJQY2lncnRXM0ZFMHNLZnJJeUNVZDJNRVV5R1VHY2VwbHliTk4wWXM1eDJHVHR5ei1iX0JPQmZIVVRZQXhOTXlySHJ1bWlTd3ZpaXNYQXdEeHJ0ZGhzVUI5NWNPRHYtOHhPTGxpSXM5VnVfcTVQdFhyTDFhSExoTmlwZi1KbE5ISV9sbUprUmZyRmlidTRvcE5MVk9aSzhwZmpHUmZnbWFfOEs3SEd6dW1wNmV0bTEtVzBFcnlDbUxLWFczVm8?oc=5",
+        "domain": "indiatoday",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260820T023458Z",
         "source": "GoogleNews"
       },
       {
@@ -379,39 +352,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Iran grants permission for Iraqi oil tankers to pass through Strait of Hormuz: Report",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVkZvRE0wR19pUVo1cXY5Qi02TkphNnowcUs2LURHWEdQdjE4djJhYlRPZy11Q2hXLVhtRGd0Vi1fMjhhMnJCWm5HLUs2LWMwVkpGdUp5eDNIT2pyYjVHZENHM1NyekNnMDZkSVRTbkdJTDhUUTBvMjM1aWtqX0xfNDNnX053NklJSVBxaG84SzJ6SGlLajdmVmxCSUhsdFRwRkswRm5UNEl2dWU1bWhqZ2pzVXdST2kyd0pib3pBa01IaUl0MWNOZHhn0gHPAUFVX3lxTE00LW5WdXczWThlSzNsd3Y1S25UME00ZzBxQWl4QUZZaEtIT1FUUEdtbk83VkRESjY4TjZQNklXQzJjM2E1ajQteTYzNXVBYWs5cWZuYTNCekVqbnZUNjVFWUdoVG4zOWl5emhFeDQ2SDIzVU9uYjBTMDR6OEZvaTFFTmd6YS1Kbi1XZThyM0p3TzdwVkk4U3R5RE94T3NuaEMtOF8wMi1OZmV0V0lkc2hlUS1rdGxGQW1keGdDbjNtR0NyampnMUk3dFBNbS11TQ?oc=5",
-        "domain": "firstpost",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260822T185729Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Strait of Hormuz disruption hits energy, fertilizer and industrial trade",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBsenlsNEo1Tlc4MDJiMEFlSFItdmRwZjhCZDM2UUpWMDhJMlVSR1E1OExqd3V3UmxKVVFaVnN6RVJHMENpSm85SjR6SUhHX1RsbnEtYjhHMA?oc=5",
         "domain": "unnews",
         "language": "",
         "tone": 0,
         "seendate": "20260804T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Tehran grants Iraqi oil tankers permission to pass through Strait of Hormuz: Iran state media",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWFV6ZnNqNjM2THUwdzhMb01hSk8zQ1BYYlpJRXRNUjFodWU5c0ZRa0ktV1VQQ1lETWl6em5yQ2NLSkRRbG1fbUlFRFdYNWliRnVydWRQQnllUGJtQS11bFFDSTlwcVV2T1A1dHNOTGRCUlpGMmVDWmxCemhGNlpUVmhqRHVRdVA3eXhHMlkteEdIQ2hLdEplaXloc2syanZjVHhtd1pkVHQxR2diR3NxNXJpODhTR1NFMUoyNUh3Y3dSSHNzVGpPRHdLQXp1bnJJUnfSAdcBQVVfeXFMTnI3RmtwSDc3RTA2MHlOV0dueWxRTnlOZDl2UzBiX3VIbHhBbGpmSXp2emowb3Z2SnpjbG9lei01OUxJNk12aEgwdl92SXVrWk96RlRUNF9WbzBfZUxGRjVPTDU0NW9WNEIxWGwwT0tpYjlyYWVlUTZvQnpyY0c5cUNQZjlDYUdBQkZtX0o4ZVQzNjVNZUk5NWdCalhyTnRuZ3RXWEJWbllCc2EtS21BT0FuOGNheV9LWDRvVGFXbHR4a3A3YnFNQjhsNUxpdGdqWWpPOWFhTmc?oc=5",
-        "domain": "wion",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260822T172900Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Iran Allows Iraqi Oil Tankers to Cross Strait of Hormuz",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNV3V6LUk1U2ZlRW95bXFOVGxjaTZxdFdvZmEweTI4UWdwSHRpLXU0MWZIcFBoS093MXgzSHQ4ZWJHTGt1ZnB2RlN6dEZIem5fRGJ3ZFZEcEFWNUE3NDlTUlRmQkEzX1JGZU1sSk5MNE1qZ1JVMnVuR0NGT2xUU2ExaHJTb18?oc=5",
-        "domain": "8ammedia",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260822T152046Z",
         "source": "GoogleNews"
       },
       {
@@ -424,21 +370,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Japan's METI panel proposes oil shipping aid to bypass Hormuz",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNUV4cklTaHJIN3c2c1B2V3ZmSWVIdWt3YUJneWlDQ1VaNmxwNWZNYmFTTHZWLWNDOHhBNW5vaEJhOTZXVTEyQjFudUl1SjNQbWlhRjJWV0o4eVVwNU40MmE5akhvQ053UWpQS1hXem9RazR5RS1UMDg0c19kR2J5cHZSbXRNQ2JYcDkwY3lOUGdacnpoYTdSNlpoZzE3dXFMSU1mamxreW5NOHlKWDI2YURsYTM2WDMydlk0dXAxdjY2c1pTeFotRzVJNmU3Y2RuOVVYQg?oc=5",
-        "domain": "spglobal",
+        "title": "Tehran threatens to close the Strait of Hormuz to oil and warns neighboring countries of 'economic warfare'",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbWtqc3kzTVAxNnZ1M2pfaDJYdTQ3NEc1Q0g3ZkdfT2Y3YWNNMmQ5bGdHb2RWYnNhVllIci1ZeG1qMjVOTkJjcWFQUjRVWTRmbzRCZGh5WlJJSG9nQ2RSa1hJLXF3SHFIc1djTkV4Q2xXODNYUkFzSy1ZUEItSy0xSG11VndhWW9EYk5FSGdtMU1RUE5OcGE2Y2R0TENJMmhkN2FMLUpLQ21oX2hHeEhJ?oc=5",
+        "domain": "news.google.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260810T160919Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "2 Hijackings in 4 Days: Somali Piracy Rises",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOazltYVVjanNHNXFYNG9TelZRUlhzX3VTNTJYZXhNaHRtV3Y0Y2NxMlVqdWhhbDg1d2h4VjFNX0VnWDlOX3RIUkRPM2YzRF94LVU1TUVNZnRzYVAzYmdEY0FjNHVMWEpFVV9GSjdYemRHa0lHX0NEWnRYaERLX0puS1NIU1NHYnFuZVRXN2NBY2Vka2dYTVplejZTTnc?oc=5",
-        "domain": "thenewyorktimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260820T215754Z",
+        "seendate": "20260823T050818Z",
         "source": "GoogleNews"
       },
       {
@@ -451,12 +388,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Trump threatens 'Economic D-Day' for Iran and ‘tremendous’ consequences for its backers",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbjdQcUlraHYyYTY1UG5sUDJpV1dwZnpzWWZObU5iZ3g2RW1HSzFwTWNhcE1NaUR3Q3pWT1pYQXZibW1wMS1oQ1dUSVhObUhwcHN4MTVDWTNKOXFneGItamNBeWptNENKNHRiYXFJV0VJY2taaXFyRnJSQy1pRFlDbUhHMFnSAYoBQVVfeXFMUF9NTjA0UzQxLWRzdHFabk5acVdjbklmdzlGSlowZ3h4QnVIdmdGQjFfYUZsbEZSV1Bia1hISjZGVEgyNWlWcVBzMkVOSzYtR05OaXlBM3oxVkRKR0pycFZDeUxXejZnbXQzbF82Rjhud3NHR3VGZUhmQnl3MlpibFNGcFc4LTFHei1B?oc=5",
-        "domain": "cnbc",
+        "title": "Japan's METI panel proposes oil shipping aid to bypass Hormuz",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNUV4cklTaHJIN3c2c1B2V3ZmSWVIdWt3YUJneWlDQ1VaNmxwNWZNYmFTTHZWLWNDOHhBNW5vaEJhOTZXVTEyQjFudUl1SjNQbWlhRjJWV0o4eVVwNU40MmE5akhvQ053UWpQS1hXem9RazR5RS1UMDg0c19kR2J5cHZSbXRNQ2JYcDkwY3lOUGdacnpoYTdSNlpoZzE3dXFMSU1mamxreW5NOHlKWDI2YURsYTM2WDMydlk0dXAxdjY2c1pTeFotRzVJNmU3Y2RuOVVYQg?oc=5",
+        "domain": "spglobal",
         "language": "",
         "tone": 0,
-        "seendate": "20260819T231120Z",
+        "seendate": "20260810T160919Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "About 40 oil tankers transit Strait of Hormuz Friday: US media",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZGZQUHQ1WWhqRl9Nc1RUZTkzcHE0cUxfblZUcm9NbEl4TUNYb29OQmxGYy10c2Q2U3Rrd2poSlZRQ1FUc3pYbk9oSDZNTGlMZDlVQTlTWEZfZ29uS2RqQlFMZlozeE94OHA3RVNlRWpveDlhUk5TZ3pNNnAyemI5SkU2S3I5a0U4SGctTldUODRtV25hbkFyWXFxZUVleUdlb0tZYS1hV2o3ZHdhUkh1eFE4UQ?oc=5",
+        "domain": "bastillepost.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T021100Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "2 Hijackings in 4 Days: Somali Piracy Rises",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOazltYVVjanNHNXFYNG9TelZRUlhzX3VTNTJYZXhNaHRtV3Y0Y2NxMlVqdWhhbDg1d2h4VjFNX0VnWDlOX3RIUkRPM2YzRF94LVU1TUVNZnRzYVAzYmdEY0FjNHVMWEpFVV9GSjdYemRHa0lHX0NEWnRYaERLX0puS1NIU1NHYnFuZVRXN2NBY2Vka2dYTVplejZTTnc?oc=5",
+        "domain": "thenewyorktimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260820T215754Z",
         "source": "GoogleNews"
       },
       {
@@ -478,12 +433,57 @@
         "source": "GoogleNews"
       },
       {
-        "title": "16 million barrels of oil were transported through the Strait of Hormuz overnight — Axios",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcUc3Unc1b2lkRTBsN2ZQclZNUkQ2aWFfRUxkdW1VWlh5SE5hSTRweGRhSEZadjVWX3NlUTFDZnJINUhOOEM4RmVaTkE1VnlGeDZlTk82SVBuNExiM3RZTGFMZmtqS3EtNkx3VExmaWNxQXdqaGdOZTRGY0lkM19BQTJvVjhRb1JDTWw5eFV0UThNcjQwcDN3?oc=5",
-        "domain": "ua.news",
+        "title": "Gunmen seize tanker off Yemen amid resurgence of Somali piracy",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdGVhWHVrZEZ3MUQzeEZuN1A0cTdzMWY3VGVQV2V4TnRKb2VhM1R6RHY1bUJ0UTY4YWVkaDg4NVBhYUFWalc2UFVvbUtRVmt0YVdxSkZMVl9NZjBhb0VUMjlCLXhhOU1Da19KS3hhaUxkQjVVQWJVN3NyWUFxUUdjdE5zUEhFNFpDWnRNYjY2cXc0OXVEYkhXWUYyT04zTHNYX3VVRUxR0gGrAUFVX3lxTFBuOHprTGt6bGVRbU5jQmplZnlPeVE5SnZNN1F6VXNFYWZoMXBDUUJLYjJXT3RqQ3RNZVpRcXZYemg0N05wSkdXS2J1RkVEUXdBQUtnbHdUU2R1Vk8zT3JuUEJUTkpXV25TeTZGbUhobFk1TU44d3YxdGpFTU1aZ3FNWWpUZ2FEVWY4MWFtcEVSWk5fb1h4ZS1QRmxXNDBXbEZRLXJVTTNYZlB0bw?oc=5",
+        "domain": "aljazeera",
         "language": "",
         "tone": 0,
-        "seendate": "20260822T182432Z",
+        "seendate": "20260820T212927Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US prepares historic sanctions push to collapse Iranian regime and open Hormuz",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOejliZXBBQmI4WjBlZW1pYWg4clJmMk50R2ttaTBGR29kUTluVzhmeW5MTVJhbzhUOHRHWWdHM2dWbHhlX0hOaFV6UF80VUlRQWNJZlFmU1pobXM2MjNMWG5qRnQxaWJWY3U4MVZHdUpKb0Q0dnVTUUdoa21IMnNtajQ5SUFRRHJ0Ym5jMlN2RlNpSDcxZ3RDMDFmYXJuOFl2ajd0bVhMTWQxaTZ5SHpGUjh6SlFKak9f0gHGAUFVX3lxTE16N1lJMmJvNXNnQ1JHQmNFdzhJSmJOcVdVRFJLMVktUW1jTWpMMkNjSkFzZXlySl9GSVc3N0tDa2VoQm45OVlfVDdzSkpzbzB2NTJIQ3MtTmJUYkZIdFNhY1JnVmV1M0xVRVFZSWJ4Nm5Eb1d1MkwxeHB4aXJ1dUR0Q1JYNHdIUVRpTWN4UmMyZWVhQlVXM2R5QVNNMmJwSnUtalFPcWNEd243NEVFMDBfUW8xNmo3THN2bFB5VGJmQkZyLXI4QQ?oc=5",
+        "domain": "bairdmaritime",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T092032Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Trump threatens to isolate Iran. Who are its trading partners?",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUTliUERTQVlVWVpERU5Zd3V1dXdSY2JuZExLUjMtUkMxWXVoZFJzLUx1aTFITDQwdWY5RS1pR3pDNDVWMGlFS0t6cE9DQmYwNWRDeWViME50enF1X1RZWjNVYmF2ME9obUp6TTNLcG01ekdLS1liNUhmeDdmU1hYVnVpR21vTzlDYUJKY3EzYkItZThBZE9kYS1EV3FfYkx4MXZUVFloa2FYWG5jUVE?oc=5",
+        "domain": "reuters",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260820T155422Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "3 Tanker Stocks Investors Are Watching As Diesel Prices Reshape Oil Shipping",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1lakViWV9nY3VVV3NHNzNJYlN6MVgwTjFDcnpmTFZ3cUQtUjc4WVZOS19QNWZBVkVDYk9vSlVpS0ZLeWEtdjVqOFpSNHNndHd1bWFHWnRjd00?oc=5",
+        "domain": "webull.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260819T211813Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Around 40 Oil Tankers Pass Through Strait of Hormuz Amid US Blockade",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwU2ZNcTUtUERsdm5vNExDRWUxOHVWU3NiZ0xILUVDOUtsZDFhS2Y0ZXFZdnJYbHpmZzYydFZYLTQtWkNCdWVabzlFMlRoalJrUG5sODVVT3BRcm0xNTJnSw?oc=5",
+        "domain": "..",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T182105Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Daily on Energy: Trump Team out on a limb with Strait of Hormuz oil traffic claims",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONGR3UDlyY3U1c3NzRWtIUVVKZDdZRVdGMTJ0SXVoUlVQSWxfVE1oTk4wUFk5cEtYaXRsVC1aMnBEVHFGb19ld19neWQ1a1BVMEtVU0RGWllkTmNqZ1dmWU5mRU1VOWdIRmlXVHlKOXE2UlMzTzR4Mi1VenlrSEYxd1hzaTBOSkJ6Ml9XLTFweklwWDhpZEtLNFB1dzY2YVJxckV3aVdwc2R6UUwxbVBEYkh3OWYxUzhzYm9BNkdlSUd2cGJPejQw?oc=5",
+        "domain": "washingtonexaminer",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260820T192000Z",
         "source": "GoogleNews"
       }
     ],
@@ -582,15 +582,6 @@
       "source": "GoogleNews"
     },
     {
-      "title": "Hormuz crisis hides a deeper oil threat that could outlast the war",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdGZlLVpxRnloUXpBZlZpTTdxTVdNTGo1ZnZkWWR0YlRCRVZaQnIzdW9mN1FRUU5ldUpjLVRRQlBBQUg3YWJxTUd6aTNMNnIwMVNERFFwcmRhWExpTFhYc2FTa25ISlFaUG9kaG5aeWxuWEVIT0J6NUpuZ2NKV0JoYW5feW1UQWgyNnJ5djNucE8yb2o10gGaAUFVX3lxTE1pVUVLdXFUaWZWMVhFZzFYYVh6MkNkNWU0TFpUQkRkYVZCZFdmOGZzR2F3VEhRby1uV2ExMkR0eEpJcWNsMWZDQTJuS2ZlTHNuQ01tWDdUdGs0SVJuQjg3YW1PV2J2b2VLLVRyM2E0VWdMMUc1dkVnNk9pbDRMRVR0NW1ndHVxeC1RenYtWlRGbExtMmFHT0NKUXc?oc=5",
-      "domain": "foxnews",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260823T100056Z",
-      "source": "GoogleNews"
-    },
-    {
       "title": "U.S. military says it aided passage of 660 million barrels of oil through Strait of Hormuz since May",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPU2tmbVlWOHdGT19tdnFrRnRSMzY4ZzJtUTNhV0xHVlZlOERZVGJtaHlMR3ZVT2IySVJfamFjS3JBUFlXZ1QxUnF4VzJWdnNacDEyeGp2a3p0a0pGS3RINTZZNTJIQ1FFX0hhWlBENWFSM2VPMlhvX21rOWZEalR6Ump2dFdrZEE4bkxZTWxneFXSAZYBQVVfeXFMTlByT2dSRUliWjY3SG9jU1MyNzkyVDJsNHhERkExdU8wSzAwcXR4YXVtMWY3dld3bzByRWVndFB1TnV0LU54eWZQNDduTmFaaG5jNl9QdFhaeXA5aWd0eGlTc3lRVUI3VnYzRG1kZnhNQm1fT0J0NVJ5WGRiTzNZT0FWMDZydFhsVG1UT0c0eWk4WVVqa09R?oc=5",
       "domain": "cnbc",
@@ -609,12 +600,39 @@
       "source": "GoogleNews"
     },
     {
-      "title": "Watch oil tankers’ covert route through Strait of Hormuz",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTmZTVGhNaTlBdk0xYkZKd3Utdk9rMXRUNlMtODRxd1F4QThJR1RMUlg0TlR6QWZvbDlnNVJIMG5haXZpUmdXQ3Qzc1M1YmlPY2RpaEZKMTVKQ2xfX2RRS28zWkZmekp0eTNOOHV5WlFrVTZFMklOTEozS2I3WE9nR3pmOFdhNzZNUTJfQlg2a0JTTGdIaTdoeDNhQmtCNXMySThUMHBrdw?oc=5",
+      "title": "400% Strait Traffic Surge Eases Supply Fears, Will Oil Break Lower Monday?",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1LWkpUVTZvcEFmeDU0eUVhQ2xxcFAyTGlCcUpNRkNRUzQ5VjhhYWdnQ0FSUXhYMkQ0QmJ5aHNmZHVlbXhWRkNYV1lXc0JNa01EcHppZ0tmWlFCRHFjeURUQjA1eVEtMkhRVFRj?oc=5",
+      "domain": "beincrypto",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260823T181100Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "How the US and Middle East allies flipped the oil script on Iran",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YTC0xeHFnRksyMW1Za2NzTTNEdGNRTkpfRXIxNkppdklHTEpDUUd2QXdZd3EzbXB3SVpuVkFsVkUwNHMweVNnNkYwVHZfM3pyM3BnLXp2eTRjeFFPbXVTTmxjY0ZqdlgwSWRlUm9taTdoUFU?oc=5",
       "domain": "cnn",
       "language": "",
       "tone": 0,
-      "seendate": "20260822T161900Z",
+      "seendate": "20260822T090029Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "How the U.S. Navy Is Helping Get Oil Through the Strait of Hormuz",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKdVo2bm54a2c0RjBwaThneGgtSnYwS0RSQVlhT2xhVW95VjBfRHRvQUNqZmVoSDhWWlAwb1FURVJMNUJXc2VUUVBHeVA5Ti1tRDhZOXVSeGkxMzN4bllFVlpDVmdzUXhYMDNNWUpsU2xRV0tNZ2Z4T3NZWG5ZUQ?oc=5",
+      "domain": "thenewyorktimes",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260819T143618Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Hormuz crisis hides a deeper oil threat that could outlast the war",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdGZlLVpxRnloUXpBZlZpTTdxTVdNTGo1ZnZkWWR0YlRCRVZaQnIzdW9mN1FRUU5ldUpjLVRRQlBBQUg3YWJxTUd6aTNMNnIwMVNERFFwcmRhWExpTFhYc2FTa25ISlFaUG9kaG5aeWxuWEVIT0J6NUpuZ2NKV0JoYW5feW1UQWgyNnJ5djNucE8yb2o10gGaAUFVX3lxTE1pVUVLdXFUaWZWMVhFZzFYYVh6MkNkNWU0TFpUQkRkYVZCZFdmOGZzR2F3VEhRby1uV2ExMkR0eEpJcWNsMWZDQTJuS2ZlTHNuQ01tWDdUdGs0SVJuQjg3YW1PV2J2b2VLLVRyM2E0VWdMMUc1dkVnNk9pbDRMRVR0NW1ndHVxeC1RenYtWlRGbExtMmFHT0NKUXc?oc=5",
+      "domain": "foxnews",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260823T100056Z",
       "source": "GoogleNews"
     },
     {
@@ -627,12 +645,12 @@
       "source": "GoogleNews"
     },
     {
-      "title": "How the U.S. Navy Is Helping Get Oil Through the Strait of Hormuz",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKdVo2bm54a2c0RjBwaThneGgtSnYwS0RSQVlhT2xhVW95VjBfRHRvQUNqZmVoSDhWWlAwb1FURVJMNUJXc2VUUVBHeVA5Ti1tRDhZOXVSeGkxMzN4bllFVlpDVmdzUXhYMDNNWUpsU2xRV0tNZ2Z4T3NZWG5ZUQ?oc=5",
-      "domain": "thenewyorktimes",
+      "title": "Iran Authorizes Iraqi Oil Tankers to Transit Strait of Hormuz",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHlvZElDMzJTeUtfdGVqUmsxclJ2ZXkzd29RSVduUjlxUzVBeUpZVWxFTGZvc09hSWpUTDRCVDYwNkhNWkw5OVlQVWlCbjN2RkJNZTBTVERFRzdHc1l0OEZfZXJtdmRqMjVSODItUjByOVo1N1gzSS1adGtiZTNsdXY3YnZ5U0E0MVRzbDZtR193M0d3RDYw?oc=5",
+      "domain": "egyptoilgas",
       "language": "",
       "tone": 0,
-      "seendate": "20260819T143618Z",
+      "seendate": "20260823T081509Z",
       "source": "GoogleNews"
     },
     {
@@ -654,24 +672,6 @@
       "source": "GoogleNews"
     },
     {
-      "title": "Iran Authorizes Iraqi Oil Tankers to Transit Strait of Hormuz",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHlvZElDMzJTeUtfdGVqUmsxclJ2ZXkzd29RSVduUjlxUzVBeUpZVWxFTGZvc09hSWpUTDRCVDYwNkhNWkw5OVlQVWlCbjN2RkJNZTBTVERFRzdHc1l0OEZfZXJtdmRqMjVSODItUjByOVo1N1gzSS1adGtiZTNsdXY3YnZ5U0E0MVRzbDZtR193M0d3RDYw?oc=5",
-      "domain": "egyptoilgas",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260823T081459Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Every Chokepoint That Isn't Hormuz",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOXpDWEsyazVqUndPX3FOaDJySnBRenZFTlFISWk4M0plbnRPajNrdFZjdTNWQ3RhWTNQeHdJY2VfRUtDaFZXWW9vSXJMbVUzRENVbTBTNlZXcFNEMHBNalY5ZGU5QV9NOFlYdGJRNFVuR2JvSXhtZThhN290MmxVZ2JLXzJELXVF0gGOAUFVX3lxTE1UMkxPT3V0OXhNbGZEQkFOblRKY0MyMHl2U1ZUdWJ3azdhZFlVeEZQSDN2LVhPRnNmR0dnSFF0R0I3MG1xMElVb3dPaHNKa0RwVVNPVl82dXF5TkZ5cV9lQ21HV2JndWRsTXlmRERFOUR5d2gyUUNlOWZkYTR5VGhRNnFTRVdQdDZmLWJVWmc?oc=5",
-      "domain": "crudeoilpricestodayoilprice.com",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260822T170000Z",
-      "source": "GoogleNews"
-    },
-    {
       "title": "Iran grants permission for a number of Iraqi oil tankers to pass through Hormuz",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSEVXQTRoYlc4andBREZoNFdRM3NHMVRtbmdqRU9PQ1k0LWZWdEo5TFBIN0NHakJnc3lJVmlTZzJZM2d5djl4bHFMUEdXUWU4TXkzb2ppOWdnLUpWV1UxN29HN2dMZFJDY2M4eU9iMm40aTllUVBacnU0bGFtZ054YVRFeGFpSXo0bF80VWpsSDVNQlhPR2NkVEMySG9ucnZ3VEIxNmt1SE9UZzdrLW1DR0ZlZjMzaklxZEg0?oc=5",
       "domain": "reuters",
@@ -690,21 +690,21 @@
       "source": "GoogleNews"
     },
     {
-      "title": "Trump Administration Claims Massive Oil Flows Through Hormuz But Industry Data Raises Questions",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWUwwUFYtbGNBU0U0VHVVNU9TMktGLTZQNWdKeWVJMFA4bEhjVnp1SHlLTHNHbmpBSXBPNGY2djFnQWJ3VW1mQnFSbndjMkJfYXctc1ppSXB1ckVXb0NaUDdnNlhzUlpmdHgxNXA4VHRxV0RoMm5LU1pyRXJSNEdDZU5qQ0xvNUk2dDBUaXg4MkdkcXFnajNrME5uRHQxb0ZhekN6a2E1cGkwbkl2amNpdjRadmx0bE9k?oc=5",
-      "domain": "gcaptain",
+      "title": "Trump claims U.S. has control of the Strait of Hormuz. See gas prices in NC",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdl9rSklOUjMzUFVXVDhBUmJBN2ZjNjFaeUlLY01DLTFWUkMtN2NRcUtqcVppOUViNkZoSzR5X3hjNmh0ZTF4NmxaeXFtcHVoNUtnRGFsRmF3SVlJUHRBdUw2aFBQODM4cW9hZHp0MU15M2E4LURVLVpXRG1hZGZ3ZDAzanJjWEFvY2hvVktZZk1pSjBwNHVyZVZZemJBOUxQbUxYM1c5R2JvdEdoR3dCTDdKVml6cERnTHFVSmRaX2J1bXpubWxYOTFBdlJFcTdiMmc3ZlpDRk5fa3M?oc=5",
+      "domain": "theashevillecitizentimes",
       "language": "",
       "tone": 0,
-      "seendate": "20260822T155424Z",
+      "seendate": "20260819T191900Z",
       "source": "GoogleNews"
     },
     {
-      "title": "France's Macron and Saudi Crown Prince to discuss oil pipelines to by-pass Strait of Hormuz",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOUdNTU5Hb09OOWhVaS1BNjNLZXZVclUtTHE2UHdrUVNDZXhaNW1zTXhTclZGMnlRTjdScEpqN19uemROT1lNUGJheWswVWpvSlMzdzRuX2M4c1dlWHpPZ1p6eFRYcFM3NWhaRUlOSktUR0llSVI2bC1sNHVjSkt6MlMxaGlqdVc4cnJpZnJHTU5IaFduMkEzeVhIY1FjN0FDdjZKOWQ5MTB5VDgxbmlOWkVwMExWbGhVUGswY21zV2hwWGJSTzYtbkREdU5iNEg1RlNfZGU2cGt3U2p4SGUw?oc=5",
-      "domain": "thenationalnews.com",
+      "title": "Every Chokepoint That Isn't Hormuz",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOXpDWEsyazVqUndPX3FOaDJySnBRenZFTlFISWk4M0plbnRPajNrdFZjdTNWQ3RhWTNQeHdJY2VfRUtDaFZXWW9vSXJMbVUzRENVbTBTNlZXcFNEMHBNalY5ZGU5QV9NOFlYdGJRNFVuR2JvSXhtZThhN290MmxVZ2JLXzJELXVF0gGOAUFVX3lxTE1UMkxPT3V0OXhNbGZEQkFOblRKY0MyMHl2U1ZUdWJ3azdhZFlVeEZQSDN2LVhPRnNmR0dnSFF0R0I3MG1xMElVb3dPaHNKa0RwVVNPVl82dXF5TkZ5cV9lQ21HV2JndWRsTXlmRERFOUR5d2gyUUNlOWZkYTR5VGhRNnFTRVdQdDZmLWJVWmc?oc=5",
+      "domain": "crudeoilpricestodayoilprice.com",
       "language": "",
       "tone": 0,
-      "seendate": "20260823T110250Z",
+      "seendate": "20260822T170000Z",
       "source": "GoogleNews"
     }
   ],
