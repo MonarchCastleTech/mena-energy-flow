@@ -1,29 +1,19 @@
-# MENA Energy Flow Tracker
+# MENA Energy Flow
 
 [![Pages](https://github.com/MonarchCastleTech/mena-energy-flow/actions/workflows/pipeline.yml/badge.svg)](https://github.com/MonarchCastleTech/mena-energy-flow/actions/workflows/pipeline.yml)
 
-Energy-flow and chokepoint signals across the Middle East and North Africa.
+Autonomous 0–14 day MENA energy-flow disruption warning.
 
-**Live dashboard:** https://monarchcastletech.github.io/mena-energy-flow/
+**Dashboard:** https://monarchcastletech.github.io/mena-energy-flow/
+**Methodology:** https://monarchcastletech.github.io/mena-energy-flow/methodology/
 
-## Run locally
+The deterministic model combines IMF PortWatch chokepoints (35%) and energy ports (25%), FRED markets (20%), OFAC action velocity (10%), and MET Norway/ECMWF port weather (10%). GitHub Actions tests, refreshes, commits evidence, and deploys Pages every six hours. No key, account, paid API, or generative AI is required.
 
 ```bash
 python -m pip install -r requirements.txt
+python -m pytest -q
 python pipeline/mena_energy_flow_pipeline.py
 python -m http.server 8000
 ```
 
-Open `http://localhost:8000`. Direct `file://` access cannot fetch `data/output.json` in modern browsers.
-
-## Automation
-
-GitHub Actions refreshes public data every six hours and deploys the static dashboard to GitHub Pages. AI briefs are optional: configure `OPENROUTER_API_KEY` as a repository Actions secret. Without it, core collection and dashboard deployment remain available.
-
-## Data notice
-
-Source availability varies. The dashboard identifies its generation time and operating mode in `data/output.json`. Treat indicators as decision-support signals, not verified ground truth.
-
-## Brand
-
-Part of Monarch Castle Technologies. See [BRAND.md](BRAND.md) for approved asset use.
+Screening signal only; not a price or conflict probability.

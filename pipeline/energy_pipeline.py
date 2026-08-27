@@ -1,5 +1,5 @@
-"""Compatibility entrypoint; the RSS-only pipeline is canonical."""
-from mena_energy_flow_pipeline import main
+"""Compatibility entrypoint for the autonomous MENA warning model."""
+from mena_warning_model import main
 
 if __name__ == "__main__":
     main()
