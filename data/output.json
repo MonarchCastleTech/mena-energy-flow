@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-08-28T11:31:35.456849+00:00",
+    "generated": "2026-08-28T22:27:59.854499+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -283,11 +283,27 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 20,
-      "current_14d_weekly_equivalent": 29.75,
-      "anomaly_z": 9.36,
+      "coverage": 22,
+      "current_14d_weekly_equivalent": 32.25,
+      "anomaly_z": 4.16,
       "method": "MENA-linked OFAC action velocity over 14 days versus 12 prior weeks.",
       "evidence": [
+        {
+          "title": "Iran’s Access to UAE Banks Targeted Under Operation Economic Outcast",
+          "action": "Iran-related and Counter Terrorism Designations",
+          "date": "2026-08-28",
+          "url": "https://home.treasury.gov/news/press-releases/sb0617/",
+          "region_terms": [
+            "iran"
+          ],
+          "energy_terms": [],
+          "action_terms": [
+            "designat",
+            "terror"
+          ],
+          "weight": 5,
+          "age": 0
+        },
         {
           "title": "Rescission of Syria’s Designation as a State Sponsor of Terrorism",
           "action": "Removal of Syria's designation as a State Sponsor of Terrorism and Associated Sanctions List Updates; Iran-related Designations; Updates to Iran-related General Licenses",
@@ -436,6 +452,23 @@
           "age": 8
         },
         {
+          "title": "Treasury Sanctions Crypto Exchanges Funding Iran's IRGC and Enabling Illicit Finance",
+          "action": "Counter Terrorism and Iran-related Designations; Counter Narcotics Designations Removals; Issuance of Amended Iran-related Frequently Asked Question",
+          "date": "2026-08-07",
+          "url": "https://home.treasury.gov/news/press-releases/sb0598/",
+          "region_terms": [
+            "iran"
+          ],
+          "energy_terms": [],
+          "action_terms": [
+            "sanction",
+            "designat",
+            "terror"
+          ],
+          "weight": 6.5,
+          "age": 21
+        },
+        {
           "title": "Treasury Cracks Down on Global Networks Enabling Iran's Mahan Air and IRGC",
           "action": "Counter Terrorism Designations; Non-Proliferation Designation Update",
           "date": "2026-07-30",
@@ -486,10 +519,10 @@
           "country": "United Arab Emirates",
           "lat": 25.20017277781963,
           "lon": 56.35942059300059,
-          "max_wind_ms": 6.6,
+          "max_wind_ms": 7.1,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-04T06:00:00Z"
+          "valid_to": "2026-09-04T18:00:00Z"
         },
         {
           "id": "port1342",
@@ -500,7 +533,7 @@
           "max_wind_ms": 9.5,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-04T06:00:00Z"
+          "valid_to": "2026-09-04T18:00:00Z"
         },
         {
           "id": "port24",
@@ -508,10 +541,10 @@
           "country": "Saudi Arabia",
           "lat": 27.055730142783407,
           "lon": 49.6603902971205,
-          "max_wind_ms": 7.0,
+          "max_wind_ms": 7.9,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-04T06:00:00Z"
+          "valid_to": "2026-09-04T18:00:00Z"
         },
         {
           "id": "port743",
@@ -522,7 +555,7 @@
           "max_wind_ms": 7.4,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-04T06:00:00Z"
+          "valid_to": "2026-09-04T18:00:00Z"
         },
         {
           "id": "port1203",
@@ -530,10 +563,10 @@
           "country": "Bahrain",
           "lat": 26.189356457279832,
           "lon": 50.66794163474652,
-          "max_wind_ms": 7.5,
+          "max_wind_ms": 9.4,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-04T06:00:00Z"
+          "valid_to": "2026-09-04T18:00:00Z"
         },
         {
           "id": "port1090",
@@ -544,7 +577,7 @@
           "max_wind_ms": 10.4,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-04T06:00:00Z"
+          "valid_to": "2026-09-04T18:00:00Z"
         },
         {
           "id": "port988",
@@ -552,10 +585,10 @@
           "country": "Oman",
           "lat": 24.511687426479416,
           "lon": 56.61271789820087,
-          "max_wind_ms": 6.9,
+          "max_wind_ms": 7.2,
           "max_precip_24h_mm": 0.1,
           "pressure": 0,
-          "valid_to": "2026-09-04T06:00:00Z"
+          "valid_to": "2026-09-04T18:00:00Z"
         },
         {
           "id": "port512",
@@ -563,10 +596,10 @@
           "country": "United Arab Emirates",
           "lat": 24.126975861488557,
           "lon": 52.71021364176625,
-          "max_wind_ms": 9.0,
+          "max_wind_ms": 10.7,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-04T06:00:00Z"
+          "valid_to": "2026-09-04T18:00:00Z"
         }
       ]
     }
@@ -584,6 +617,11 @@
     },
     {
       "generated": "2026-08-28T11:31:35.456849+00:00",
+      "score": 28.2,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-08-28T22:27:59.854499+00:00",
       "score": 28.2,
       "status": "WATCH"
     }
