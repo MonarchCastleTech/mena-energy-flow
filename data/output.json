@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-08-27T23:17:27.703166+00:00",
+    "generated": "2026-08-28T11:31:35.456849+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 18.3,
-    "raw_score": 18.3,
-    "concurrence_bonus": 0,
-    "status": "BASELINE",
-    "headline": "MENA energy-flow disruption pressure is baseline at 18.3/100.",
+    "score": 28.2,
+    "raw_score": 23.2,
+    "concurrence_bonus": 5.0,
+    "status": "WATCH",
+    "headline": "MENA energy-flow disruption pressure is watch at 28.2/100.",
     "interpretation": "The index combines physical chokepoint and port-flow anomalies with independent market, sanctions and forward-weather evidence. It is a screening warning, not a price or conflict probability."
   },
   "components": {
@@ -66,27 +66,55 @@
     },
     "energy_port_flow": {
       "key": "energy_port_flow",
-      "score": 35.3,
-      "status": "WATCH",
+      "score": 54.9,
+      "status": "ELEVATED",
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 9,
+      "coverage": 12,
       "method": "Energy-port calls: seven-day mean versus preceding 28 days, reliability-shrunk.",
       "evidence": [
         {
-          "id": "port1342",
-          "name": "Umm Said",
+          "id": "port1090",
+          "name": "Ras Laffan",
           "country": "Qatar",
-          "lat": 24.96358830911533,
-          "lon": 51.56713164002737,
-          "recent_mean": 1.7,
-          "baseline_mean": 1.0,
-          "change_pct": 71.4,
+          "lat": 25.90850676482436,
+          "lon": 51.590499257567934,
+          "recent_mean": 2.4,
+          "baseline_mean": 1.7,
+          "change_pct": 44.7,
           "direction": "surge",
-          "reliability": 0.71,
-          "pressure": 70.7,
-          "latest": "2026-07-12"
+          "reliability": 0.92,
+          "pressure": 91.6,
+          "latest": "2026-08-21"
+        },
+        {
+          "id": "port988",
+          "name": "Port of Sohar",
+          "country": "Oman",
+          "lat": 24.511687426479416,
+          "lon": 56.61271789820087,
+          "recent_mean": 3.4,
+          "baseline_mean": 5.2,
+          "change_pct": -33.8,
+          "direction": "shortfall",
+          "reliability": 1,
+          "pressure": 82.3,
+          "latest": "2026-08-21"
+        },
+        {
+          "id": "port1091",
+          "name": "Ras Tannurah",
+          "country": "Saudi Arabia",
+          "lat": 26.67168923356191,
+          "lon": 50.1229154313664,
+          "recent_mean": 0.6,
+          "baseline_mean": 0.9,
+          "change_pct": -38.5,
+          "direction": "shortfall",
+          "reliability": 0.68,
+          "pressure": 65.1,
+          "latest": "2026-08-21"
         },
         {
           "id": "port108",
@@ -117,18 +145,32 @@
           "latest": "2026-08-21"
         },
         {
-          "id": "port988",
-          "name": "Port of Sohar",
-          "country": "Oman",
-          "lat": 24.511687426479416,
-          "lon": 56.61271789820087,
-          "recent_mean": 5.7,
-          "baseline_mean": 6.5,
-          "change_pct": -12.1,
+          "id": "port1342",
+          "name": "Umm Said",
+          "country": "Qatar",
+          "lat": 24.96358830911533,
+          "lon": 51.56713164002737,
+          "recent_mean": 1.4,
+          "baseline_mean": 1.1,
+          "change_pct": 25.0,
+          "direction": "surge",
+          "reliability": 0.76,
+          "pressure": 43.2,
+          "latest": "2026-08-21"
+        },
+        {
+          "id": "port1203",
+          "name": "Sitrah",
+          "country": "Bahrain",
+          "lat": 26.189356457279832,
+          "lon": 50.66794163474652,
+          "recent_mean": 1.3,
+          "baseline_mean": 1.5,
+          "change_pct": -12.2,
           "direction": "shortfall",
-          "reliability": 1,
-          "pressure": 20.3,
-          "latest": "2022-05-14"
+          "reliability": 0.86,
+          "pressure": 17.6,
+          "latest": "2026-08-21"
         },
         {
           "id": "port1341",
@@ -243,7 +285,7 @@
       "retained": false,
       "coverage": 20,
       "current_14d_weekly_equivalent": 29.75,
-      "anomaly_z": 4.07,
+      "anomaly_z": 9.36,
       "method": "MENA-linked OFAC action velocity over 14 days versus 12 prior weeks.",
       "evidence": [
         {
@@ -262,7 +304,7 @@
             "terror"
           ],
           "weight": 6.5,
-          "age": 3
+          "age": 4
         },
         {
           "title": "Treasury and State Departments Deliver Additional Sanctions Relief on Syria",
@@ -280,7 +322,7 @@
             "terror"
           ],
           "weight": 6.5,
-          "age": 3
+          "age": 4
         },
         {
           "title": "United States Implements Operation Economic Outcast with Sanctions Targeting Iran's Military Activities and Procurements, and Petroleum and Petrochemical Product Traders",
@@ -301,7 +343,7 @@
             "petroleum"
           ],
           "weight": 9.5,
-          "age": 3
+          "age": 4
         },
         {
           "title": "Treasury Launches Unprecedented Campaign Against Iranian Regime on Economic D-Day",
@@ -319,7 +361,7 @@
             "terror"
           ],
           "weight": 6.5,
-          "age": 3
+          "age": 4
         },
         {
           "title": "Imposing Sanctions on Cuban Regime Actors Associated with Marxist Subversive Networks and Corrupt Economic Dealings",
@@ -337,7 +379,7 @@
             "network"
           ],
           "weight": 7.5,
-          "age": 7
+          "age": 8
         },
         {
           "title": "Treasury Increases Sanctions on Hizballah and Targets Network Smuggling Millions in Cash for Hizballah",
@@ -356,7 +398,7 @@
             "smuggl"
           ],
           "weight": 9.5,
-          "age": 7
+          "age": 8
         },
         {
           "title": "Treasury Sanctions Major Ecuador-Based Cocaine Network Linked to Violent Gangs and Mexican Cartels",
@@ -374,7 +416,7 @@
             "network"
           ],
           "weight": 7.5,
-          "age": 7
+          "age": 8
         },
         {
           "title": "CHART - Ecuadorian Maritime Cocaine Trafficking Network - August 2026",
@@ -391,7 +433,7 @@
             "network"
           ],
           "weight": 6,
-          "age": 7
+          "age": 8
         },
         {
           "title": "Treasury Cracks Down on Global Networks Enabling Iran's Mahan Air and IRGC",
@@ -408,7 +450,7 @@
             "network"
           ],
           "weight": 6,
-          "age": 28
+          "age": 29
         },
         {
           "title": "Treasury Disrupts Iranian Regime’s Strait of Hormuz Extortion Network",
@@ -424,7 +466,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 29
+          "age": 30
         }
       ]
     },
@@ -444,10 +486,10 @@
           "country": "United Arab Emirates",
           "lat": 25.20017277781963,
           "lon": 56.35942059300059,
-          "max_wind_ms": 7.3,
+          "max_wind_ms": 6.6,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-03T18:00:00Z"
+          "valid_to": "2026-09-04T06:00:00Z"
         },
         {
           "id": "port1342",
@@ -455,10 +497,10 @@
           "country": "Qatar",
           "lat": 24.96358830911533,
           "lon": 51.56713164002737,
-          "max_wind_ms": 8.6,
+          "max_wind_ms": 9.5,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-03T18:00:00Z"
+          "valid_to": "2026-09-04T06:00:00Z"
         },
         {
           "id": "port24",
@@ -466,10 +508,10 @@
           "country": "Saudi Arabia",
           "lat": 27.055730142783407,
           "lon": 49.6603902971205,
-          "max_wind_ms": 7.5,
+          "max_wind_ms": 7.0,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-03T18:00:00Z"
+          "valid_to": "2026-09-04T06:00:00Z"
         },
         {
           "id": "port743",
@@ -477,10 +519,10 @@
           "country": "Kuwait",
           "lat": 29.04554779945024,
           "lon": 48.14514573819061,
-          "max_wind_ms": 5.8,
+          "max_wind_ms": 7.4,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-03T18:00:00Z"
+          "valid_to": "2026-09-04T06:00:00Z"
         },
         {
           "id": "port1203",
@@ -488,10 +530,10 @@
           "country": "Bahrain",
           "lat": 26.189356457279832,
           "lon": 50.66794163474652,
-          "max_wind_ms": 7.2,
+          "max_wind_ms": 7.5,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-03T18:00:00Z"
+          "valid_to": "2026-09-04T06:00:00Z"
         },
         {
           "id": "port1090",
@@ -499,10 +541,10 @@
           "country": "Qatar",
           "lat": 25.90850676482436,
           "lon": 51.590499257567934,
-          "max_wind_ms": 9.7,
+          "max_wind_ms": 10.4,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-03T18:00:00Z"
+          "valid_to": "2026-09-04T06:00:00Z"
         },
         {
           "id": "port988",
@@ -510,10 +552,10 @@
           "country": "Oman",
           "lat": 24.511687426479416,
           "lon": 56.61271789820087,
-          "max_wind_ms": 7.0,
-          "max_precip_24h_mm": 0.0,
+          "max_wind_ms": 6.9,
+          "max_precip_24h_mm": 0.1,
           "pressure": 0,
-          "valid_to": "2026-09-03T18:00:00Z"
+          "valid_to": "2026-09-04T06:00:00Z"
         },
         {
           "id": "port512",
@@ -521,10 +563,10 @@
           "country": "United Arab Emirates",
           "lat": 24.126975861488557,
           "lon": 52.71021364176625,
-          "max_wind_ms": 8.4,
+          "max_wind_ms": 9.0,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-03T18:00:00Z"
+          "valid_to": "2026-09-04T06:00:00Z"
         }
       ]
     }
@@ -539,6 +581,11 @@
       "generated": "2026-08-27T23:17:27.703166+00:00",
       "score": 18.3,
       "status": "BASELINE"
+    },
+    {
+      "generated": "2026-08-28T11:31:35.456849+00:00",
+      "score": 28.2,
+      "status": "WATCH"
     }
   ],
   "sources": [
