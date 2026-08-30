@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-08-30T12:01:13.787068+00:00",
+    "generated": "2026-08-30T16:47:57.404134+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -530,7 +530,7 @@
           "country": "Qatar",
           "lat": 24.96358830911533,
           "lon": 51.56713164002737,
-          "max_wind_ms": 10.9,
+          "max_wind_ms": 10.3,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
           "valid_to": "2026-09-06T12:00:00Z"
@@ -541,7 +541,7 @@
           "country": "Saudi Arabia",
           "lat": 27.055730142783407,
           "lon": 49.6603902971205,
-          "max_wind_ms": 9.6,
+          "max_wind_ms": 9.2,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
           "valid_to": "2026-09-06T12:00:00Z"
@@ -552,7 +552,7 @@
           "country": "Kuwait",
           "lat": 29.04554779945024,
           "lon": 48.14514573819061,
-          "max_wind_ms": 7.5,
+          "max_wind_ms": 7.2,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
           "valid_to": "2026-09-06T12:00:00Z"
@@ -563,7 +563,7 @@
           "country": "Bahrain",
           "lat": 26.189356457279832,
           "lon": 50.66794163474652,
-          "max_wind_ms": 10.9,
+          "max_wind_ms": 11.2,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
           "valid_to": "2026-09-06T12:00:00Z"
@@ -585,7 +585,7 @@
           "country": "Oman",
           "lat": 24.511687426479416,
           "lon": 56.61271789820087,
-          "max_wind_ms": 7.2,
+          "max_wind_ms": 7.5,
           "max_precip_24h_mm": 0.1,
           "pressure": 0,
           "valid_to": "2026-09-06T12:00:00Z"
@@ -647,6 +647,11 @@
     },
     {
       "generated": "2026-08-30T12:01:13.787068+00:00",
+      "score": 28.2,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-08-30T16:47:57.404134+00:00",
       "score": 28.2,
       "status": "WATCH"
     }
