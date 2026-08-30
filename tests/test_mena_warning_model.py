@@ -1,4 +1,5 @@
-from pipeline.mena_warning_model import band,clamp,pressure,rz
+from datetime import datetime,timedelta,timezone
+from pipeline.mena_warning_model import band,clamp,fallback,pressure,rz
 def test_bounds():assert clamp(-1)==0 and clamp(101)==100
 def test_bands():assert [band(x) for x in (0,25,45,65,80)]==['BASELINE','WATCH','ELEVATED','HIGH','SEVERE']
 def test_pressure_flat():
@@ -8,3 +9,7 @@ def test_pressure_anomaly():
 def test_low_volume_shrink():
  p,_,_,r=pressure([1]*7+[.1]*28);assert r<.3 and p<30
 def test_robust_z():assert rz(10,[1,1,2,2,3,3])>3
+def test_recent_component_fallback_is_keyless_and_expires():
+ now=datetime.now(timezone.utc);component={"key":"energy_markets","score":48,"available":True,"weight":.2,"evidence":[]};recent={"meta":{"generated":(now-timedelta(hours=2)).isoformat()},"components":{"energy_markets":component}}
+ kept=fallback(recent,"energy_markets",now,RuntimeError("offline"));assert kept["score"]==48 and kept["retained"] is True and component.get("retained") is None
+ stale={"meta":{"generated":(now-timedelta(hours=73)).isoformat()},"components":{"energy_markets":component}};assert fallback(stale,"energy_markets",now,RuntimeError("offline"))["available"] is False
