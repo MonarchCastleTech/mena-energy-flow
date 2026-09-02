@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-09-02T11:28:43.245793+00:00",
+    "generated": "2026-09-02T16:41:14.089794+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 23.8,
-    "raw_score": 23.8,
-    "concurrence_bonus": 0,
-    "status": "BASELINE",
-    "headline": "MENA energy-flow disruption pressure is baseline at 23.8/100.",
+    "score": 31.2,
+    "raw_score": 26.2,
+    "concurrence_bonus": 5.0,
+    "status": "WATCH",
+    "headline": "MENA energy-flow disruption pressure is watch at 31.2/100.",
     "interpretation": "The index combines physical chokepoint and port-flow anomalies with independent market, sanctions and forward-weather evidence. It is a screening warning, not a price or conflict probability."
   },
   "components": {
@@ -66,14 +66,28 @@
     },
     "energy_port_flow": {
       "key": "energy_port_flow",
-      "score": 32.0,
+      "score": 41.6,
       "status": "WATCH",
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 8,
+      "coverage": 12,
       "method": "Energy-port calls: seven-day mean versus preceding 28 days, reliability-shrunk.",
       "evidence": [
+        {
+          "id": "port24",
+          "name": "Al Jubayl",
+          "country": "Saudi Arabia",
+          "lat": 27.055730142783407,
+          "lon": 49.6603902971205,
+          "recent_mean": 2.3,
+          "baseline_mean": 1.5,
+          "change_pct": 56.1,
+          "direction": "surge",
+          "reliability": 0.86,
+          "pressure": 85.6,
+          "latest": "2026-08-28"
+        },
         {
           "id": "port988",
           "name": "Port of Sohar",
@@ -117,6 +131,34 @@
           "latest": "2026-08-28"
         },
         {
+          "id": "port108",
+          "name": "Bandar Khomeyni",
+          "country": "Iran, Islamic Republic of",
+          "lat": 30.43566470413471,
+          "lon": 49.06761425480435,
+          "recent_mean": 0.6,
+          "baseline_mean": 0.8,
+          "change_pct": -23.8,
+          "direction": "shortfall",
+          "reliability": 0.61,
+          "pressure": 32.9,
+          "latest": "2026-08-28"
+        },
+        {
+          "id": "port1091",
+          "name": "Ras Tannurah",
+          "country": "Saudi Arabia",
+          "lat": 26.67168923356191,
+          "lon": 50.1229154313664,
+          "recent_mean": 0.7,
+          "baseline_mean": 0.9,
+          "change_pct": -20.0,
+          "direction": "shortfall",
+          "reliability": 0.67,
+          "pressure": 28.6,
+          "latest": "2026-08-28"
+        },
+        {
           "id": "port512",
           "name": "Jabal Az Zannah-Ruways",
           "country": "United Arab Emirates",
@@ -142,6 +184,20 @@
           "direction": "surge",
           "reliability": 0.82,
           "pressure": 25.4,
+          "latest": "2026-08-28"
+        },
+        {
+          "id": "port526",
+          "name": "Ju Aymah LPG Terminal",
+          "country": "Saudi Arabia",
+          "lat": 26.80319051351993,
+          "lon": 49.97698013064791,
+          "recent_mean": 0.1,
+          "baseline_mean": 0.1,
+          "change_pct": 100.0,
+          "direction": "surge",
+          "reliability": 0.19,
+          "pressure": 18.9,
           "latest": "2026-08-28"
         },
         {
@@ -450,7 +506,7 @@
           "max_wind_ms": 9.3,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-09T06:00:00Z"
+          "valid_to": "2026-09-09T12:00:00Z"
         },
         {
           "id": "port1342",
@@ -458,10 +514,10 @@
           "country": "Qatar",
           "lat": 24.96358830911533,
           "lon": 51.56713164002737,
-          "max_wind_ms": 10.9,
+          "max_wind_ms": 6.8,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-09T06:00:00Z"
+          "valid_to": "2026-09-09T12:00:00Z"
         },
         {
           "id": "port24",
@@ -469,10 +525,10 @@
           "country": "Saudi Arabia",
           "lat": 27.055730142783407,
           "lon": 49.6603902971205,
-          "max_wind_ms": 8.1,
+          "max_wind_ms": 6.9,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-09T06:00:00Z"
+          "valid_to": "2026-09-09T12:00:00Z"
         },
         {
           "id": "port743",
@@ -480,10 +536,10 @@
           "country": "Kuwait",
           "lat": 29.04554779945024,
           "lon": 48.14514573819061,
-          "max_wind_ms": 8.4,
+          "max_wind_ms": 7.7,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-09T06:00:00Z"
+          "valid_to": "2026-09-09T12:00:00Z"
         },
         {
           "id": "port1203",
@@ -491,10 +547,10 @@
           "country": "Bahrain",
           "lat": 26.189356457279832,
           "lon": 50.66794163474652,
-          "max_wind_ms": 9.4,
+          "max_wind_ms": 7.8,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-09T06:00:00Z"
+          "valid_to": "2026-09-09T12:00:00Z"
         },
         {
           "id": "port1090",
@@ -502,10 +558,10 @@
           "country": "Qatar",
           "lat": 25.90850676482436,
           "lon": 51.590499257567934,
-          "max_wind_ms": 10.6,
+          "max_wind_ms": 8.7,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-09T06:00:00Z"
+          "valid_to": "2026-09-09T12:00:00Z"
         },
         {
           "id": "port988",
@@ -513,10 +569,10 @@
           "country": "Oman",
           "lat": 24.511687426479416,
           "lon": 56.61271789820087,
-          "max_wind_ms": 5.6,
+          "max_wind_ms": 5.7,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-09T06:00:00Z"
+          "valid_to": "2026-09-09T12:00:00Z"
         },
         {
           "id": "port512",
@@ -524,10 +580,10 @@
           "country": "United Arab Emirates",
           "lat": 24.126975861488557,
           "lon": 52.71021364176625,
-          "max_wind_ms": 7.6,
+          "max_wind_ms": 7.3,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-09T06:00:00Z"
+          "valid_to": "2026-09-09T12:00:00Z"
         }
       ]
     }
@@ -632,6 +688,11 @@
       "generated": "2026-09-02T11:28:43.245793+00:00",
       "score": 23.8,
       "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-02T16:41:14.089794+00:00",
+      "score": 31.2,
+      "status": "WATCH"
     }
   ],
   "sources": [
