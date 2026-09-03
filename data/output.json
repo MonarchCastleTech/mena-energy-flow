@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-09-02T21:08:08.896761+00:00",
+    "generated": "2026-09-03T04:41:17.864207+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -283,9 +283,9 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 22,
-      "current_14d_weekly_equivalent": 32.25,
-      "anomaly_z": 10.2,
+      "coverage": 20,
+      "current_14d_weekly_equivalent": 17.0,
+      "anomaly_z": 2.85,
       "method": "MENA-linked OFAC action velocity over 14 days versus 12 prior weeks.",
       "evidence": [
         {
@@ -302,7 +302,7 @@
             "terror"
           ],
           "weight": 5,
-          "age": 5
+          "age": 6
         },
         {
           "title": "Rescission of Syria’s Designation as a State Sponsor of Terrorism",
@@ -320,7 +320,7 @@
             "terror"
           ],
           "weight": 6.5,
-          "age": 9
+          "age": 10
         },
         {
           "title": "Treasury and State Departments Deliver Additional Sanctions Relief on Syria",
@@ -338,7 +338,7 @@
             "terror"
           ],
           "weight": 6.5,
-          "age": 9
+          "age": 10
         },
         {
           "title": "United States Implements Operation Economic Outcast with Sanctions Targeting Iran's Military Activities and Procurements, and Petroleum and Petrochemical Product Traders",
@@ -359,7 +359,7 @@
             "petroleum"
           ],
           "weight": 9.5,
-          "age": 9
+          "age": 10
         },
         {
           "title": "Treasury Launches Unprecedented Campaign Against Iranian Regime on Economic D-Day",
@@ -377,7 +377,7 @@
             "terror"
           ],
           "weight": 6.5,
-          "age": 9
+          "age": 10
         },
         {
           "title": "Imposing Sanctions on Cuban Regime Actors Associated with Marxist Subversive Networks and Corrupt Economic Dealings",
@@ -395,7 +395,7 @@
             "network"
           ],
           "weight": 7.5,
-          "age": 13
+          "age": 14
         },
         {
           "title": "Treasury Increases Sanctions on Hizballah and Targets Network Smuggling Millions in Cash for Hizballah",
@@ -414,7 +414,7 @@
             "smuggl"
           ],
           "weight": 9.5,
-          "age": 13
+          "age": 14
         },
         {
           "title": "Treasury Sanctions Major Ecuador-Based Cocaine Network Linked to Violent Gangs and Mexican Cartels",
@@ -432,7 +432,7 @@
             "network"
           ],
           "weight": 7.5,
-          "age": 13
+          "age": 14
         },
         {
           "title": "CHART - Ecuadorian Maritime Cocaine Trafficking Network - August 2026",
@@ -449,7 +449,7 @@
             "network"
           ],
           "weight": 6,
-          "age": 13
+          "age": 14
         },
         {
           "title": "Treasury Sanctions Crypto Exchanges Funding Iran's IRGC and Enabling Illicit Finance",
@@ -466,24 +466,7 @@
             "terror"
           ],
           "weight": 6.5,
-          "age": 26
-        },
-        {
-          "title": "Treasury Cracks Down on Global Networks Enabling Iran's Mahan Air and IRGC",
-          "action": "Counter Terrorism Designations; Non-Proliferation Designation Update",
-          "date": "2026-07-30",
-          "url": "https://home.treasury.gov/news/press-releases/sb0582",
-          "region_terms": [
-            "iran"
-          ],
-          "energy_terms": [],
-          "action_terms": [
-            "designat",
-            "terror",
-            "network"
-          ],
-          "weight": 6,
-          "age": 34
+          "age": 27
         }
       ]
     },
@@ -503,10 +486,10 @@
           "country": "United Arab Emirates",
           "lat": 25.20017277781963,
           "lon": 56.35942059300059,
-          "max_wind_ms": 9.3,
+          "max_wind_ms": 8.7,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-09T18:00:00Z"
+          "valid_to": "2026-09-10T00:00:00Z"
         },
         {
           "id": "port1342",
@@ -514,10 +497,10 @@
           "country": "Qatar",
           "lat": 24.96358830911533,
           "lon": 51.56713164002737,
-          "max_wind_ms": 7.0,
+          "max_wind_ms": 7.1,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-09T18:00:00Z"
+          "valid_to": "2026-09-10T00:00:00Z"
         },
         {
           "id": "port24",
@@ -525,10 +508,10 @@
           "country": "Saudi Arabia",
           "lat": 27.055730142783407,
           "lon": 49.6603902971205,
-          "max_wind_ms": 7.0,
+          "max_wind_ms": 7.1,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-09T18:00:00Z"
+          "valid_to": "2026-09-10T00:00:00Z"
         },
         {
           "id": "port743",
@@ -536,10 +519,10 @@
           "country": "Kuwait",
           "lat": 29.04554779945024,
           "lon": 48.14514573819061,
-          "max_wind_ms": 8.0,
+          "max_wind_ms": 7.4,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-09T18:00:00Z"
+          "valid_to": "2026-09-10T00:00:00Z"
         },
         {
           "id": "port1203",
@@ -547,10 +530,10 @@
           "country": "Bahrain",
           "lat": 26.189356457279832,
           "lon": 50.66794163474652,
-          "max_wind_ms": 7.5,
+          "max_wind_ms": 7.4,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-09T18:00:00Z"
+          "valid_to": "2026-09-10T00:00:00Z"
         },
         {
           "id": "port1090",
@@ -558,10 +541,10 @@
           "country": "Qatar",
           "lat": 25.90850676482436,
           "lon": 51.590499257567934,
-          "max_wind_ms": 7.7,
+          "max_wind_ms": 7.3,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-09T18:00:00Z"
+          "valid_to": "2026-09-10T00:00:00Z"
         },
         {
           "id": "port988",
@@ -572,7 +555,7 @@
           "max_wind_ms": 5.8,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-09T18:00:00Z"
+          "valid_to": "2026-09-10T00:00:00Z"
         },
         {
           "id": "port512",
@@ -580,10 +563,10 @@
           "country": "United Arab Emirates",
           "lat": 24.126975861488557,
           "lon": 52.71021364176625,
-          "max_wind_ms": 7.3,
-          "max_precip_24h_mm": 0.0,
+          "max_wind_ms": 8.1,
+          "max_precip_24h_mm": 0.1,
           "pressure": 0,
-          "valid_to": "2026-09-09T18:00:00Z"
+          "valid_to": "2026-09-10T00:00:00Z"
         }
       ]
     }
@@ -696,6 +679,11 @@
     },
     {
       "generated": "2026-09-02T21:08:08.896761+00:00",
+      "score": 30.0,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-09-03T04:41:17.864207+00:00",
       "score": 30.0,
       "status": "WATCH"
     }
