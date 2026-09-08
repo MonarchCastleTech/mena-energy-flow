@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-09-08T11:28:23.839031+00:00",
+    "generated": "2026-09-08T16:43:42.279632+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 21.5,
-    "raw_score": 21.5,
+    "score": 22.8,
+    "raw_score": 22.8,
     "concurrence_bonus": 0,
     "status": "BASELINE",
-    "headline": "MENA energy-flow disruption pressure is baseline at 21.5/100.",
+    "headline": "MENA energy-flow disruption pressure is baseline at 22.8/100.",
     "interpretation": "The index combines physical chokepoint and port-flow anomalies with independent market, sanctions and forward-weather evidence. It is a screening warning, not a price or conflict probability."
   },
   "components": {
@@ -278,16 +278,33 @@
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
-      "score": 13.2,
-      "status": "BASELINE",
+      "score": 26.4,
+      "status": "WATCH",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 18,
-      "current_14d_weekly_equivalent": 4.0,
-      "anomaly_z": -0.13,
+      "coverage": 19,
+      "current_14d_weekly_equivalent": 7.25,
+      "anomaly_z": 0.3,
       "method": "MENA-linked OFAC action velocity over 14 days versus 12 prior weeks.",
       "evidence": [
+        {
+          "title": "Treasury Grounds Iranian Airlines with Sweeping Sanctions Action",
+          "action": "Iran-related Designations; Counter Terrorism Designations; Updates to Iran-related General Licenses; Issuance of Counter Terrorism General License",
+          "date": "2026-09-08",
+          "url": "https://home.treasury.gov/news/press-releases/sb0623/",
+          "region_terms": [
+            "iran"
+          ],
+          "energy_terms": [],
+          "action_terms": [
+            "sanction",
+            "designat",
+            "terror"
+          ],
+          "weight": 6.5,
+          "age": 0
+        },
         {
           "title": "Treasury Severs Iranian Regime's Financial Lifelines in Türkiye",
           "action": "Iran-related Designations; Issuance of Iran-related General License",
@@ -501,10 +518,10 @@
           "country": "United Arab Emirates",
           "lat": 25.20017277781963,
           "lon": 56.35942059300059,
-          "max_wind_ms": 8.4,
+          "max_wind_ms": 7.8,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-15T06:00:00Z"
+          "valid_to": "2026-09-15T12:00:00Z"
         },
         {
           "id": "port1342",
@@ -515,7 +532,7 @@
           "max_wind_ms": 7.4,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-15T06:00:00Z"
+          "valid_to": "2026-09-15T12:00:00Z"
         },
         {
           "id": "port24",
@@ -523,10 +540,10 @@
           "country": "Saudi Arabia",
           "lat": 27.055730142783407,
           "lon": 49.6603902971205,
-          "max_wind_ms": 7.8,
+          "max_wind_ms": 7.5,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-15T06:00:00Z"
+          "valid_to": "2026-09-15T12:00:00Z"
         },
         {
           "id": "port743",
@@ -534,10 +551,10 @@
           "country": "Kuwait",
           "lat": 29.04554779945024,
           "lon": 48.14514573819061,
-          "max_wind_ms": 6.0,
+          "max_wind_ms": 5.2,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-15T06:00:00Z"
+          "valid_to": "2026-09-15T12:00:00Z"
         },
         {
           "id": "port1203",
@@ -545,10 +562,10 @@
           "country": "Bahrain",
           "lat": 26.189356457279832,
           "lon": 50.66794163474652,
-          "max_wind_ms": 6.9,
+          "max_wind_ms": 6.2,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-15T06:00:00Z"
+          "valid_to": "2026-09-15T12:00:00Z"
         },
         {
           "id": "port1090",
@@ -556,10 +573,10 @@
           "country": "Qatar",
           "lat": 25.90850676482436,
           "lon": 51.590499257567934,
-          "max_wind_ms": 6.4,
+          "max_wind_ms": 8.0,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-15T06:00:00Z"
+          "valid_to": "2026-09-15T12:00:00Z"
         },
         {
           "id": "port988",
@@ -567,10 +584,10 @@
           "country": "Oman",
           "lat": 24.511687426479416,
           "lon": 56.61271789820087,
-          "max_wind_ms": 8.7,
+          "max_wind_ms": 8.1,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-15T06:00:00Z"
+          "valid_to": "2026-09-15T12:00:00Z"
         },
         {
           "id": "port512",
@@ -578,10 +595,10 @@
           "country": "United Arab Emirates",
           "lat": 24.126975861488557,
           "lon": 52.71021364176625,
-          "max_wind_ms": 7.4,
+          "max_wind_ms": 7.3,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-15T06:00:00Z"
+          "valid_to": "2026-09-15T12:00:00Z"
         }
       ]
     }
@@ -800,6 +817,11 @@
     {
       "generated": "2026-09-08T11:28:23.839031+00:00",
       "score": 21.5,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-08T16:43:42.279632+00:00",
+      "score": 22.8,
       "status": "BASELINE"
     }
   ],
