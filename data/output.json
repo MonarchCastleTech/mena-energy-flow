@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-09-08T21:15:31.446951+00:00",
+    "generated": "2026-09-09T04:53:03.381220+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 22.8,
-    "raw_score": 22.8,
+    "score": 24.0,
+    "raw_score": 24.0,
     "concurrence_bonus": 0,
     "status": "BASELINE",
-    "headline": "MENA energy-flow disruption pressure is baseline at 22.8/100.",
+    "headline": "MENA energy-flow disruption pressure is baseline at 24.0/100.",
     "interpretation": "The index combines physical chokepoint and port-flow anomalies with independent market, sanctions and forward-weather evidence. It is a screening warning, not a price or conflict probability."
   },
   "components": {
@@ -278,14 +278,14 @@
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
-      "score": 26.4,
+      "score": 38.3,
       "status": "WATCH",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 19,
       "current_14d_weekly_equivalent": 7.25,
-      "anomaly_z": 0.3,
+      "anomaly_z": 1.77,
       "method": "MENA-linked OFAC action velocity over 14 days versus 12 prior weeks.",
       "evidence": [
         {
@@ -303,7 +303,7 @@
             "terror"
           ],
           "weight": 6.5,
-          "age": 0
+          "age": 1
         },
         {
           "title": "Treasury Severs Iranian Regime's Financial Lifelines in Türkiye",
@@ -318,7 +318,7 @@
             "designat"
           ],
           "weight": 3,
-          "age": 4
+          "age": 5
         },
         {
           "title": "Iran’s Access to UAE Banks Targeted Under Operation Economic Outcast",
@@ -334,7 +334,7 @@
             "terror"
           ],
           "weight": 5,
-          "age": 11
+          "age": 12
         },
         {
           "title": "Rescission of Syria’s Designation as a State Sponsor of Terrorism",
@@ -352,7 +352,7 @@
             "terror"
           ],
           "weight": 6.5,
-          "age": 15
+          "age": 16
         },
         {
           "title": "Treasury and State Departments Deliver Additional Sanctions Relief on Syria",
@@ -370,7 +370,7 @@
             "terror"
           ],
           "weight": 6.5,
-          "age": 15
+          "age": 16
         },
         {
           "title": "United States Implements Operation Economic Outcast with Sanctions Targeting Iran's Military Activities and Procurements, and Petroleum and Petrochemical Product Traders",
@@ -391,7 +391,7 @@
             "petroleum"
           ],
           "weight": 9.5,
-          "age": 15
+          "age": 16
         },
         {
           "title": "Treasury Launches Unprecedented Campaign Against Iranian Regime on Economic D-Day",
@@ -409,7 +409,7 @@
             "terror"
           ],
           "weight": 6.5,
-          "age": 15
+          "age": 16
         },
         {
           "title": "Imposing Sanctions on Cuban Regime Actors Associated with Marxist Subversive Networks and Corrupt Economic Dealings",
@@ -427,7 +427,7 @@
             "network"
           ],
           "weight": 7.5,
-          "age": 19
+          "age": 20
         },
         {
           "title": "Treasury Increases Sanctions on Hizballah and Targets Network Smuggling Millions in Cash for Hizballah",
@@ -446,7 +446,7 @@
             "smuggl"
           ],
           "weight": 9.5,
-          "age": 19
+          "age": 20
         },
         {
           "title": "Treasury Sanctions Major Ecuador-Based Cocaine Network Linked to Violent Gangs and Mexican Cartels",
@@ -464,7 +464,7 @@
             "network"
           ],
           "weight": 7.5,
-          "age": 19
+          "age": 20
         },
         {
           "title": "CHART - Ecuadorian Maritime Cocaine Trafficking Network - August 2026",
@@ -481,7 +481,7 @@
             "network"
           ],
           "weight": 6,
-          "age": 19
+          "age": 20
         },
         {
           "title": "Treasury Sanctions Crypto Exchanges Funding Iran's IRGC and Enabling Illicit Finance",
@@ -498,7 +498,7 @@
             "terror"
           ],
           "weight": 6.5,
-          "age": 32
+          "age": 33
         }
       ]
     },
@@ -518,10 +518,10 @@
           "country": "United Arab Emirates",
           "lat": 25.20017277781963,
           "lon": 56.35942059300059,
-          "max_wind_ms": 8.0,
-          "max_precip_24h_mm": 0.0,
+          "max_wind_ms": 7.9,
+          "max_precip_24h_mm": 0.3,
           "pressure": 0,
-          "valid_to": "2026-09-15T18:00:00Z"
+          "valid_to": "2026-09-16T00:00:00Z"
         },
         {
           "id": "port1342",
@@ -529,10 +529,10 @@
           "country": "Qatar",
           "lat": 24.96358830911533,
           "lon": 51.56713164002737,
-          "max_wind_ms": 7.4,
+          "max_wind_ms": 7.3,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-15T18:00:00Z"
+          "valid_to": "2026-09-16T00:00:00Z"
         },
         {
           "id": "port24",
@@ -543,7 +543,7 @@
           "max_wind_ms": 6.5,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-15T18:00:00Z"
+          "valid_to": "2026-09-16T00:00:00Z"
         },
         {
           "id": "port743",
@@ -551,10 +551,10 @@
           "country": "Kuwait",
           "lat": 29.04554779945024,
           "lon": 48.14514573819061,
-          "max_wind_ms": 5.2,
+          "max_wind_ms": 6.1,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-15T18:00:00Z"
+          "valid_to": "2026-09-16T00:00:00Z"
         },
         {
           "id": "port1203",
@@ -562,10 +562,10 @@
           "country": "Bahrain",
           "lat": 26.189356457279832,
           "lon": 50.66794163474652,
-          "max_wind_ms": 6.1,
+          "max_wind_ms": 5.8,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-15T18:00:00Z"
+          "valid_to": "2026-09-16T00:00:00Z"
         },
         {
           "id": "port1090",
@@ -573,10 +573,10 @@
           "country": "Qatar",
           "lat": 25.90850676482436,
           "lon": 51.590499257567934,
-          "max_wind_ms": 8.0,
+          "max_wind_ms": 7.7,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-15T18:00:00Z"
+          "valid_to": "2026-09-16T00:00:00Z"
         },
         {
           "id": "port988",
@@ -584,10 +584,10 @@
           "country": "Oman",
           "lat": 24.511687426479416,
           "lon": 56.61271789820087,
-          "max_wind_ms": 7.1,
+          "max_wind_ms": 9.2,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-15T18:00:00Z"
+          "valid_to": "2026-09-16T00:00:00Z"
         },
         {
           "id": "port512",
@@ -595,10 +595,10 @@
           "country": "United Arab Emirates",
           "lat": 24.126975861488557,
           "lon": 52.71021364176625,
-          "max_wind_ms": 7.4,
+          "max_wind_ms": 6.8,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-15T18:00:00Z"
+          "valid_to": "2026-09-16T00:00:00Z"
         }
       ]
     }
@@ -827,6 +827,11 @@
     {
       "generated": "2026-09-08T21:15:31.446951+00:00",
       "score": 22.8,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-09T04:53:03.381220+00:00",
+      "score": 24.0,
       "status": "BASELINE"
     }
   ],
