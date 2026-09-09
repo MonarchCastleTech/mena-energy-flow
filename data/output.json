@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-09-09T16:45:26.952607+00:00",
+    "generated": "2026-09-09T21:00:07.986628+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -518,10 +518,10 @@
           "country": "United Arab Emirates",
           "lat": 25.20017277781963,
           "lon": 56.35942059300059,
-          "max_wind_ms": 7.2,
+          "max_wind_ms": 7.0,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-16T12:00:00Z"
+          "valid_to": "2026-09-16T18:00:00Z"
         },
         {
           "id": "port1342",
@@ -529,10 +529,10 @@
           "country": "Qatar",
           "lat": 24.96358830911533,
           "lon": 51.56713164002737,
-          "max_wind_ms": 7.6,
+          "max_wind_ms": 7.2,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-16T12:00:00Z"
+          "valid_to": "2026-09-16T18:00:00Z"
         },
         {
           "id": "port24",
@@ -540,10 +540,10 @@
           "country": "Saudi Arabia",
           "lat": 27.055730142783407,
           "lon": 49.6603902971205,
-          "max_wind_ms": 5.4,
+          "max_wind_ms": 5.7,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-16T12:00:00Z"
+          "valid_to": "2026-09-16T18:00:00Z"
         },
         {
           "id": "port743",
@@ -551,10 +551,10 @@
           "country": "Kuwait",
           "lat": 29.04554779945024,
           "lon": 48.14514573819061,
-          "max_wind_ms": 6.0,
+          "max_wind_ms": 6.6,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-16T12:00:00Z"
+          "valid_to": "2026-09-16T18:00:00Z"
         },
         {
           "id": "port1203",
@@ -565,7 +565,7 @@
           "max_wind_ms": 6.0,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-16T12:00:00Z"
+          "valid_to": "2026-09-16T18:00:00Z"
         },
         {
           "id": "port1090",
@@ -576,7 +576,7 @@
           "max_wind_ms": 7.1,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-16T12:00:00Z"
+          "valid_to": "2026-09-16T18:00:00Z"
         },
         {
           "id": "port988",
@@ -584,10 +584,10 @@
           "country": "Oman",
           "lat": 24.511687426479416,
           "lon": 56.61271789820087,
-          "max_wind_ms": 6.8,
+          "max_wind_ms": 6.4,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-16T12:00:00Z"
+          "valid_to": "2026-09-16T18:00:00Z"
         },
         {
           "id": "port512",
@@ -595,10 +595,10 @@
           "country": "United Arab Emirates",
           "lat": 24.126975861488557,
           "lon": 52.71021364176625,
-          "max_wind_ms": 7.0,
+          "max_wind_ms": 6.5,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-16T12:00:00Z"
+          "valid_to": "2026-09-16T18:00:00Z"
         }
       ]
     }
@@ -841,6 +841,11 @@
     },
     {
       "generated": "2026-09-09T16:45:26.952607+00:00",
+      "score": 35.4,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-09-09T21:00:07.986628+00:00",
       "score": 35.4,
       "status": "WATCH"
     }
