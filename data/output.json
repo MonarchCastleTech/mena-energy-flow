@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-09-17T21:30:03.832046+00:00",
+    "generated": "2026-09-18T04:53:36.088064+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 48.7,
-    "raw_score": 43.7,
+    "score": 47.8,
+    "raw_score": 42.8,
     "concurrence_bonus": 5.0,
     "status": "ELEVATED",
-    "headline": "MENA energy-flow disruption pressure is elevated at 48.7/100.",
+    "headline": "MENA energy-flow disruption pressure is elevated at 47.8/100.",
     "interpretation": "The index combines physical chokepoint and port-flow anomalies with independent market, sanctions and forward-weather evidence. It is a screening warning, not a price or conflict probability."
   },
   "components": {
@@ -278,14 +278,14 @@
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
-      "score": 50.5,
-      "status": "ELEVATED",
+      "score": 41.5,
+      "status": "WATCH",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 21,
-      "current_14d_weekly_equivalent": 13.75,
-      "anomaly_z": 3.04,
+      "current_14d_weekly_equivalent": 12.25,
+      "anomaly_z": 1.39,
       "method": "MENA-linked OFAC action velocity over 14 days versus 12 prior weeks.",
       "evidence": [
         {
@@ -302,7 +302,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 0
+          "age": 1
         },
         {
           "title": "Operation Economic Outcast Disrupts Digital Asset Exchange Enabling the Iranian Regime",
@@ -317,7 +317,7 @@
             "designat"
           ],
           "weight": 3,
-          "age": 0
+          "age": 1
         },
         {
           "title": "Operation Economic Outcast Sanctions Major Bank Helping Iran Evade Sanctions",
@@ -333,7 +333,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 3
+          "age": 4
         },
         {
           "title": "Operation Economic Outcast Strikes Iran’s Global Terrorist Proxy Network",
@@ -350,7 +350,7 @@
             "network"
           ],
           "weight": 6,
-          "age": 7
+          "age": 8
         },
         {
           "title": "Treasury Grounds Iranian Airlines with Sweeping Sanctions Action",
@@ -367,7 +367,7 @@
             "terror"
           ],
           "weight": 6.5,
-          "age": 9
+          "age": 10
         },
         {
           "title": "Treasury Severs Iranian Regime's Financial Lifelines in Türkiye",
@@ -382,7 +382,7 @@
             "designat"
           ],
           "weight": 3,
-          "age": 13
+          "age": 14
         },
         {
           "title": "Iran’s Access to UAE Banks Targeted Under Operation Economic Outcast",
@@ -398,7 +398,7 @@
             "terror"
           ],
           "weight": 5,
-          "age": 20
+          "age": 21
         },
         {
           "title": "Treasury Launches Unprecedented Campaign Against Iranian Regime on Economic D-Day",
@@ -416,7 +416,7 @@
             "terror"
           ],
           "weight": 6.5,
-          "age": 24
+          "age": 25
         },
         {
           "title": "United States Implements Operation Economic Outcast with Sanctions Targeting Iran's Military Activities and Procurements, and Petroleum and Petrochemical Product Traders",
@@ -437,7 +437,7 @@
             "petroleum"
           ],
           "weight": 9.5,
-          "age": 24
+          "age": 25
         },
         {
           "title": "Rescission of Syria’s Designation as a State Sponsor of Terrorism",
@@ -455,7 +455,7 @@
             "terror"
           ],
           "weight": 6.5,
-          "age": 24
+          "age": 25
         },
         {
           "title": "Treasury and State Departments Deliver Additional Sanctions Relief on Syria",
@@ -473,7 +473,7 @@
             "terror"
           ],
           "weight": 6.5,
-          "age": 24
+          "age": 25
         },
         {
           "title": "Imposing Sanctions on Cuban Regime Actors Associated with Marxist Subversive Networks and Corrupt Economic Dealings",
@@ -491,7 +491,7 @@
             "network"
           ],
           "weight": 7.5,
-          "age": 28
+          "age": 29
         }
       ]
     },
@@ -511,10 +511,10 @@
           "country": "United Arab Emirates",
           "lat": 25.20017277781963,
           "lon": 56.35942059300059,
-          "max_wind_ms": 5.6,
+          "max_wind_ms": 6.1,
           "max_precip_24h_mm": 0.1,
           "pressure": 0,
-          "valid_to": "2026-09-24T18:00:00Z"
+          "valid_to": "2026-09-25T00:00:00Z"
         },
         {
           "id": "port1342",
@@ -522,10 +522,10 @@
           "country": "Qatar",
           "lat": 24.96358830911533,
           "lon": 51.56713164002737,
-          "max_wind_ms": 6.0,
+          "max_wind_ms": 5.8,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-24T18:00:00Z"
+          "valid_to": "2026-09-25T00:00:00Z"
         },
         {
           "id": "port24",
@@ -533,10 +533,10 @@
           "country": "Saudi Arabia",
           "lat": 27.055730142783407,
           "lon": 49.6603902971205,
-          "max_wind_ms": 6.6,
+          "max_wind_ms": 6.1,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-24T18:00:00Z"
+          "valid_to": "2026-09-25T00:00:00Z"
         },
         {
           "id": "port743",
@@ -544,10 +544,10 @@
           "country": "Kuwait",
           "lat": 29.04554779945024,
           "lon": 48.14514573819061,
-          "max_wind_ms": 6.7,
+          "max_wind_ms": 6.6,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-24T18:00:00Z"
+          "valid_to": "2026-09-25T00:00:00Z"
         },
         {
           "id": "port1203",
@@ -555,10 +555,10 @@
           "country": "Bahrain",
           "lat": 26.189356457279832,
           "lon": 50.66794163474652,
-          "max_wind_ms": 5.7,
+          "max_wind_ms": 5.9,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-24T18:00:00Z"
+          "valid_to": "2026-09-25T00:00:00Z"
         },
         {
           "id": "port1090",
@@ -566,10 +566,10 @@
           "country": "Qatar",
           "lat": 25.90850676482436,
           "lon": 51.590499257567934,
-          "max_wind_ms": 6.2,
+          "max_wind_ms": 5.3,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-24T18:00:00Z"
+          "valid_to": "2026-09-25T00:00:00Z"
         },
         {
           "id": "port988",
@@ -577,10 +577,10 @@
           "country": "Oman",
           "lat": 24.511687426479416,
           "lon": 56.61271789820087,
-          "max_wind_ms": 6.5,
+          "max_wind_ms": 5.5,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-24T18:00:00Z"
+          "valid_to": "2026-09-25T00:00:00Z"
         },
         {
           "id": "port512",
@@ -588,20 +588,15 @@
           "country": "United Arab Emirates",
           "lat": 24.126975861488557,
           "lon": 52.71021364176625,
-          "max_wind_ms": 6.4,
+          "max_wind_ms": 6.3,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-09-24T18:00:00Z"
+          "valid_to": "2026-09-25T00:00:00Z"
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-02T16:41:14.089794+00:00",
-      "score": 31.2,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-09-02T21:08:08.896761+00:00",
       "score": 30.0,
@@ -895,6 +890,11 @@
     {
       "generated": "2026-09-17T21:30:03.832046+00:00",
       "score": 48.7,
+      "status": "ELEVATED"
+    },
+    {
+      "generated": "2026-09-18T04:53:36.088064+00:00",
+      "score": 47.8,
       "status": "ELEVATED"
     }
   ],
