@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-10-07T13:36:33.402294+00:00",
+    "generated": "2026-10-07T23:11:25.351663+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 39.7,
-    "raw_score": 34.7,
+    "score": 43.1,
+    "raw_score": 38.1,
     "concurrence_bonus": 5.0,
     "status": "WATCH",
-    "headline": "MENA energy-flow disruption pressure is watch at 39.7/100.",
+    "headline": "MENA energy-flow disruption pressure is watch at 43.1/100.",
     "interpretation": "The index combines physical chokepoint and port-flow anomalies with independent market, sanctions and forward-weather evidence. It is a screening warning, not a price or conflict probability."
   },
   "components": {
@@ -246,8 +246,8 @@
     },
     "energy_markets": {
       "key": "energy_markets",
-      "score": 13.8,
-      "status": "BASELINE",
+      "score": 30.9,
+      "status": "WATCH",
       "weight": 0.2,
       "available": true,
       "retained": false,
@@ -257,11 +257,11 @@
         {
           "id": "DCOILBRENTEU",
           "label": "Brent crude",
-          "latest_date": "2026-09-29",
-          "latest_value": 113.96,
-          "change_pct": -0.81,
-          "robust_z": -0.33,
-          "score": 0,
+          "latest_date": "2026-10-06",
+          "latest_value": 125.44,
+          "change_pct": 10.07,
+          "robust_z": 1.11,
+          "score": 24.4,
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         },
         {
@@ -503,10 +503,10 @@
           "country": "United Arab Emirates",
           "lat": 25.20017277781963,
           "lon": 56.35942059300059,
-          "max_wind_ms": 5.6,
+          "max_wind_ms": 6.3,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-14T12:00:00Z"
+          "valid_to": "2026-10-14T18:00:00Z"
         },
         {
           "id": "port1342",
@@ -514,10 +514,10 @@
           "country": "Qatar",
           "lat": 24.96358830911533,
           "lon": 51.56713164002737,
-          "max_wind_ms": 5.9,
+          "max_wind_ms": 6.0,
           "max_precip_24h_mm": 0.3,
           "pressure": 0,
-          "valid_to": "2026-10-14T12:00:00Z"
+          "valid_to": "2026-10-14T18:00:00Z"
         },
         {
           "id": "port24",
@@ -525,10 +525,10 @@
           "country": "Saudi Arabia",
           "lat": 27.055730142783407,
           "lon": 49.6603902971205,
-          "max_wind_ms": 5.3,
+          "max_wind_ms": 5.9,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-14T12:00:00Z"
+          "valid_to": "2026-10-14T18:00:00Z"
         },
         {
           "id": "port743",
@@ -539,7 +539,7 @@
           "max_wind_ms": 6.3,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-14T12:00:00Z"
+          "valid_to": "2026-10-14T18:00:00Z"
         },
         {
           "id": "port1203",
@@ -547,10 +547,10 @@
           "country": "Bahrain",
           "lat": 26.189356457279832,
           "lon": 50.66794163474652,
-          "max_wind_ms": 5.4,
+          "max_wind_ms": 7.1,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-14T12:00:00Z"
+          "valid_to": "2026-10-14T18:00:00Z"
         },
         {
           "id": "port1090",
@@ -558,10 +558,10 @@
           "country": "Qatar",
           "lat": 25.90850676482436,
           "lon": 51.590499257567934,
-          "max_wind_ms": 6.6,
+          "max_wind_ms": 6.7,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-14T12:00:00Z"
+          "valid_to": "2026-10-14T18:00:00Z"
         },
         {
           "id": "port988",
@@ -569,10 +569,10 @@
           "country": "Oman",
           "lat": 24.511687426479416,
           "lon": 56.61271789820087,
-          "max_wind_ms": 5.2,
+          "max_wind_ms": 6.5,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-14T12:00:00Z"
+          "valid_to": "2026-10-14T18:00:00Z"
         },
         {
           "id": "port512",
@@ -580,20 +580,15 @@
           "country": "United Arab Emirates",
           "lat": 24.126975861488557,
           "lon": 52.71021364176625,
-          "max_wind_ms": 5.3,
+          "max_wind_ms": 5.4,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-14T12:00:00Z"
+          "valid_to": "2026-10-14T18:00:00Z"
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-20T05:01:34.987067+00:00",
-      "score": 47.8,
-      "status": "ELEVATED"
-    },
     {
       "generated": "2026-09-20T11:35:53.022008+00:00",
       "score": 47.8,
@@ -887,6 +882,11 @@
     {
       "generated": "2026-10-07T13:36:33.402294+00:00",
       "score": 39.7,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-10-07T23:11:25.351663+00:00",
+      "score": 43.1,
       "status": "WATCH"
     }
   ],
