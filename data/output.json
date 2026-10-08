@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-10-08T13:44:35.165944+00:00",
+    "generated": "2026-10-08T23:26:56.602652+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 37.0,
-    "raw_score": 37.0,
+    "score": 37.3,
+    "raw_score": 37.3,
     "concurrence_bonus": 0,
     "status": "WATCH",
-    "headline": "MENA energy-flow disruption pressure is watch at 37.0/100.",
+    "headline": "MENA energy-flow disruption pressure is watch at 37.3/100.",
     "interpretation": "The index combines physical chokepoint and port-flow anomalies with independent market, sanctions and forward-weather evidence. It is a screening warning, not a price or conflict probability."
   },
   "components": {
@@ -278,16 +278,49 @@
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
-      "score": 39.4,
+      "score": 42.5,
       "status": "WATCH",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 28,
-      "current_14d_weekly_equivalent": 22.0,
-      "anomaly_z": 1.12,
+      "coverage": 30,
+      "current_14d_weekly_equivalent": 26.75,
+      "anomaly_z": 1.51,
       "method": "MENA-linked OFAC action velocity over 14 days versus 12 prior weeks.",
       "evidence": [
+        {
+          "title": "Operation Economic Outcast Sanctions on Iran's Shadow Fleet Network",
+          "action": "Iran-related Designations; Issuance of Iran-related General License; Issuance of Amended Russia-related General License",
+          "date": "2026-10-08",
+          "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/operation-economic-outcast-sanctions-on-irans-shadow-fleet-network/",
+          "region_terms": [
+            "iran"
+          ],
+          "energy_terms": [],
+          "action_terms": [
+            "sanction",
+            "designat",
+            "network"
+          ],
+          "weight": 5.5,
+          "age": 0
+        },
+        {
+          "title": "Operation Economic Outcast Neutralizes Iranian Regime's Remaining Shadow Fleet Network",
+          "action": "Iran-related Designations; Issuance of Iran-related General License; Issuance of Amended Russia-related General License",
+          "date": "2026-10-08",
+          "url": "https://home.treasury.gov/news/press-releases/sb0653/",
+          "region_terms": [
+            "iran"
+          ],
+          "energy_terms": [],
+          "action_terms": [
+            "designat",
+            "network"
+          ],
+          "weight": 4,
+          "age": 0
+        },
         {
           "title": "Treasury Announces Third Round of Sanctions Removals, Updates in Modernization Initiative",
           "action": "Designations Removals; Designations Updates; Publication of Iran-related OFAC Alert; Publication of Amended Iran-related Frequently Asked Question",
@@ -451,39 +484,6 @@
           ],
           "weight": 3,
           "age": 21
-        },
-        {
-          "title": "Operation Economic Outcast Sanctions Major Bank Helping Iran Evade Sanctions",
-          "action": "Iran-related Designation; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
-          "date": "2026-09-14",
-          "url": "https://home.treasury.gov/news/press-releases/sb0629/",
-          "region_terms": [
-            "iran"
-          ],
-          "energy_terms": [],
-          "action_terms": [
-            "sanction",
-            "designat"
-          ],
-          "weight": 4.5,
-          "age": 24
-        },
-        {
-          "title": "Operation Economic Outcast Strikes Iran’s Global Terrorist Proxy Network",
-          "action": "Iran-related and Counter Terrorism Designations; Licensing Policy Update under Operation Economic Outcast; Settlement Agreement between OFAC and an Individual",
-          "date": "2026-09-10",
-          "url": "https://home.treasury.gov/news/press-releases/sb0626/",
-          "region_terms": [
-            "iran"
-          ],
-          "energy_terms": [],
-          "action_terms": [
-            "designat",
-            "terror",
-            "network"
-          ],
-          "weight": 6,
-          "age": 28
         }
       ]
     },
@@ -503,10 +503,10 @@
           "country": "United Arab Emirates",
           "lat": 25.20017277781963,
           "lon": 56.35942059300059,
-          "max_wind_ms": 7.6,
+          "max_wind_ms": 8.6,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-15T12:00:00Z"
+          "valid_to": "2026-10-15T18:00:00Z"
         },
         {
           "id": "port1342",
@@ -514,10 +514,10 @@
           "country": "Qatar",
           "lat": 24.96358830911533,
           "lon": 51.56713164002737,
-          "max_wind_ms": 6.6,
+          "max_wind_ms": 5.5,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-15T12:00:00Z"
+          "valid_to": "2026-10-15T18:00:00Z"
         },
         {
           "id": "port24",
@@ -525,10 +525,10 @@
           "country": "Saudi Arabia",
           "lat": 27.055730142783407,
           "lon": 49.6603902971205,
-          "max_wind_ms": 6.3,
+          "max_wind_ms": 6.6,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-15T12:00:00Z"
+          "valid_to": "2026-10-15T18:00:00Z"
         },
         {
           "id": "port743",
@@ -536,10 +536,10 @@
           "country": "Kuwait",
           "lat": 29.04554779945024,
           "lon": 48.14514573819061,
-          "max_wind_ms": 6.9,
+          "max_wind_ms": 6.6,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-15T12:00:00Z"
+          "valid_to": "2026-10-15T18:00:00Z"
         },
         {
           "id": "port1203",
@@ -547,10 +547,10 @@
           "country": "Bahrain",
           "lat": 26.189356457279832,
           "lon": 50.66794163474652,
-          "max_wind_ms": 5.7,
+          "max_wind_ms": 5.5,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-15T12:00:00Z"
+          "valid_to": "2026-10-15T18:00:00Z"
         },
         {
           "id": "port1090",
@@ -558,10 +558,10 @@
           "country": "Qatar",
           "lat": 25.90850676482436,
           "lon": 51.590499257567934,
-          "max_wind_ms": 6.1,
+          "max_wind_ms": 5.9,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-15T12:00:00Z"
+          "valid_to": "2026-10-15T18:00:00Z"
         },
         {
           "id": "port988",
@@ -569,10 +569,10 @@
           "country": "Oman",
           "lat": 24.511687426479416,
           "lon": 56.61271789820087,
-          "max_wind_ms": 6.0,
+          "max_wind_ms": 6.4,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-15T12:00:00Z"
+          "valid_to": "2026-10-15T18:00:00Z"
         },
         {
           "id": "port512",
@@ -580,20 +580,15 @@
           "country": "United Arab Emirates",
           "lat": 24.126975861488557,
           "lon": 52.71021364176625,
-          "max_wind_ms": 5.7,
+          "max_wind_ms": 6.6,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-15T12:00:00Z"
+          "valid_to": "2026-10-15T18:00:00Z"
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-20T20:55:22.263453+00:00",
-      "score": 47.8,
-      "status": "ELEVATED"
-    },
     {
       "generated": "2026-09-21T05:07:30.718016+00:00",
       "score": 47.8,
@@ -887,6 +882,11 @@
     {
       "generated": "2026-10-08T13:44:35.165944+00:00",
       "score": 37.0,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-10-08T23:26:56.602652+00:00",
+      "score": 37.3,
       "status": "WATCH"
     }
   ],
