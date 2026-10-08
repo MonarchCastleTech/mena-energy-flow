@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-10-07T23:11:25.351663+00:00",
+    "generated": "2026-10-08T06:18:19.820911+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 43.1,
-    "raw_score": 38.1,
-    "concurrence_bonus": 5.0,
+    "score": 37.0,
+    "raw_score": 37.0,
+    "concurrence_bonus": 0,
     "status": "WATCH",
-    "headline": "MENA energy-flow disruption pressure is watch at 43.1/100.",
+    "headline": "MENA energy-flow disruption pressure is watch at 37.0/100.",
     "interpretation": "The index combines physical chokepoint and port-flow anomalies with independent market, sanctions and forward-weather evidence. It is a screening warning, not a price or conflict probability."
   },
   "components": {
@@ -278,14 +278,14 @@
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
-      "score": 50.5,
-      "status": "ELEVATED",
+      "score": 39.4,
+      "status": "WATCH",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 28,
       "current_14d_weekly_equivalent": 22.0,
-      "anomaly_z": 2.83,
+      "anomaly_z": 1.12,
       "method": "MENA-linked OFAC action velocity over 14 days versus 12 prior weeks.",
       "evidence": [
         {
@@ -302,7 +302,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 2
+          "age": 3
         },
         {
           "title": "Operation Economic Outcast Targets Iran’s Remaining Industrial Lifelines",
@@ -317,7 +317,7 @@
             "designat"
           ],
           "weight": 3,
-          "age": 6
+          "age": 7
         },
         {
           "title": "Operation Economic Outcast Takes Unprecedented Action Against Sanctions Evasion Network Used by Iran",
@@ -334,7 +334,7 @@
             "network"
           ],
           "weight": 5.5,
-          "age": 6
+          "age": 7
         },
         {
           "title": "Treasury Sanctions Financial Network of Foreign Terrorist Organization, Tren de Aragua, After Theft of Millions from U.S. Banks",
@@ -352,7 +352,7 @@
             "network"
           ],
           "weight": 7.5,
-          "age": 7
+          "age": 8
         },
         {
           "title": "Treasury Sanctions Sinaloa Cartel Leadership and Corruption Networks",
@@ -370,7 +370,7 @@
             "network"
           ],
           "weight": 7.5,
-          "age": 8
+          "age": 9
         },
         {
           "title": "Operation Economic Outcast Takes Down Iranian Military Procurement Networks",
@@ -387,7 +387,7 @@
             "network"
           ],
           "weight": 6,
-          "age": 8
+          "age": 9
         },
         {
           "title": "CHART - Los Mayos Narco-Corruption in Baja California - September 2026",
@@ -403,7 +403,7 @@
             "terror"
           ],
           "weight": 5,
-          "age": 8
+          "age": 9
         },
         {
           "title": "CHART - The Sinaloa Cartel's Los Mayos Faction - September 2026",
@@ -419,7 +419,7 @@
             "terror"
           ],
           "weight": 5,
-          "age": 8
+          "age": 9
         },
         {
           "title": "Further Sanctions on Cuba's Mineral Wealth and Military Modernization Apparatus",
@@ -435,7 +435,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 20
+          "age": 21
         },
         {
           "title": "Operation Economic Outcast Disrupts Digital Asset Exchange Enabling the Iranian Regime",
@@ -450,7 +450,7 @@
             "designat"
           ],
           "weight": 3,
-          "age": 20
+          "age": 21
         },
         {
           "title": "Operation Economic Outcast Sanctions Major Bank Helping Iran Evade Sanctions",
@@ -466,7 +466,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 23
+          "age": 24
         },
         {
           "title": "Operation Economic Outcast Strikes Iran’s Global Terrorist Proxy Network",
@@ -483,7 +483,7 @@
             "network"
           ],
           "weight": 6,
-          "age": 27
+          "age": 28
         }
       ]
     },
@@ -503,10 +503,10 @@
           "country": "United Arab Emirates",
           "lat": 25.20017277781963,
           "lon": 56.35942059300059,
-          "max_wind_ms": 6.3,
+          "max_wind_ms": 6.1,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-14T18:00:00Z"
+          "valid_to": "2026-10-15T06:00:00Z"
         },
         {
           "id": "port1342",
@@ -515,9 +515,9 @@
           "lat": 24.96358830911533,
           "lon": 51.56713164002737,
           "max_wind_ms": 6.0,
-          "max_precip_24h_mm": 0.3,
+          "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-14T18:00:00Z"
+          "valid_to": "2026-10-15T06:00:00Z"
         },
         {
           "id": "port24",
@@ -525,10 +525,10 @@
           "country": "Saudi Arabia",
           "lat": 27.055730142783407,
           "lon": 49.6603902971205,
-          "max_wind_ms": 5.9,
+          "max_wind_ms": 6.6,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-14T18:00:00Z"
+          "valid_to": "2026-10-15T06:00:00Z"
         },
         {
           "id": "port743",
@@ -536,10 +536,10 @@
           "country": "Kuwait",
           "lat": 29.04554779945024,
           "lon": 48.14514573819061,
-          "max_wind_ms": 6.3,
+          "max_wind_ms": 5.9,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-14T18:00:00Z"
+          "valid_to": "2026-10-15T06:00:00Z"
         },
         {
           "id": "port1203",
@@ -547,10 +547,10 @@
           "country": "Bahrain",
           "lat": 26.189356457279832,
           "lon": 50.66794163474652,
-          "max_wind_ms": 7.1,
-          "max_precip_24h_mm": 0.0,
+          "max_wind_ms": 6.3,
+          "max_precip_24h_mm": 0.4,
           "pressure": 0,
-          "valid_to": "2026-10-14T18:00:00Z"
+          "valid_to": "2026-10-15T06:00:00Z"
         },
         {
           "id": "port1090",
@@ -558,10 +558,10 @@
           "country": "Qatar",
           "lat": 25.90850676482436,
           "lon": 51.590499257567934,
-          "max_wind_ms": 6.7,
+          "max_wind_ms": 6.3,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-14T18:00:00Z"
+          "valid_to": "2026-10-15T06:00:00Z"
         },
         {
           "id": "port988",
@@ -569,10 +569,10 @@
           "country": "Oman",
           "lat": 24.511687426479416,
           "lon": 56.61271789820087,
-          "max_wind_ms": 6.5,
+          "max_wind_ms": 6.4,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-14T18:00:00Z"
+          "valid_to": "2026-10-15T06:00:00Z"
         },
         {
           "id": "port512",
@@ -580,20 +580,15 @@
           "country": "United Arab Emirates",
           "lat": 24.126975861488557,
           "lon": 52.71021364176625,
-          "max_wind_ms": 5.4,
-          "max_precip_24h_mm": 0.0,
+          "max_wind_ms": 5.6,
+          "max_precip_24h_mm": 0.2,
           "pressure": 0,
-          "valid_to": "2026-10-14T18:00:00Z"
+          "valid_to": "2026-10-15T06:00:00Z"
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-20T11:35:53.022008+00:00",
-      "score": 47.8,
-      "status": "ELEVATED"
-    },
     {
       "generated": "2026-09-20T16:16:05.181406+00:00",
       "score": 47.8,
@@ -887,6 +882,11 @@
     {
       "generated": "2026-10-07T23:11:25.351663+00:00",
       "score": 43.1,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-10-08T06:18:19.820911+00:00",
+      "score": 37.0,
       "status": "WATCH"
     }
   ],
