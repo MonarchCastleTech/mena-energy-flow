@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-10-19T22:28:25.866339+00:00",
+    "generated": "2026-10-20T05:01:08.830253+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 23.9,
-    "raw_score": 23.9,
+    "score": 24.1,
+    "raw_score": 24.1,
     "concurrence_bonus": 0,
     "status": "BASELINE",
-    "headline": "MENA energy-flow disruption pressure is baseline at 23.9/100.",
+    "headline": "MENA energy-flow disruption pressure is baseline at 24.1/100.",
     "interpretation": "The index combines physical chokepoint and port-flow anomalies with independent market, sanctions and forward-weather evidence. It is a screening warning, not a price or conflict probability."
   },
   "components": {
@@ -278,14 +278,14 @@
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
-      "score": 33.5,
+      "score": 34.8,
       "status": "WATCH",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 33,
+      "coverage": 32,
       "current_14d_weekly_equivalent": 11.0,
-      "anomaly_z": 0.4,
+      "anomaly_z": 0.56,
       "method": "MENA-linked OFAC action velocity over 14 days versus 12 prior weeks.",
       "evidence": [
         {
@@ -302,7 +302,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 4
+          "age": 5
         },
         {
           "title": "Operation Economic Outcast Targets Iran’s International Financial Networks and Shadow Banking Architecture",
@@ -318,7 +318,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 4
+          "age": 5
         },
         {
           "title": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks",
@@ -334,7 +334,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 4
+          "age": 5
         },
         {
           "title": "Operation Economic Outcast Sanctions on Iran's Shadow Fleet Network",
@@ -351,7 +351,7 @@
             "network"
           ],
           "weight": 5.5,
-          "age": 11
+          "age": 12
         },
         {
           "title": "Operation Economic Outcast Neutralizes Iranian Regime's Remaining Shadow Fleet Network",
@@ -367,7 +367,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 11
+          "age": 12
         },
         {
           "title": "Treasury Announces Third Round of Sanctions Removals, Updates in Modernization Initiative",
@@ -383,7 +383,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 14
+          "age": 15
         },
         {
           "title": "Operation Economic Outcast Targets Iran’s Remaining Industrial Lifelines",
@@ -398,7 +398,7 @@
             "designat"
           ],
           "weight": 3,
-          "age": 18
+          "age": 19
         },
         {
           "title": "Operation Economic Outcast Takes Unprecedented Action Against Sanctions Evasion Network Used by Iran",
@@ -415,7 +415,7 @@
             "network"
           ],
           "weight": 5.5,
-          "age": 18
+          "age": 19
         },
         {
           "title": "Treasury Sanctions Financial Network of Foreign Terrorist Organization, Tren de Aragua, After Theft of Millions from U.S. Banks",
@@ -433,7 +433,7 @@
             "network"
           ],
           "weight": 7.5,
-          "age": 19
+          "age": 20
         },
         {
           "title": "Treasury Sanctions Sinaloa Cartel Leadership and Corruption Networks",
@@ -451,7 +451,7 @@
             "network"
           ],
           "weight": 7.5,
-          "age": 20
+          "age": 21
         },
         {
           "title": "CHART - The Sinaloa Cartel's Los Mayos Faction - September 2026",
@@ -467,7 +467,7 @@
             "terror"
           ],
           "weight": 5,
-          "age": 20
+          "age": 21
         },
         {
           "title": "CHART - Los Mayos Narco-Corruption in Baja California - September 2026",
@@ -483,7 +483,7 @@
             "terror"
           ],
           "weight": 5,
-          "age": 20
+          "age": 21
         }
       ]
     },
@@ -504,9 +504,9 @@
           "lat": 25.20017277781963,
           "lon": 56.35942059300059,
           "max_wind_ms": 4.6,
-          "max_precip_24h_mm": 1.1,
+          "max_precip_24h_mm": 0.1,
           "pressure": 0,
-          "valid_to": "2026-10-26T18:00:00Z"
+          "valid_to": "2026-10-27T00:00:00Z"
         },
         {
           "id": "port1342",
@@ -514,10 +514,10 @@
           "country": "Qatar",
           "lat": 24.96358830911533,
           "lon": 51.56713164002737,
-          "max_wind_ms": 5.4,
-          "max_precip_24h_mm": 0.7,
+          "max_wind_ms": 5.9,
+          "max_precip_24h_mm": 1.8,
           "pressure": 0,
-          "valid_to": "2026-10-26T18:00:00Z"
+          "valid_to": "2026-10-27T00:00:00Z"
         },
         {
           "id": "port24",
@@ -525,10 +525,10 @@
           "country": "Saudi Arabia",
           "lat": 27.055730142783407,
           "lon": 49.6603902971205,
-          "max_wind_ms": 5.8,
+          "max_wind_ms": 5.6,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-26T18:00:00Z"
+          "valid_to": "2026-10-27T00:00:00Z"
         },
         {
           "id": "port743",
@@ -539,7 +539,7 @@
           "max_wind_ms": 6.2,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-26T18:00:00Z"
+          "valid_to": "2026-10-27T00:00:00Z"
         },
         {
           "id": "port1203",
@@ -547,10 +547,10 @@
           "country": "Bahrain",
           "lat": 26.189356457279832,
           "lon": 50.66794163474652,
-          "max_wind_ms": 5.1,
+          "max_wind_ms": 5.8,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-26T18:00:00Z"
+          "valid_to": "2026-10-27T00:00:00Z"
         },
         {
           "id": "port1090",
@@ -558,10 +558,10 @@
           "country": "Qatar",
           "lat": 25.90850676482436,
           "lon": 51.590499257567934,
-          "max_wind_ms": 6.6,
-          "max_precip_24h_mm": 0.0,
+          "max_wind_ms": 7.0,
+          "max_precip_24h_mm": 0.5,
           "pressure": 0,
-          "valid_to": "2026-10-26T18:00:00Z"
+          "valid_to": "2026-10-27T00:00:00Z"
         },
         {
           "id": "port988",
@@ -569,10 +569,10 @@
           "country": "Oman",
           "lat": 24.511687426479416,
           "lon": 56.61271789820087,
-          "max_wind_ms": 5.7,
+          "max_wind_ms": 5.6,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-10-26T18:00:00Z"
+          "valid_to": "2026-10-27T00:00:00Z"
         },
         {
           "id": "port512",
@@ -580,20 +580,15 @@
           "country": "United Arab Emirates",
           "lat": 24.126975861488557,
           "lon": 52.71021364176625,
-          "max_wind_ms": 5.6,
-          "max_precip_24h_mm": 0.2,
+          "max_wind_ms": 5.8,
+          "max_precip_24h_mm": 0.4,
           "pressure": 0,
-          "valid_to": "2026-10-26T18:00:00Z"
+          "valid_to": "2026-10-27T00:00:00Z"
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-10-01T13:31:29.473553+00:00",
-      "score": 28.8,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-01T22:46:32.836118+00:00",
       "score": 29.1,
@@ -887,6 +882,11 @@
     {
       "generated": "2026-10-19T22:28:25.866339+00:00",
       "score": 23.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-20T05:01:08.830253+00:00",
+      "score": 24.1,
       "status": "BASELINE"
     }
   ],
