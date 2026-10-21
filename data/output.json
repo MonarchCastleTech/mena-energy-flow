@@ -1,21 +1,23 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-10-21T12:02:27.244675+00:00",
-    "mode": "live",
+    "generated": "2026-10-21T17:22:05.099605+00:00",
+    "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–14 days",
     "classification": "energy-flow-disruption-pressure-not-price-or-conflict-probability",
     "coverage": "5/5",
-    "confidence": "HIGH",
-    "source_notes": []
+    "confidence": "MEDIUM",
+    "source_notes": [
+      "energy_markets: retained (IndexError)"
+    ]
   },
   "warning": {
-    "score": 20.8,
-    "raw_score": 20.8,
+    "score": 21.2,
+    "raw_score": 21.2,
     "concurrence_bonus": 0,
     "status": "BASELINE",
-    "headline": "MENA energy-flow disruption pressure is baseline at 20.8/100.",
+    "headline": "MENA energy-flow disruption pressure is baseline at 21.2/100.",
     "interpretation": "The index combines physical chokepoint and port-flow anomalies with independent market, sanctions and forward-weather evidence. It is a screening warning, not a price or conflict probability."
   },
   "components": {
@@ -250,7 +252,7 @@
       "status": "BASELINE",
       "weight": 0.2,
       "available": true,
-      "retained": false,
+      "retained": true,
       "coverage": 2,
       "method": "Absolute robust-z of five-observation Brent and one-month gas returns.",
       "evidence": [
@@ -274,20 +276,37 @@
           "score": 47.5,
           "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM"
         }
-      ]
+      ],
+      "retained_reason": "IndexError"
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
-      "score": 37.0,
+      "score": 40.3,
       "status": "WATCH",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 31,
-      "current_14d_weekly_equivalent": 11.0,
-      "anomaly_z": 0.83,
+      "coverage": 32,
+      "current_14d_weekly_equivalent": 13.0,
+      "anomaly_z": 1.25,
       "method": "MENA-linked OFAC action velocity over 14 days versus 12 prior weeks.",
       "evidence": [
+        {
+          "title": "Operation Economic Outcast Targets Iran's Shadow Fleet Networks",
+          "action": "Iran-related Designations; Belarus and North Korea Designations Removals; Issuance of Iran-related and Russia-related General Licenses and Amended Frequently Asked Questions",
+          "date": "2026-10-21",
+          "url": "https://home.treasury.gov/news/press-releases/sb0664/",
+          "region_terms": [
+            "iran"
+          ],
+          "energy_terms": [],
+          "action_terms": [
+            "designat",
+            "network"
+          ],
+          "weight": 4,
+          "age": 0
+        },
         {
           "title": "Sanctioning Cuban State-Owned Banco Internacional de Comercio, S.A. (BICSA)",
           "action": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
@@ -386,21 +405,6 @@
           "age": 16
         },
         {
-          "title": "Operation Economic Outcast Targets Iran’s Remaining Industrial Lifelines",
-          "action": "Iran-related Designations and Designations Updates; Transnational Criminal Organizations Designation; Publication of Iran-related Determination; Publication of Amended Iran-related Frequently Asked Question",
-          "date": "2026-10-01",
-          "url": "https://home.treasury.gov/news/press-releases/sb0643/",
-          "region_terms": [
-            "iran"
-          ],
-          "energy_terms": [],
-          "action_terms": [
-            "designat"
-          ],
-          "weight": 3,
-          "age": 20
-        },
-        {
           "title": "Operation Economic Outcast Takes Unprecedented Action Against Sanctions Evasion Network Used by Iran",
           "action": "Iran-related Designations and Designations Updates; Transnational Criminal Organizations Designation; Publication of Iran-related Determination; Publication of Amended Iran-related Frequently Asked Question",
           "date": "2026-10-01",
@@ -415,6 +419,21 @@
             "network"
           ],
           "weight": 5.5,
+          "age": 20
+        },
+        {
+          "title": "Operation Economic Outcast Targets Iran’s Remaining Industrial Lifelines",
+          "action": "Iran-related Designations and Designations Updates; Transnational Criminal Organizations Designation; Publication of Iran-related Determination; Publication of Amended Iran-related Frequently Asked Question",
+          "date": "2026-10-01",
+          "url": "https://home.treasury.gov/news/press-releases/sb0643/",
+          "region_terms": [
+            "iran"
+          ],
+          "energy_terms": [],
+          "action_terms": [
+            "designat"
+          ],
+          "weight": 3,
           "age": 20
         },
         {
@@ -454,35 +473,20 @@
           "age": 22
         },
         {
-          "title": "CHART - The Sinaloa Cartel's Los Mayos Faction - September 2026",
+          "title": "Operation Economic Outcast Takes Down Iranian Military Procurement Networks",
           "action": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
           "date": "2026-09-29",
-          "url": "https://ofac.treasury.gov/media/937016/download?inline",
+          "url": "https://home.treasury.gov/news/press-releases/sb0637/",
           "region_terms": [
             "iran"
           ],
           "energy_terms": [],
           "action_terms": [
             "designat",
-            "terror"
+            "terror",
+            "network"
           ],
-          "weight": 5,
-          "age": 22
-        },
-        {
-          "title": "CHART - Los Mayos Narco-Corruption in Baja California - September 2026",
-          "action": "Counter Narcotics, Counter Terrorism, Iran-related, and Non-Proliferation Designations",
-          "date": "2026-09-29",
-          "url": "https://ofac.treasury.gov/media/937021/download?inline",
-          "region_terms": [
-            "iran"
-          ],
-          "energy_terms": [],
-          "action_terms": [
-            "designat",
-            "terror"
-          ],
-          "weight": 5,
+          "weight": 6,
           "age": 22
         }
       ]
@@ -503,7 +507,7 @@
           "country": "United Arab Emirates",
           "lat": 25.20017277781963,
           "lon": 56.35942059300059,
-          "max_wind_ms": 6.8,
+          "max_wind_ms": 6.9,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
           "valid_to": "2026-10-28T12:00:00Z"
@@ -514,7 +518,7 @@
           "country": "Qatar",
           "lat": 24.96358830911533,
           "lon": 51.56713164002737,
-          "max_wind_ms": 5.6,
+          "max_wind_ms": 5.2,
           "max_precip_24h_mm": 0.3,
           "pressure": 0,
           "valid_to": "2026-10-28T12:00:00Z"
@@ -525,8 +529,8 @@
           "country": "Saudi Arabia",
           "lat": 27.055730142783407,
           "lon": 49.6603902971205,
-          "max_wind_ms": 6.4,
-          "max_precip_24h_mm": 0.0,
+          "max_wind_ms": 6.0,
+          "max_precip_24h_mm": 0.1,
           "pressure": 0,
           "valid_to": "2026-10-28T12:00:00Z"
         },
@@ -536,7 +540,7 @@
           "country": "Kuwait",
           "lat": 29.04554779945024,
           "lon": 48.14514573819061,
-          "max_wind_ms": 6.5,
+          "max_wind_ms": 5.6,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
           "valid_to": "2026-10-28T12:00:00Z"
@@ -547,7 +551,7 @@
           "country": "Bahrain",
           "lat": 26.189356457279832,
           "lon": 50.66794163474652,
-          "max_wind_ms": 5.9,
+          "max_wind_ms": 6.0,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
           "valid_to": "2026-10-28T12:00:00Z"
@@ -559,7 +563,7 @@
           "lat": 25.90850676482436,
           "lon": 51.590499257567934,
           "max_wind_ms": 6.5,
-          "max_precip_24h_mm": 0.0,
+          "max_precip_24h_mm": 0.2,
           "pressure": 0,
           "valid_to": "2026-10-28T12:00:00Z"
         },
@@ -569,7 +573,7 @@
           "country": "Oman",
           "lat": 24.511687426479416,
           "lon": 56.61271789820087,
-          "max_wind_ms": 5.6,
+          "max_wind_ms": 5.9,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
           "valid_to": "2026-10-28T12:00:00Z"
@@ -580,8 +584,8 @@
           "country": "United Arab Emirates",
           "lat": 24.126975861488557,
           "lon": 52.71021364176625,
-          "max_wind_ms": 7.1,
-          "max_precip_24h_mm": 0.2,
+          "max_wind_ms": 6.0,
+          "max_precip_24h_mm": 0.1,
           "pressure": 0,
           "valid_to": "2026-10-28T12:00:00Z"
         }
@@ -589,11 +593,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-10-03T11:49:14.875019+00:00",
-      "score": 29.5,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-03T16:31:17.833114+00:00",
       "score": 29.5,
@@ -887,6 +886,11 @@
     {
       "generated": "2026-10-21T12:02:27.244675+00:00",
       "score": 20.8,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-21T17:22:05.099605+00:00",
+      "score": 21.2,
       "status": "BASELINE"
     }
   ],
