@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-10-28T08:11:20.888114+00:00",
+    "generated": "2026-10-28T13:12:40.070707+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 17.2,
-    "raw_score": 17.2,
+    "score": 19.9,
+    "raw_score": 19.9,
     "concurrence_bonus": 0,
     "status": "BASELINE",
-    "headline": "MENA energy-flow disruption pressure is baseline at 17.2/100.",
+    "headline": "MENA energy-flow disruption pressure is baseline at 19.9/100.",
     "interpretation": "The index combines physical chokepoint and port-flow anomalies with independent market, sanctions and forward-weather evidence. It is a screening warning, not a price or conflict probability."
   },
   "components": {
@@ -63,18 +63,32 @@
           "latest": "2026-10-25"
         }
       ],
-      "source_collected_at": "2026-10-28T08:11:20.888114+00:00"
+      "source_collected_at": "2026-10-28T13:12:40.070707+00:00"
     },
     "energy_port_flow": {
       "key": "energy_port_flow",
-      "score": 30.8,
+      "score": 41.6,
       "status": "WATCH",
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 8,
+      "coverage": 12,
       "method": "Energy-port calls: seven-day mean versus preceding 28 days, reliability-shrunk.",
       "evidence": [
+        {
+          "id": "port1090",
+          "name": "Ras Laffan",
+          "country": "Qatar",
+          "lat": 25.90850676482436,
+          "lon": 51.590499257567934,
+          "recent_mean": 0.7,
+          "baseline_mean": 1.2,
+          "change_pct": -41.2,
+          "direction": "shortfall",
+          "reliability": 0.78,
+          "pressure": 77.9,
+          "latest": "2026-10-23"
+        },
         {
           "id": "port24",
           "name": "Al Jubayl",
@@ -90,6 +104,20 @@
           "latest": "2026-10-23"
         },
         {
+          "id": "port1203",
+          "name": "Sitrah",
+          "country": "Bahrain",
+          "lat": 26.189356457279832,
+          "lon": 50.66794163474652,
+          "recent_mean": 1.6,
+          "baseline_mean": 1.2,
+          "change_pct": 25.7,
+          "direction": "surge",
+          "reliability": 0.79,
+          "pressure": 46.8,
+          "latest": "2026-10-23"
+        },
+        {
           "id": "port512",
           "name": "Jabal Az Zannah-Ruways",
           "country": "United Arab Emirates",
@@ -101,6 +129,20 @@
           "direction": "shortfall",
           "reliability": 0.42,
           "pressure": 42.3,
+          "latest": "2026-10-23"
+        },
+        {
+          "id": "port988",
+          "name": "Port of Sohar",
+          "country": "Oman",
+          "lat": 24.511687426479416,
+          "lon": 56.61271789820087,
+          "recent_mean": 3.9,
+          "baseline_mean": 4.6,
+          "change_pct": -15.6,
+          "direction": "shortfall",
+          "reliability": 1,
+          "pressure": 30.4,
           "latest": "2026-10-23"
         },
         {
@@ -174,6 +216,20 @@
           "latest": "2026-10-23"
         },
         {
+          "id": "port1342",
+          "name": "Umm Said",
+          "country": "Qatar",
+          "lat": 24.96358830911533,
+          "lon": 51.56713164002737,
+          "recent_mean": 1.0,
+          "baseline_mean": 1.0,
+          "change_pct": 0.0,
+          "direction": "surge",
+          "reliability": 0.71,
+          "pressure": 0.0,
+          "latest": "2026-10-23"
+        },
+        {
           "id": "port743",
           "name": "Mina Al Ahmadi",
           "country": "Kuwait",
@@ -188,7 +244,7 @@
           "latest": "2026-10-23"
         }
       ],
-      "source_collected_at": "2026-10-28T08:11:20.888114+00:00"
+      "source_collected_at": "2026-10-28T13:12:40.070707+00:00"
     },
     "energy_markets": {
       "key": "energy_markets",
@@ -221,7 +277,7 @@
           "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM"
         }
       ],
-      "source_collected_at": "2026-10-28T08:11:20.888114+00:00"
+      "source_collected_at": "2026-10-28T13:12:40.070707+00:00"
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
@@ -434,7 +490,7 @@
           "age": 29
         }
       ],
-      "source_collected_at": "2026-10-28T08:11:20.888114+00:00"
+      "source_collected_at": "2026-10-28T13:12:40.070707+00:00"
     },
     "port_weather": {
       "key": "port_weather",
@@ -453,9 +509,9 @@
           "lat": 25.20017277781963,
           "lon": 56.35942059300059,
           "max_wind_ms": 5.5,
-          "max_precip_24h_mm": 0.1,
+          "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-11-04T06:00:00Z"
+          "valid_to": "2026-11-04T12:00:00Z"
         },
         {
           "id": "port1342",
@@ -466,7 +522,7 @@
           "max_wind_ms": 4.9,
           "max_precip_24h_mm": 0.3,
           "pressure": 0,
-          "valid_to": "2026-11-04T06:00:00Z"
+          "valid_to": "2026-11-04T12:00:00Z"
         },
         {
           "id": "port24",
@@ -477,7 +533,7 @@
           "max_wind_ms": 6.5,
           "max_precip_24h_mm": 0.2,
           "pressure": 0,
-          "valid_to": "2026-11-04T06:00:00Z"
+          "valid_to": "2026-11-04T12:00:00Z"
         },
         {
           "id": "port743",
@@ -486,9 +542,9 @@
           "lat": 29.04554779945024,
           "lon": 48.14514573819061,
           "max_wind_ms": 7.7,
-          "max_precip_24h_mm": 3.4,
+          "max_precip_24h_mm": 6.8,
           "pressure": 0,
-          "valid_to": "2026-11-04T06:00:00Z"
+          "valid_to": "2026-11-04T12:00:00Z"
         },
         {
           "id": "port1203",
@@ -499,7 +555,7 @@
           "max_wind_ms": 6.6,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-11-04T06:00:00Z"
+          "valid_to": "2026-11-04T12:00:00Z"
         },
         {
           "id": "port1090",
@@ -507,10 +563,10 @@
           "country": "Qatar",
           "lat": 25.90850676482436,
           "lon": 51.590499257567934,
-          "max_wind_ms": 5.2,
+          "max_wind_ms": 4.9,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-11-04T06:00:00Z"
+          "valid_to": "2026-11-04T12:00:00Z"
         },
         {
           "id": "port988",
@@ -518,10 +574,10 @@
           "country": "Oman",
           "lat": 24.511687426479416,
           "lon": 56.61271789820087,
-          "max_wind_ms": 10.0,
-          "max_precip_24h_mm": 3.5,
+          "max_wind_ms": 4.9,
+          "max_precip_24h_mm": 0.4,
           "pressure": 0,
-          "valid_to": "2026-11-04T06:00:00Z"
+          "valid_to": "2026-11-04T12:00:00Z"
         },
         {
           "id": "port512",
@@ -530,20 +586,15 @@
           "lat": 24.126975861488557,
           "lon": 52.71021364176625,
           "max_wind_ms": 5.6,
-          "max_precip_24h_mm": 0.2,
+          "max_precip_24h_mm": 0.5,
           "pressure": 0,
-          "valid_to": "2026-11-04T06:00:00Z"
+          "valid_to": "2026-11-04T12:00:00Z"
         }
       ],
-      "source_collected_at": "2026-10-28T08:11:20.888114+00:00"
+      "source_collected_at": "2026-10-28T13:12:40.070707+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-11T22:07:46.493688+00:00",
-      "score": 43.1,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-12T06:10:29.438941+00:00",
       "score": 43.2,
@@ -837,6 +888,11 @@
     {
       "generated": "2026-10-28T08:11:20.888114+00:00",
       "score": 17.2,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-28T13:12:40.070707+00:00",
+      "score": 19.9,
       "status": "BASELINE"
     }
   ],
