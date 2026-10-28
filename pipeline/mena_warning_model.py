@@ -60,6 +60,7 @@ def series(entity:dict[str,Any],layer:str,field:str)->dict[str,Any]|None:
  p,c,d,r=pressure(vals);return {**entity,"recent_mean":round(avg(vals[:7]),1),"baseline_mean":round(avg(vals[7:35]),1),"change_pct":round(c,1),"direction":d,"reliability":round(r,2),"pressure":round(p,1),"latest":rows[0].get("date")}
 def collect_chokes(now:datetime)->dict[str,Any]:
  with ThreadPoolExecutor(max_workers=3) as pool:rows=[x for x in pool.map(lambda kv:series({"id":kv[0],"name":kv[1]},CHOKE,"n_total"),CHOKES.items()) if x]
+ if not rows:raise RuntimeError("No usable chokepoint series")
  score=round(clamp(.6*avg([x["pressure"] for x in rows])+.4*max([x["pressure"] for x in rows],default=0)),1);return {"key":"chokepoint_flow","score":score,"status":band(score),"weight":WEIGHTS["chokepoint_flow"],"available":True,"retained":False,"coverage":len(rows),"method":"Seven-day vessel flow versus preceding 28 days at Suez, Bab el-Mandeb and Hormuz.","evidence":sorted(rows,key=lambda x:x["pressure"],reverse=True)}
 def port_directory()->list[dict[str,Any]]:
  ids=",".join(f"'{x}'" for x in ENERGY_PORTS);rows=arc(PORTS,f"portid IN ({ids})","portid,portname,country,lat,long,vessel_count_total",30,"vessel_count_total DESC")
@@ -107,14 +108,24 @@ def previous()->dict[str,Any]:
  try:return json.loads(OUTPUT.read_text(encoding="utf-8"))
  except (OSError,json.JSONDecodeError):return {}
 def fallback(old:dict[str,Any],key:str,now:datetime,e:Exception)->dict[str,Any]:
- gen=pdt((old.get("meta") or {}).get("generated"));row=(old.get("components") or {}).get(key)
+ row=(old.get("components") or {}).get(key)
+ gen=pdt(row.get("source_collected_at")) if isinstance(row,dict) else None
+ if not gen and isinstance(row,dict) and not row.get("retained"):gen=pdt((old.get("meta") or {}).get("generated"))
  if gen and timedelta(0)<=now-gen<=timedelta(hours=FALLBACK_HOURS) and isinstance(row,dict) and row.get("available"):
-  x=json.loads(json.dumps(row));x["retained"]=True;x["retained_reason"]=type(e).__name__;return x
+  x=json.loads(json.dumps(row));x["retained"]=True;x["retained_reason"]=type(e).__name__;x["source_collected_at"]=gen.isoformat();return x
  return {"key":key,"score":None,"status":"UNAVAILABLE","weight":WEIGHTS[key],"available":False,"retained":False,"coverage":0,"evidence":[],"error":type(e).__name__}
 def main()->None:
- now=datetime.now(timezone.utc);old=previous();ports=port_directory();collectors={"chokepoint_flow":lambda:collect_chokes(now),"energy_port_flow":lambda:collect_ports(ports,now),"energy_markets":lambda:collect_markets(now),"regional_sanctions":lambda:collect_ofac(now),"port_weather":lambda:collect_weather(ports,now)};components={};notes=[]
+ now=datetime.now(timezone.utc);old=previous();ports=[];port_error=None
+ try:
+  ports=port_directory()
+  if not ports:raise RuntimeError("Port directory returned no records")
+ except Exception as e:port_error=e
+ def require_ports():
+  if port_error is not None:raise port_error
+  return ports
+ collectors={"chokepoint_flow":lambda:collect_chokes(now),"energy_port_flow":lambda:collect_ports(require_ports(),now),"energy_markets":lambda:collect_markets(now),"regional_sanctions":lambda:collect_ofac(now),"port_weather":lambda:collect_weather(require_ports(),now)};components={};notes=[]
  for k,fn in collectors.items():
-  try:components[k]=fn();print(f"[live] {k}: {components[k]['score']}")
+  try:components[k]=fn();components[k]["source_collected_at"]=now.isoformat();print(f"[live] {k}: {components[k]['score']}")
   except Exception as e:components[k]=fallback(old,k,now,e);notes.append(f"{k}: {'retained' if components[k].get('retained') else 'unavailable'} ({type(e).__name__})");print(f"[fallback] {k}: {e}")
  avail=[x for x in components.values() if x.get("available") and x.get("score") is not None];den=sum(x["weight"] for x in avail);raw=sum(x["score"]*x["weight"] for x in avail)/den if den else 0;physical=any(num(components.get(k,{}).get("score"))>=40 for k in ("chokepoint_flow","energy_port_flow","port_weather"));independent=any(num(components.get(k,{}).get("score"))>=45 for k in ("energy_markets","regional_sanctions"));bonus=5.0 if physical and independent else 0;score=round(clamp(raw+bonus),1);status=band(score);coverage=len(avail);retained=sum(1 for x in avail if x.get("retained"));confidence="HIGH" if coverage==5 and not retained else "MEDIUM" if coverage>=4 else "LOW";generated=now.isoformat();hist=[x for x in old.get("history",[]) if isinstance(x,dict) and x.get("generated")];hist.append({"generated":generated,"score":score,"status":status})
  out={"meta":{"project":"mena-energy-flow","generated":generated,"mode":"live" if coverage==5 and not retained else "partial","version":"2.0.0","horizon":"0–14 days","classification":"energy-flow-disruption-pressure-not-price-or-conflict-probability","coverage":f"{coverage}/5","confidence":confidence,"source_notes":notes},"warning":{"score":score,"raw_score":round(raw,1),"concurrence_bonus":bonus,"status":status,"headline":f"MENA energy-flow disruption pressure is {status.lower()} at {score:.1f}/100.","interpretation":"The index combines physical chokepoint and port-flow anomalies with independent market, sanctions and forward-weather evidence. It is a screening warning, not a price or conflict probability."},"components":components,"history":hist[-60:],"sources":SOURCES,"methodology":{"weights":WEIGHTS,"fallback_hours":FALLBACK_HOURS,"concurrence_rule":"+5 when physical flow/weather ≥40 and market/sanctions ≥45"}}
