@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-10-29T06:00:21.983222+00:00",
+    "generated": "2026-10-29T13:19:40.622706+00:00",
     "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -9,7 +9,8 @@
     "coverage": "5/5",
     "confidence": "MEDIUM",
     "source_notes": [
-      "energy_port_flow: retained (RuntimeError)"
+      "energy_port_flow: retained (RuntimeError)",
+      "port_weather: retained (RuntimeError)"
     ]
   },
   "warning": {
@@ -65,7 +66,7 @@
           "latest": "2026-10-25"
         }
       ],
-      "source_collected_at": "2026-10-29T06:00:21.983222+00:00"
+      "source_collected_at": "2026-10-29T13:19:40.622706+00:00"
     },
     "energy_port_flow": {
       "key": "energy_port_flow",
@@ -280,7 +281,7 @@
           "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM"
         }
       ],
-      "source_collected_at": "2026-10-29T06:00:21.983222+00:00"
+      "source_collected_at": "2026-10-29T13:19:40.622706+00:00"
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
@@ -493,7 +494,7 @@
           "age": 30
         }
       ],
-      "source_collected_at": "2026-10-29T06:00:21.983222+00:00"
+      "source_collected_at": "2026-10-29T13:19:40.622706+00:00"
     },
     "port_weather": {
       "key": "port_weather",
@@ -501,7 +502,7 @@
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
-      "retained": false,
+      "retained": true,
       "coverage": 8,
       "method": "Seven-day maximum wind and daily precipitation at eight energy ports.",
       "evidence": [
@@ -594,15 +595,11 @@
           "valid_to": "2026-11-05T06:00:00Z"
         }
       ],
-      "source_collected_at": "2026-10-29T06:00:21.983222+00:00"
+      "source_collected_at": "2026-10-29T06:00:21.983222+00:00",
+      "retained_reason": "RuntimeError"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-13T00:50:14.538252+00:00",
-      "score": 37.3,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-13T14:23:23.496552+00:00",
       "score": 37.3,
@@ -895,6 +892,11 @@
     },
     {
       "generated": "2026-10-29T06:00:21.983222+00:00",
+      "score": 15.0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-29T13:19:40.622706+00:00",
       "score": 15.0,
       "status": "BASELINE"
     }
