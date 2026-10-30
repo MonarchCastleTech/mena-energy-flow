@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-10-29T22:51:28.617158+00:00",
+    "generated": "2026-10-30T06:01:11.672546+00:00",
     "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -10,7 +10,8 @@
     "confidence": "MEDIUM",
     "source_notes": [
       "chokepoint_flow: retained (RuntimeError)",
-      "energy_port_flow: retained (RuntimeError)"
+      "energy_port_flow: retained (RuntimeError)",
+      "port_weather: retained (RuntimeError)"
     ]
   },
   "warning": {
@@ -282,7 +283,7 @@
           "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM"
         }
       ],
-      "source_collected_at": "2026-10-29T22:51:28.617158+00:00"
+      "source_collected_at": "2026-10-30T06:01:11.672546+00:00"
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
@@ -293,7 +294,7 @@
       "retained": false,
       "coverage": 32,
       "current_14d_weekly_equivalent": 2.0,
-      "anomaly_z": -1.06,
+      "anomaly_z": -0.92,
       "method": "MENA-linked OFAC action velocity over 14 days versus 12 prior weeks.",
       "evidence": [
         {
@@ -310,7 +311,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 8
+          "age": 9
         },
         {
           "title": "Sanctioning Cuban State-Owned Banco Internacional de Comercio, S.A. (BICSA)",
@@ -326,7 +327,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 14
+          "age": 15
         },
         {
           "title": "Operation Economic Outcast Targets Iran’s International Financial Networks and Shadow Banking Architecture",
@@ -342,7 +343,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 14
+          "age": 15
         },
         {
           "title": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks",
@@ -358,7 +359,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 14
+          "age": 15
         },
         {
           "title": "Operation Economic Outcast Sanctions on Iran's Shadow Fleet Network",
@@ -375,7 +376,7 @@
             "network"
           ],
           "weight": 5.5,
-          "age": 21
+          "age": 22
         },
         {
           "title": "Operation Economic Outcast Neutralizes Iranian Regime's Remaining Shadow Fleet Network",
@@ -391,7 +392,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 21
+          "age": 22
         },
         {
           "title": "Treasury Announces Third Round of Sanctions Removals, Updates in Modernization Initiative",
@@ -407,7 +408,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 24
+          "age": 25
         },
         {
           "title": "Operation Economic Outcast Targets Iran’s Remaining Industrial Lifelines",
@@ -422,7 +423,7 @@
             "designat"
           ],
           "weight": 3,
-          "age": 28
+          "age": 29
         },
         {
           "title": "Operation Economic Outcast Takes Unprecedented Action Against Sanctions Evasion Network Used by Iran",
@@ -439,7 +440,7 @@
             "network"
           ],
           "weight": 5.5,
-          "age": 28
+          "age": 29
         },
         {
           "title": "Treasury Sanctions Financial Network of Foreign Terrorist Organization, Tren de Aragua, After Theft of Millions from U.S. Banks",
@@ -457,7 +458,7 @@
             "network"
           ],
           "weight": 7.5,
-          "age": 29
+          "age": 30
         },
         {
           "title": "Treasury Sanctions Sinaloa Cartel Leadership and Corruption Networks",
@@ -475,7 +476,7 @@
             "network"
           ],
           "weight": 7.5,
-          "age": 30
+          "age": 31
         },
         {
           "title": "Operation Economic Outcast Takes Down Iranian Military Procurement Networks",
@@ -492,10 +493,10 @@
             "network"
           ],
           "weight": 6,
-          "age": 30
+          "age": 31
         }
       ],
-      "source_collected_at": "2026-10-29T22:51:28.617158+00:00"
+      "source_collected_at": "2026-10-30T06:01:11.672546+00:00"
     },
     "port_weather": {
       "key": "port_weather",
@@ -503,7 +504,7 @@
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
-      "retained": false,
+      "retained": true,
       "coverage": 8,
       "method": "Seven-day maximum wind and daily precipitation at eight energy ports.",
       "evidence": [
@@ -596,15 +597,11 @@
           "valid_to": "2026-11-05T18:00:00Z"
         }
       ],
-      "source_collected_at": "2026-10-29T22:51:28.617158+00:00"
+      "source_collected_at": "2026-10-29T22:51:28.617158+00:00",
+      "retained_reason": "RuntimeError"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-13T22:55:16.919211+00:00",
-      "score": 37.3,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-14T05:03:14.027976+00:00",
       "score": 36.9,
@@ -897,6 +894,11 @@
     },
     {
       "generated": "2026-10-29T22:51:28.617158+00:00",
+      "score": 15.0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-30T06:01:11.672546+00:00",
       "score": 15.0,
       "status": "BASELINE"
     }
