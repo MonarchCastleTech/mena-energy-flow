@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-10-30T22:28:59.066860+00:00",
+    "generated": "2026-10-31T05:56:34.158551+00:00",
     "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -283,7 +283,7 @@
           "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM"
         }
       ],
-      "source_collected_at": "2026-10-30T22:28:59.066860+00:00"
+      "source_collected_at": "2026-10-31T05:56:34.158551+00:00"
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
@@ -311,7 +311,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 9
+          "age": 10
         },
         {
           "title": "Sanctioning Cuban State-Owned Banco Internacional de Comercio, S.A. (BICSA)",
@@ -327,7 +327,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 15
+          "age": 16
         },
         {
           "title": "Operation Economic Outcast Targets Iran’s International Financial Networks and Shadow Banking Architecture",
@@ -343,7 +343,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 15
+          "age": 16
         },
         {
           "title": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks",
@@ -359,7 +359,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 15
+          "age": 16
         },
         {
           "title": "Operation Economic Outcast Sanctions on Iran's Shadow Fleet Network",
@@ -376,7 +376,7 @@
             "network"
           ],
           "weight": 5.5,
-          "age": 22
+          "age": 23
         },
         {
           "title": "Operation Economic Outcast Neutralizes Iranian Regime's Remaining Shadow Fleet Network",
@@ -392,7 +392,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 22
+          "age": 23
         },
         {
           "title": "Treasury Announces Third Round of Sanctions Removals, Updates in Modernization Initiative",
@@ -408,7 +408,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 25
+          "age": 26
         },
         {
           "title": "Operation Economic Outcast Targets Iran’s Remaining Industrial Lifelines",
@@ -423,7 +423,7 @@
             "designat"
           ],
           "weight": 3,
-          "age": 29
+          "age": 30
         },
         {
           "title": "Operation Economic Outcast Takes Unprecedented Action Against Sanctions Evasion Network Used by Iran",
@@ -440,7 +440,7 @@
             "network"
           ],
           "weight": 5.5,
-          "age": 29
+          "age": 30
         },
         {
           "title": "Treasury Sanctions Financial Network of Foreign Terrorist Organization, Tren de Aragua, After Theft of Millions from U.S. Banks",
@@ -458,7 +458,7 @@
             "network"
           ],
           "weight": 7.5,
-          "age": 30
+          "age": 31
         },
         {
           "title": "Treasury Sanctions Sinaloa Cartel Leadership and Corruption Networks",
@@ -476,7 +476,7 @@
             "network"
           ],
           "weight": 7.5,
-          "age": 31
+          "age": 32
         },
         {
           "title": "Operation Economic Outcast Takes Down Iranian Military Procurement Networks",
@@ -493,10 +493,10 @@
             "network"
           ],
           "weight": 6,
-          "age": 31
+          "age": 32
         }
       ],
-      "source_collected_at": "2026-10-30T22:28:59.066860+00:00"
+      "source_collected_at": "2026-10-31T05:56:34.158551+00:00"
     },
     "port_weather": {
       "key": "port_weather",
@@ -602,11 +602,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-10-14T17:20:48.327241+00:00",
-      "score": 27.8,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-14T21:48:21.657654+00:00",
       "score": 28.2,
@@ -899,6 +894,11 @@
     },
     {
       "generated": "2026-10-30T22:28:59.066860+00:00",
+      "score": 15.0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-31T05:56:34.158551+00:00",
       "score": 15.0,
       "status": "BASELINE"
     }
