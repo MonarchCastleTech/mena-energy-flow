@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-11-01T17:58:30.350823+00:00",
+    "generated": "2026-11-01T22:11:13.847233+00:00",
     "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -76,7 +76,7 @@
           "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM"
         }
       ],
-      "source_collected_at": "2026-11-01T17:58:30.350823+00:00"
+      "source_collected_at": "2026-11-01T22:11:13.847233+00:00"
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
@@ -289,7 +289,7 @@
           "age": 33
         }
       ],
-      "source_collected_at": "2026-11-01T17:58:30.350823+00:00"
+      "source_collected_at": "2026-11-01T22:11:13.847233+00:00"
     },
     "port_weather": {
       "key": "port_weather",
@@ -395,11 +395,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-10-15T21:31:20.416580+00:00",
-      "score": 23.4,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-16T04:42:47.967499+00:00",
       "score": 23.4,
@@ -692,6 +687,11 @@
     },
     {
       "generated": "2026-11-01T17:58:30.350823+00:00",
+      "score": 11.4,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-01T22:11:13.847233+00:00",
       "score": 11.4,
       "status": "BASELINE"
     }
