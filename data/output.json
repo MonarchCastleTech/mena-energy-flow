@@ -1,74 +1,38 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-11-01T06:24:44.784240+00:00",
+    "generated": "2026-11-01T17:58:30.350823+00:00",
     "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–14 days",
     "classification": "energy-flow-disruption-pressure-not-price-or-conflict-probability",
-    "coverage": "4/5",
-    "confidence": "MEDIUM",
+    "coverage": "3/5",
+    "confidence": "LOW",
     "source_notes": [
-      "chokepoint_flow: retained (RuntimeError)",
+      "chokepoint_flow: unavailable (RuntimeError)",
       "energy_port_flow: unavailable (RuntimeError)",
       "port_weather: retained (RuntimeError)"
     ]
   },
   "warning": {
-    "score": 6.1,
-    "raw_score": 6.1,
+    "score": 11.4,
+    "raw_score": 11.4,
     "concurrence_bonus": 0,
     "status": "BASELINE",
-    "headline": "MENA energy-flow disruption pressure is baseline at 6.1/100.",
+    "headline": "MENA energy-flow disruption pressure is baseline at 11.4/100.",
     "interpretation": "The index combines physical chokepoint and port-flow anomalies with independent market, sanctions and forward-weather evidence. It is a screening warning, not a price or conflict probability."
   },
   "components": {
     "chokepoint_flow": {
       "key": "chokepoint_flow",
-      "score": 0,
-      "status": "BASELINE",
+      "score": null,
+      "status": "UNAVAILABLE",
       "weight": 0.35,
-      "available": true,
-      "retained": true,
-      "coverage": 3,
-      "method": "Seven-day vessel flow versus preceding 28 days at Suez, Bab el-Mandeb and Hormuz.",
-      "evidence": [
-        {
-          "id": "chokepoint1",
-          "name": "Suez Canal",
-          "recent_mean": 41.3,
-          "baseline_mean": 42.3,
-          "change_pct": -2.4,
-          "direction": "shortfall",
-          "reliability": 1,
-          "pressure": 0,
-          "latest": "2026-10-25"
-        },
-        {
-          "id": "chokepoint4",
-          "name": "Bab el-Mandeb Strait",
-          "recent_mean": 28.9,
-          "baseline_mean": 27.9,
-          "change_pct": 3.6,
-          "direction": "surge",
-          "reliability": 1,
-          "pressure": 0,
-          "latest": "2026-10-25"
-        },
-        {
-          "id": "chokepoint6",
-          "name": "Strait of Hormuz",
-          "recent_mean": 3.3,
-          "baseline_mean": 3.4,
-          "change_pct": -4.2,
-          "direction": "shortfall",
-          "reliability": 1,
-          "pressure": 0,
-          "latest": "2026-10-25"
-        }
-      ],
-      "source_collected_at": "2026-10-29T13:19:40.622706+00:00",
-      "retained_reason": "RuntimeError"
+      "available": false,
+      "retained": false,
+      "coverage": 0,
+      "evidence": [],
+      "error": "RuntimeError"
     },
     "energy_port_flow": {
       "key": "energy_port_flow",
@@ -112,7 +76,7 @@
           "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM"
         }
       ],
-      "source_collected_at": "2026-11-01T06:24:44.784240+00:00"
+      "source_collected_at": "2026-11-01T17:58:30.350823+00:00"
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
@@ -325,7 +289,7 @@
           "age": 33
         }
       ],
-      "source_collected_at": "2026-11-01T06:24:44.784240+00:00"
+      "source_collected_at": "2026-11-01T17:58:30.350823+00:00"
     },
     "port_weather": {
       "key": "port_weather",
@@ -431,11 +395,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-10-15T17:10:18.276036+00:00",
-      "score": 26.8,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-15T21:31:20.416580+00:00",
       "score": 23.4,
@@ -729,6 +688,11 @@
     {
       "generated": "2026-11-01T06:24:44.784240+00:00",
       "score": 6.1,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-01T17:58:30.350823+00:00",
+      "score": 11.4,
       "status": "BASELINE"
     }
   ],
