@@ -1,25 +1,24 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-11-02T06:25:58.158160+00:00",
+    "generated": "2026-11-02T21:47:36.278330+00:00",
     "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–14 days",
     "classification": "energy-flow-disruption-pressure-not-price-or-conflict-probability",
-    "coverage": "2/5",
+    "coverage": "3/5",
     "confidence": "LOW",
     "source_notes": [
       "chokepoint_flow: unavailable (RuntimeError)",
-      "energy_port_flow: unavailable (RuntimeError)",
-      "port_weather: unavailable (RuntimeError)"
+      "energy_port_flow: unavailable (RuntimeError)"
     ]
   },
   "warning": {
-    "score": 15.3,
-    "raw_score": 15.3,
+    "score": 11.9,
+    "raw_score": 11.9,
     "concurrence_bonus": 0,
     "status": "BASELINE",
-    "headline": "MENA energy-flow disruption pressure is baseline at 15.3/100.",
+    "headline": "MENA energy-flow disruption pressure is baseline at 11.9/100.",
     "interpretation": "The index combines physical chokepoint and port-flow anomalies with independent market, sanctions and forward-weather evidence. It is a screening warning, not a price or conflict probability."
   },
   "components": {
@@ -76,7 +75,7 @@
           "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM"
         }
       ],
-      "source_collected_at": "2026-11-02T06:25:58.158160+00:00"
+      "source_collected_at": "2026-11-02T21:47:36.278330+00:00"
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
@@ -289,26 +288,111 @@
           "age": 34
         }
       ],
-      "source_collected_at": "2026-11-02T06:25:58.158160+00:00"
+      "source_collected_at": "2026-11-02T21:47:36.278330+00:00"
     },
     "port_weather": {
       "key": "port_weather",
-      "score": null,
-      "status": "UNAVAILABLE",
+      "score": 1.8,
+      "status": "BASELINE",
       "weight": 0.1,
-      "available": false,
+      "available": true,
       "retained": false,
-      "coverage": 0,
-      "evidence": [],
-      "error": "RuntimeError"
+      "coverage": 8,
+      "method": "Seven-day maximum wind and daily precipitation at eight energy ports.",
+      "evidence": [
+        {
+          "id": "port24",
+          "name": "Al Jubayl",
+          "country": "Saudi Arabia",
+          "lat": 27.055730142783407,
+          "lon": 49.6603902971205,
+          "max_wind_ms": 13.0,
+          "max_precip_24h_mm": 0.0,
+          "pressure": 7.1,
+          "valid_to": "2026-11-09T18:00:00Z"
+        },
+        {
+          "id": "port362",
+          "name": "Fujayrah Harbor",
+          "country": "United Arab Emirates",
+          "lat": 25.20017277781963,
+          "lon": 56.35942059300059,
+          "max_wind_ms": 7.0,
+          "max_precip_24h_mm": 0.7,
+          "pressure": 0,
+          "valid_to": "2026-11-09T18:00:00Z"
+        },
+        {
+          "id": "port1342",
+          "name": "Umm Said",
+          "country": "Qatar",
+          "lat": 24.96358830911533,
+          "lon": 51.56713164002737,
+          "max_wind_ms": 6.1,
+          "max_precip_24h_mm": 0.0,
+          "pressure": 0,
+          "valid_to": "2026-11-09T18:00:00Z"
+        },
+        {
+          "id": "port743",
+          "name": "Mina Al Ahmadi",
+          "country": "Kuwait",
+          "lat": 29.04554779945024,
+          "lon": 48.14514573819061,
+          "max_wind_ms": 10.3,
+          "max_precip_24h_mm": 5.5,
+          "pressure": 0,
+          "valid_to": "2026-11-09T18:00:00Z"
+        },
+        {
+          "id": "port1203",
+          "name": "Sitrah",
+          "country": "Bahrain",
+          "lat": 26.189356457279832,
+          "lon": 50.66794163474652,
+          "max_wind_ms": 6.0,
+          "max_precip_24h_mm": 0.0,
+          "pressure": 0,
+          "valid_to": "2026-11-09T18:00:00Z"
+        },
+        {
+          "id": "port1090",
+          "name": "Ras Laffan",
+          "country": "Qatar",
+          "lat": 25.90850676482436,
+          "lon": 51.590499257567934,
+          "max_wind_ms": 6.1,
+          "max_precip_24h_mm": 0.3,
+          "pressure": 0,
+          "valid_to": "2026-11-09T18:00:00Z"
+        },
+        {
+          "id": "port988",
+          "name": "Port of Sohar",
+          "country": "Oman",
+          "lat": 24.511687426479416,
+          "lon": 56.61271789820087,
+          "max_wind_ms": 7.8,
+          "max_precip_24h_mm": 0.0,
+          "pressure": 0,
+          "valid_to": "2026-11-09T18:00:00Z"
+        },
+        {
+          "id": "port512",
+          "name": "Jabal Az Zannah-Ruways",
+          "country": "United Arab Emirates",
+          "lat": 24.126975861488557,
+          "lon": 52.71021364176625,
+          "max_wind_ms": 5.5,
+          "max_precip_24h_mm": 0.0,
+          "pressure": 0,
+          "valid_to": "2026-11-09T18:00:00Z"
+        }
+      ],
+      "source_collected_at": "2026-11-02T21:47:36.278330+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-16T11:36:16.372592+00:00",
-      "score": 23.6,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-16T16:46:30.667169+00:00",
       "score": 23.7,
@@ -602,6 +686,11 @@
     {
       "generated": "2026-11-02T06:25:58.158160+00:00",
       "score": 15.3,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-02T21:47:36.278330+00:00",
+      "score": 11.9,
       "status": "BASELINE"
     }
   ],
