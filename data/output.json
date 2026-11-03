@@ -1,14 +1,18 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-11-03T06:58:54.178097+00:00",
-    "mode": "live",
+    "generated": "2026-11-03T19:37:27.319083+00:00",
+    "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–14 days",
     "classification": "energy-flow-disruption-pressure-not-price-or-conflict-probability",
     "coverage": "5/5",
-    "confidence": "HIGH",
-    "source_notes": []
+    "confidence": "MEDIUM",
+    "source_notes": [
+      "chokepoint_flow: retained (RuntimeError)",
+      "energy_port_flow: retained (RuntimeError)",
+      "port_weather: retained (RuntimeError)"
+    ]
   },
   "warning": {
     "score": 15.0,
@@ -25,7 +29,7 @@
       "status": "BASELINE",
       "weight": 0.35,
       "available": true,
-      "retained": false,
+      "retained": true,
       "coverage": 3,
       "method": "Seven-day vessel flow versus preceding 28 days at Suez, Bab el-Mandeb and Hormuz.",
       "evidence": [
@@ -63,7 +67,8 @@
           "latest": "2026-10-25"
         }
       ],
-      "source_collected_at": "2026-11-03T06:58:54.178097+00:00"
+      "source_collected_at": "2026-11-03T06:58:54.178097+00:00",
+      "retained_reason": "RuntimeError"
     },
     "energy_port_flow": {
       "key": "energy_port_flow",
@@ -71,7 +76,7 @@
       "status": "WATCH",
       "weight": 0.25,
       "available": true,
-      "retained": false,
+      "retained": true,
       "coverage": 12,
       "method": "Energy-port calls: seven-day mean versus preceding 28 days, reliability-shrunk.",
       "evidence": [
@@ -244,7 +249,8 @@
           "latest": "2026-10-23"
         }
       ],
-      "source_collected_at": "2026-11-03T06:58:54.178097+00:00"
+      "source_collected_at": "2026-11-03T06:58:54.178097+00:00",
+      "retained_reason": "RuntimeError"
     },
     "energy_markets": {
       "key": "energy_markets",
@@ -277,7 +283,7 @@
           "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM"
         }
       ],
-      "source_collected_at": "2026-11-03T06:58:54.178097+00:00"
+      "source_collected_at": "2026-11-03T19:37:27.319083+00:00"
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
@@ -455,7 +461,7 @@
           "age": 34
         }
       ],
-      "source_collected_at": "2026-11-03T06:58:54.178097+00:00"
+      "source_collected_at": "2026-11-03T19:37:27.319083+00:00"
     },
     "port_weather": {
       "key": "port_weather",
@@ -463,7 +469,7 @@
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
-      "retained": false,
+      "retained": true,
       "coverage": 8,
       "method": "Seven-day maximum wind and daily precipitation at eight energy ports.",
       "evidence": [
@@ -556,15 +562,11 @@
           "valid_to": "2026-11-10T06:00:00Z"
         }
       ],
-      "source_collected_at": "2026-11-03T06:58:54.178097+00:00"
+      "source_collected_at": "2026-11-03T06:58:54.178097+00:00",
+      "retained_reason": "RuntimeError"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-16T21:22:02.802866+00:00",
-      "score": 23.7,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-17T04:40:15.387812+00:00",
       "score": 23.7,
@@ -857,6 +859,11 @@
     },
     {
       "generated": "2026-11-03T06:58:54.178097+00:00",
+      "score": 15.0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-03T19:37:27.319083+00:00",
       "score": 15.0,
       "status": "BASELINE"
     }
