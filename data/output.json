@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-11-04T06:41:27.489485+00:00",
+    "generated": "2026-11-04T19:53:21.760886+00:00",
     "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -15,11 +15,11 @@
     ]
   },
   "warning": {
-    "score": 14.3,
-    "raw_score": 14.3,
+    "score": 18.9,
+    "raw_score": 18.9,
     "concurrence_bonus": 0,
     "status": "BASELINE",
-    "headline": "MENA energy-flow disruption pressure is baseline at 14.3/100.",
+    "headline": "MENA energy-flow disruption pressure is baseline at 18.9/100.",
     "interpretation": "The index combines physical chokepoint and port-flow anomalies with independent market, sanctions and forward-weather evidence. It is a screening warning, not a price or conflict probability."
   },
   "components": {
@@ -254,8 +254,8 @@
     },
     "energy_markets": {
       "key": "energy_markets",
-      "score": 19.6,
-      "status": "BASELINE",
+      "score": 35.4,
+      "status": "WATCH",
       "weight": 0.2,
       "available": true,
       "retained": false,
@@ -265,11 +265,11 @@
         {
           "id": "DCOILBRENTEU",
           "label": "Brent crude",
-          "latest_date": "2026-10-27",
-          "latest_value": 123.1,
-          "change_pct": 6.84,
-          "robust_z": 0.64,
-          "score": 5.5,
+          "latest_date": "2026-11-03",
+          "latest_value": 107.03,
+          "change_pct": -13.05,
+          "robust_z": -1.2,
+          "score": 28.0,
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         },
         {
@@ -283,20 +283,52 @@
           "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM"
         }
       ],
-      "source_collected_at": "2026-11-04T06:41:27.489485+00:00"
+      "source_collected_at": "2026-11-04T19:53:21.760886+00:00"
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
-      "score": 0.0,
+      "score": 14.0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 31,
-      "current_14d_weekly_equivalent": 0.0,
-      "anomaly_z": -1.83,
+      "coverage": 32,
+      "current_14d_weekly_equivalent": 4.25,
+      "anomaly_z": -0.89,
       "method": "MENA-linked OFAC action velocity over 14 days versus 12 prior weeks.",
       "evidence": [
+        {
+          "title": "U.S. Sanctions Fraudulent Ship Registries and Aviation Support for Iranian Regime",
+          "action": "Iran-related Designations; Updates to Certain Iran-related Listings; Publication of Iran-related OFAC Alert; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
+          "date": "2026-11-04",
+          "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/u-s-sanctions-fraudulent-ship-registries-and-aviation-support-for-iranian-regime/",
+          "region_terms": [
+            "iran"
+          ],
+          "energy_terms": [],
+          "action_terms": [
+            "sanction",
+            "designat"
+          ],
+          "weight": 4.5,
+          "age": 0
+        },
+        {
+          "title": "Operation Economic Outcast Targets Global Maritime Fraud Network Supporting Iranian Regime",
+          "action": "Iran-related Designations; Updates to Certain Iran-related Listings; Publication of Iran-related OFAC Alert; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
+          "date": "2026-11-04",
+          "url": "https://home.treasury.gov/news/press-releases/sb0681/",
+          "region_terms": [
+            "iran"
+          ],
+          "energy_terms": [],
+          "action_terms": [
+            "designat",
+            "network"
+          ],
+          "weight": 4,
+          "age": 0
+        },
         {
           "title": "Operation Economic Outcast Targets Iran's Shadow Fleet Networks",
           "action": "Iran-related Designations; Belarus and North Korea Designations Removals; Issuance of Iran-related and Russia-related General Licenses and Amended Frequently Asked Questions",
@@ -443,7 +475,7 @@
           "age": 34
         }
       ],
-      "source_collected_at": "2026-11-04T06:41:27.489485+00:00"
+      "source_collected_at": "2026-11-04T19:53:21.760886+00:00"
     },
     "port_weather": {
       "key": "port_weather",
@@ -549,11 +581,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-10-17T10:57:09.237062+00:00",
-      "score": 23.7,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-17T15:43:12.658141+00:00",
       "score": 23.7,
@@ -847,6 +874,11 @@
     {
       "generated": "2026-11-04T06:41:27.489485+00:00",
       "score": 14.3,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-04T19:53:21.760886+00:00",
+      "score": 18.9,
       "status": "BASELINE"
     }
   ],
