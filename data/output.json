@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-11-03T19:37:27.319083+00:00",
+    "generated": "2026-11-04T06:41:27.489485+00:00",
     "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -15,11 +15,11 @@
     ]
   },
   "warning": {
-    "score": 15.0,
-    "raw_score": 15.0,
+    "score": 14.3,
+    "raw_score": 14.3,
     "concurrence_bonus": 0,
     "status": "BASELINE",
-    "headline": "MENA energy-flow disruption pressure is baseline at 15.0/100.",
+    "headline": "MENA energy-flow disruption pressure is baseline at 14.3/100.",
     "interpretation": "The index combines physical chokepoint and port-flow anomalies with independent market, sanctions and forward-weather evidence. It is a screening warning, not a price or conflict probability."
   },
   "components": {
@@ -283,18 +283,18 @@
           "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM"
         }
       ],
-      "source_collected_at": "2026-11-03T19:37:27.319083+00:00"
+      "source_collected_at": "2026-11-04T06:41:27.489485+00:00"
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
-      "score": 6.6,
+      "score": 0.0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 32,
-      "current_14d_weekly_equivalent": 2.0,
-      "anomaly_z": -1.74,
+      "coverage": 31,
+      "current_14d_weekly_equivalent": 0.0,
+      "anomaly_z": -1.83,
       "method": "MENA-linked OFAC action velocity over 14 days versus 12 prior weeks.",
       "evidence": [
         {
@@ -311,7 +311,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 13
+          "age": 14
         },
         {
           "title": "Sanctioning Cuban State-Owned Banco Internacional de Comercio, S.A. (BICSA)",
@@ -327,7 +327,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 19
+          "age": 20
         },
         {
           "title": "Operation Economic Outcast Targets Iran’s International Financial Networks and Shadow Banking Architecture",
@@ -343,7 +343,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 19
+          "age": 20
         },
         {
           "title": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks",
@@ -359,7 +359,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 19
+          "age": 20
         },
         {
           "title": "Operation Economic Outcast Sanctions on Iran's Shadow Fleet Network",
@@ -376,7 +376,7 @@
             "network"
           ],
           "weight": 5.5,
-          "age": 26
+          "age": 27
         },
         {
           "title": "Operation Economic Outcast Neutralizes Iranian Regime's Remaining Shadow Fleet Network",
@@ -392,7 +392,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 26
+          "age": 27
         },
         {
           "title": "Treasury Announces Third Round of Sanctions Removals, Updates in Modernization Initiative",
@@ -408,7 +408,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 29
+          "age": 30
         },
         {
           "title": "Operation Economic Outcast Targets Iran’s Remaining Industrial Lifelines",
@@ -423,7 +423,7 @@
             "designat"
           ],
           "weight": 3,
-          "age": 33
+          "age": 34
         },
         {
           "title": "Operation Economic Outcast Takes Unprecedented Action Against Sanctions Evasion Network Used by Iran",
@@ -440,28 +440,10 @@
             "network"
           ],
           "weight": 5.5,
-          "age": 33
-        },
-        {
-          "title": "Treasury Sanctions Financial Network of Foreign Terrorist Organization, Tren de Aragua, After Theft of Millions from U.S. Banks",
-          "action": "Counter Terrorism and Transnational Criminal Organizations Designations; Belarus, Counter Narcotics, and Libya Designations Removals",
-          "date": "2026-09-30",
-          "url": "https://home.treasury.gov/news/press-releases/sb0640/",
-          "region_terms": [
-            "libya"
-          ],
-          "energy_terms": [],
-          "action_terms": [
-            "sanction",
-            "designat",
-            "terror",
-            "network"
-          ],
-          "weight": 7.5,
           "age": 34
         }
       ],
-      "source_collected_at": "2026-11-03T19:37:27.319083+00:00"
+      "source_collected_at": "2026-11-04T06:41:27.489485+00:00"
     },
     "port_weather": {
       "key": "port_weather",
@@ -567,11 +549,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-10-17T04:40:15.387812+00:00",
-      "score": 23.7,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-17T10:57:09.237062+00:00",
       "score": 23.7,
@@ -865,6 +842,11 @@
     {
       "generated": "2026-11-03T19:37:27.319083+00:00",
       "score": 15.0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-04T06:41:27.489485+00:00",
+      "score": 14.3,
       "status": "BASELINE"
     }
   ],
