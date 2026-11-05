@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-11-04T19:53:21.760886+00:00",
+    "generated": "2026-11-05T07:00:02.500724+00:00",
     "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -283,7 +283,7 @@
           "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM"
         }
       ],
-      "source_collected_at": "2026-11-04T19:53:21.760886+00:00"
+      "source_collected_at": "2026-11-05T07:00:02.500724+00:00"
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
@@ -292,9 +292,9 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 32,
+      "coverage": 31,
       "current_14d_weekly_equivalent": 4.25,
-      "anomaly_z": -0.89,
+      "anomaly_z": -0.67,
       "method": "MENA-linked OFAC action velocity over 14 days versus 12 prior weeks.",
       "evidence": [
         {
@@ -311,7 +311,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 0
+          "age": 1
         },
         {
           "title": "Operation Economic Outcast Targets Global Maritime Fraud Network Supporting Iranian Regime",
@@ -327,7 +327,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 0
+          "age": 1
         },
         {
           "title": "Operation Economic Outcast Targets Iran's Shadow Fleet Networks",
@@ -343,7 +343,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 14
+          "age": 15
         },
         {
           "title": "Sanctioning Cuban State-Owned Banco Internacional de Comercio, S.A. (BICSA)",
@@ -359,7 +359,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 20
+          "age": 21
         },
         {
           "title": "Operation Economic Outcast Targets Iran’s International Financial Networks and Shadow Banking Architecture",
@@ -375,7 +375,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 20
+          "age": 21
         },
         {
           "title": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks",
@@ -391,7 +391,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 20
+          "age": 21
         },
         {
           "title": "Operation Economic Outcast Sanctions on Iran's Shadow Fleet Network",
@@ -408,7 +408,7 @@
             "network"
           ],
           "weight": 5.5,
-          "age": 27
+          "age": 28
         },
         {
           "title": "Operation Economic Outcast Neutralizes Iranian Regime's Remaining Shadow Fleet Network",
@@ -424,7 +424,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 27
+          "age": 28
         },
         {
           "title": "Treasury Announces Third Round of Sanctions Removals, Updates in Modernization Initiative",
@@ -440,42 +440,10 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 30
-        },
-        {
-          "title": "Operation Economic Outcast Targets Iran’s Remaining Industrial Lifelines",
-          "action": "Iran-related Designations and Designations Updates; Transnational Criminal Organizations Designation; Publication of Iran-related Determination; Publication of Amended Iran-related Frequently Asked Question",
-          "date": "2026-10-01",
-          "url": "https://home.treasury.gov/news/press-releases/sb0643/",
-          "region_terms": [
-            "iran"
-          ],
-          "energy_terms": [],
-          "action_terms": [
-            "designat"
-          ],
-          "weight": 3,
-          "age": 34
-        },
-        {
-          "title": "Operation Economic Outcast Takes Unprecedented Action Against Sanctions Evasion Network Used by Iran",
-          "action": "Iran-related Designations and Designations Updates; Transnational Criminal Organizations Designation; Publication of Iran-related Determination; Publication of Amended Iran-related Frequently Asked Question",
-          "date": "2026-10-01",
-          "url": "https://home.treasury.gov/news/press-releases/sb0644/",
-          "region_terms": [
-            "iran"
-          ],
-          "energy_terms": [],
-          "action_terms": [
-            "sanction",
-            "designat",
-            "network"
-          ],
-          "weight": 5.5,
-          "age": 34
+          "age": 31
         }
       ],
-      "source_collected_at": "2026-11-04T19:53:21.760886+00:00"
+      "source_collected_at": "2026-11-05T07:00:02.500724+00:00"
     },
     "port_weather": {
       "key": "port_weather",
@@ -581,11 +549,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-10-17T15:43:12.658141+00:00",
-      "score": 23.7,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-17T20:44:08.450855+00:00",
       "score": 23.7,
@@ -878,6 +841,11 @@
     },
     {
       "generated": "2026-11-04T19:53:21.760886+00:00",
+      "score": 18.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-05T07:00:02.500724+00:00",
       "score": 18.9,
       "status": "BASELINE"
     }
