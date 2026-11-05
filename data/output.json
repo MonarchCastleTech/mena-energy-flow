@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-11-05T07:00:02.500724+00:00",
+    "generated": "2026-11-05T20:05:53.507118+00:00",
     "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -10,16 +10,15 @@
     "confidence": "MEDIUM",
     "source_notes": [
       "chokepoint_flow: retained (RuntimeError)",
-      "energy_port_flow: retained (RuntimeError)",
-      "port_weather: retained (RuntimeError)"
+      "energy_port_flow: retained (RuntimeError)"
     ]
   },
   "warning": {
-    "score": 18.9,
-    "raw_score": 18.9,
+    "score": 19.6,
+    "raw_score": 19.6,
     "concurrence_bonus": 0,
     "status": "BASELINE",
-    "headline": "MENA energy-flow disruption pressure is baseline at 18.9/100.",
+    "headline": "MENA energy-flow disruption pressure is baseline at 19.6/100.",
     "interpretation": "The index combines physical chokepoint and port-flow anomalies with independent market, sanctions and forward-weather evidence. It is a screening warning, not a price or conflict probability."
   },
   "components": {
@@ -283,20 +282,35 @@
           "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM"
         }
       ],
-      "source_collected_at": "2026-11-05T07:00:02.500724+00:00"
+      "source_collected_at": "2026-11-05T20:05:53.507118+00:00"
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
-      "score": 14.0,
+      "score": 19.0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 31,
-      "current_14d_weekly_equivalent": 4.25,
-      "anomaly_z": -0.67,
+      "current_14d_weekly_equivalent": 5.75,
+      "anomaly_z": -0.57,
       "method": "MENA-linked OFAC action velocity over 14 days versus 12 prior weeks.",
       "evidence": [
+        {
+          "title": "Disrupting Iran's Pursuit of Man-Portable Air-Defense Systems",
+          "action": "Iran-related Designations; Updates to Certain Iran-related Listings; Publication of Iran-related OFAC Alert; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
+          "date": "2026-11-04",
+          "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/disrupting-irans-pursuit-of-man-portable-air-defense-systems-fact-sheet/",
+          "region_terms": [
+            "iran"
+          ],
+          "energy_terms": [],
+          "action_terms": [
+            "designat"
+          ],
+          "weight": 3,
+          "age": 1
+        },
         {
           "title": "U.S. Sanctions Fraudulent Ship Registries and Aviation Support for Iranian Regime",
           "action": "Iran-related Designations; Updates to Certain Iran-related Listings; Publication of Iran-related OFAC Alert; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
@@ -443,28 +457,39 @@
           "age": 31
         }
       ],
-      "source_collected_at": "2026-11-05T07:00:02.500724+00:00"
+      "source_collected_at": "2026-11-05T20:05:53.507118+00:00"
     },
     "port_weather": {
       "key": "port_weather",
-      "score": 0.0,
+      "score": 2.5,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
-      "retained": true,
+      "retained": false,
       "coverage": 8,
       "method": "Seven-day maximum wind and daily precipitation at eight energy ports.",
       "evidence": [
+        {
+          "id": "port743",
+          "name": "Mina Al Ahmadi",
+          "country": "Kuwait",
+          "lat": 29.04554779945024,
+          "lon": 48.14514573819061,
+          "max_wind_ms": 11.5,
+          "max_precip_24h_mm": 38.7,
+          "pressure": 9.7,
+          "valid_to": "2026-11-12T18:00:00Z"
+        },
         {
           "id": "port362",
           "name": "Fujayrah Harbor",
           "country": "United Arab Emirates",
           "lat": 25.20017277781963,
           "lon": 56.35942059300059,
-          "max_wind_ms": 6.5,
-          "max_precip_24h_mm": 0.8,
+          "max_wind_ms": 4.3,
+          "max_precip_24h_mm": 0.1,
           "pressure": 0,
-          "valid_to": "2026-11-10T06:00:00Z"
+          "valid_to": "2026-11-12T18:00:00Z"
         },
         {
           "id": "port1342",
@@ -472,10 +497,10 @@
           "country": "Qatar",
           "lat": 24.96358830911533,
           "lon": 51.56713164002737,
-          "max_wind_ms": 5.6,
-          "max_precip_24h_mm": 0.0,
+          "max_wind_ms": 6.9,
+          "max_precip_24h_mm": 3.5,
           "pressure": 0,
-          "valid_to": "2026-11-10T06:00:00Z"
+          "valid_to": "2026-11-12T18:00:00Z"
         },
         {
           "id": "port24",
@@ -484,20 +509,9 @@
           "lat": 27.055730142783407,
           "lon": 49.6603902971205,
           "max_wind_ms": 9.0,
-          "max_precip_24h_mm": 1.4,
+          "max_precip_24h_mm": 17.8,
           "pressure": 0,
-          "valid_to": "2026-11-10T06:00:00Z"
-        },
-        {
-          "id": "port743",
-          "name": "Mina Al Ahmadi",
-          "country": "Kuwait",
-          "lat": 29.04554779945024,
-          "lon": 48.14514573819061,
-          "max_wind_ms": 8.5,
-          "max_precip_24h_mm": 9.6,
-          "pressure": 0,
-          "valid_to": "2026-11-10T06:00:00Z"
+          "valid_to": "2026-11-12T18:00:00Z"
         },
         {
           "id": "port1203",
@@ -505,10 +519,10 @@
           "country": "Bahrain",
           "lat": 26.189356457279832,
           "lon": 50.66794163474652,
-          "max_wind_ms": 7.5,
-          "max_precip_24h_mm": 0.0,
+          "max_wind_ms": 8.0,
+          "max_precip_24h_mm": 4.3,
           "pressure": 0,
-          "valid_to": "2026-11-10T06:00:00Z"
+          "valid_to": "2026-11-12T18:00:00Z"
         },
         {
           "id": "port1090",
@@ -516,10 +530,10 @@
           "country": "Qatar",
           "lat": 25.90850676482436,
           "lon": 51.590499257567934,
-          "max_wind_ms": 6.6,
-          "max_precip_24h_mm": 0.2,
+          "max_wind_ms": 7.9,
+          "max_precip_24h_mm": 2.4,
           "pressure": 0,
-          "valid_to": "2026-11-10T06:00:00Z"
+          "valid_to": "2026-11-12T18:00:00Z"
         },
         {
           "id": "port988",
@@ -527,10 +541,10 @@
           "country": "Oman",
           "lat": 24.511687426479416,
           "lon": 56.61271789820087,
-          "max_wind_ms": 6.2,
+          "max_wind_ms": 5.3,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-11-10T06:00:00Z"
+          "valid_to": "2026-11-12T18:00:00Z"
         },
         {
           "id": "port512",
@@ -538,22 +552,16 @@
           "country": "United Arab Emirates",
           "lat": 24.126975861488557,
           "lon": 52.71021364176625,
-          "max_wind_ms": 6.6,
-          "max_precip_24h_mm": 0.1,
+          "max_wind_ms": 6.4,
+          "max_precip_24h_mm": 1.4,
           "pressure": 0,
-          "valid_to": "2026-11-10T06:00:00Z"
+          "valid_to": "2026-11-12T18:00:00Z"
         }
       ],
-      "source_collected_at": "2026-11-03T06:58:54.178097+00:00",
-      "retained_reason": "RuntimeError"
+      "source_collected_at": "2026-11-05T20:05:53.507118+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-17T20:44:08.450855+00:00",
-      "score": 23.7,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-18T04:45:42.988467+00:00",
       "score": 23.7,
@@ -847,6 +855,11 @@
     {
       "generated": "2026-11-05T07:00:02.500724+00:00",
       "score": 18.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-05T20:05:53.507118+00:00",
+      "score": 19.6,
       "status": "BASELINE"
     }
   ],
