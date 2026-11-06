@@ -1,255 +1,49 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-11-05T20:05:53.507118+00:00",
+    "generated": "2026-11-06T06:59:52.998729+00:00",
     "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–14 days",
     "classification": "energy-flow-disruption-pressure-not-price-or-conflict-probability",
-    "coverage": "5/5",
-    "confidence": "MEDIUM",
+    "coverage": "3/5",
+    "confidence": "LOW",
     "source_notes": [
-      "chokepoint_flow: retained (RuntimeError)",
-      "energy_port_flow: retained (RuntimeError)"
+      "chokepoint_flow: unavailable (RuntimeError)",
+      "energy_port_flow: unavailable (RuntimeError)",
+      "port_weather: retained (RuntimeError)"
     ]
   },
   "warning": {
-    "score": 19.6,
-    "raw_score": 19.6,
+    "score": 23.1,
+    "raw_score": 23.1,
     "concurrence_bonus": 0,
     "status": "BASELINE",
-    "headline": "MENA energy-flow disruption pressure is baseline at 19.6/100.",
+    "headline": "MENA energy-flow disruption pressure is baseline at 23.1/100.",
     "interpretation": "The index combines physical chokepoint and port-flow anomalies with independent market, sanctions and forward-weather evidence. It is a screening warning, not a price or conflict probability."
   },
   "components": {
     "chokepoint_flow": {
       "key": "chokepoint_flow",
-      "score": 0,
-      "status": "BASELINE",
+      "score": null,
+      "status": "UNAVAILABLE",
       "weight": 0.35,
-      "available": true,
-      "retained": true,
-      "coverage": 3,
-      "method": "Seven-day vessel flow versus preceding 28 days at Suez, Bab el-Mandeb and Hormuz.",
-      "evidence": [
-        {
-          "id": "chokepoint1",
-          "name": "Suez Canal",
-          "recent_mean": 41.3,
-          "baseline_mean": 42.3,
-          "change_pct": -2.4,
-          "direction": "shortfall",
-          "reliability": 1,
-          "pressure": 0,
-          "latest": "2026-10-25"
-        },
-        {
-          "id": "chokepoint4",
-          "name": "Bab el-Mandeb Strait",
-          "recent_mean": 28.9,
-          "baseline_mean": 27.9,
-          "change_pct": 3.6,
-          "direction": "surge",
-          "reliability": 1,
-          "pressure": 0,
-          "latest": "2026-10-25"
-        },
-        {
-          "id": "chokepoint6",
-          "name": "Strait of Hormuz",
-          "recent_mean": 3.3,
-          "baseline_mean": 3.4,
-          "change_pct": -4.2,
-          "direction": "shortfall",
-          "reliability": 1,
-          "pressure": 0,
-          "latest": "2026-10-25"
-        }
-      ],
-      "source_collected_at": "2026-11-03T06:58:54.178097+00:00",
-      "retained_reason": "RuntimeError"
+      "available": false,
+      "retained": false,
+      "coverage": 0,
+      "evidence": [],
+      "error": "RuntimeError"
     },
     "energy_port_flow": {
       "key": "energy_port_flow",
-      "score": 41.6,
-      "status": "WATCH",
+      "score": null,
+      "status": "UNAVAILABLE",
       "weight": 0.25,
-      "available": true,
-      "retained": true,
-      "coverage": 12,
-      "method": "Energy-port calls: seven-day mean versus preceding 28 days, reliability-shrunk.",
-      "evidence": [
-        {
-          "id": "port1090",
-          "name": "Ras Laffan",
-          "country": "Qatar",
-          "lat": 25.90850676482436,
-          "lon": 51.590499257567934,
-          "recent_mean": 0.7,
-          "baseline_mean": 1.2,
-          "change_pct": -41.2,
-          "direction": "shortfall",
-          "reliability": 0.78,
-          "pressure": 77.9,
-          "latest": "2026-10-23"
-        },
-        {
-          "id": "port24",
-          "name": "Al Jubayl",
-          "country": "Saudi Arabia",
-          "lat": 27.055730142783407,
-          "lon": 49.6603902971205,
-          "recent_mean": 1.6,
-          "baseline_mean": 2.1,
-          "change_pct": -26.7,
-          "direction": "shortfall",
-          "reliability": 1,
-          "pressure": 61.9,
-          "latest": "2026-10-23"
-        },
-        {
-          "id": "port1203",
-          "name": "Sitrah",
-          "country": "Bahrain",
-          "lat": 26.189356457279832,
-          "lon": 50.66794163474652,
-          "recent_mean": 1.6,
-          "baseline_mean": 1.2,
-          "change_pct": 25.7,
-          "direction": "surge",
-          "reliability": 0.79,
-          "pressure": 46.8,
-          "latest": "2026-10-23"
-        },
-        {
-          "id": "port512",
-          "name": "Jabal Az Zannah-Ruways",
-          "country": "United Arab Emirates",
-          "lat": 24.126975861488557,
-          "lon": 52.71021364176625,
-          "recent_mean": 0.0,
-          "baseline_mean": 0.4,
-          "change_pct": -100.0,
-          "direction": "shortfall",
-          "reliability": 0.42,
-          "pressure": 42.3,
-          "latest": "2026-10-23"
-        },
-        {
-          "id": "port988",
-          "name": "Port of Sohar",
-          "country": "Oman",
-          "lat": 24.511687426479416,
-          "lon": 56.61271789820087,
-          "recent_mean": 3.9,
-          "baseline_mean": 4.6,
-          "change_pct": -15.6,
-          "direction": "shortfall",
-          "reliability": 1,
-          "pressure": 30.4,
-          "latest": "2026-10-23"
-        },
-        {
-          "id": "port1091",
-          "name": "Ras Tannurah",
-          "country": "Saudi Arabia",
-          "lat": 26.67168923356191,
-          "lon": 50.1229154313664,
-          "recent_mean": 0.7,
-          "baseline_mean": 0.9,
-          "change_pct": -20.0,
-          "direction": "shortfall",
-          "reliability": 0.67,
-          "pressure": 28.6,
-          "latest": "2026-10-23"
-        },
-        {
-          "id": "port526",
-          "name": "Ju Aymah LPG Terminal",
-          "country": "Saudi Arabia",
-          "lat": 26.80319051351993,
-          "lon": 49.97698013064791,
-          "recent_mean": 0.1,
-          "baseline_mean": 0.1,
-          "change_pct": 100.0,
-          "direction": "surge",
-          "reliability": 0.19,
-          "pressure": 18.9,
-          "latest": "2026-10-23"
-        },
-        {
-          "id": "port362",
-          "name": "Fujayrah Harbor",
-          "country": "United Arab Emirates",
-          "lat": 25.20017277781963,
-          "lon": 56.35942059300059,
-          "recent_mean": 8.6,
-          "baseline_mean": 7.8,
-          "change_pct": 10.6,
-          "direction": "surge",
-          "reliability": 1,
-          "pressure": 16.0,
-          "latest": "2026-10-23"
-        },
-        {
-          "id": "port108",
-          "name": "Bandar Khomeyni",
-          "country": "Iran, Islamic Republic of",
-          "lat": 30.43566470413471,
-          "lon": 49.06761425480435,
-          "recent_mean": 0.6,
-          "baseline_mean": 0.6,
-          "change_pct": -11.1,
-          "direction": "shortfall",
-          "reliability": 0.57,
-          "pressure": 9.9,
-          "latest": "2026-10-23"
-        },
-        {
-          "id": "port1341",
-          "name": "Umm Qasr",
-          "country": "Iraq",
-          "lat": 30.113784502375854,
-          "lon": 47.90182167883439,
-          "recent_mean": 3.9,
-          "baseline_mean": 4.1,
-          "change_pct": -6.9,
-          "direction": "shortfall",
-          "reliability": 1,
-          "pressure": 5.4,
-          "latest": "2026-10-23"
-        },
-        {
-          "id": "port1342",
-          "name": "Umm Said",
-          "country": "Qatar",
-          "lat": 24.96358830911533,
-          "lon": 51.56713164002737,
-          "recent_mean": 1.0,
-          "baseline_mean": 1.0,
-          "change_pct": 0.0,
-          "direction": "surge",
-          "reliability": 0.71,
-          "pressure": 0.0,
-          "latest": "2026-10-23"
-        },
-        {
-          "id": "port743",
-          "name": "Mina Al Ahmadi",
-          "country": "Kuwait",
-          "lat": 29.04554779945024,
-          "lon": 48.14514573819061,
-          "recent_mean": 0.0,
-          "baseline_mean": 0.0,
-          "change_pct": 0,
-          "direction": "insufficient",
-          "reliability": 0,
-          "pressure": 0,
-          "latest": "2026-10-23"
-        }
-      ],
-      "source_collected_at": "2026-11-03T06:58:54.178097+00:00",
-      "retained_reason": "RuntimeError"
+      "available": false,
+      "retained": false,
+      "coverage": 0,
+      "evidence": [],
+      "error": "RuntimeError"
     },
     "energy_markets": {
       "key": "energy_markets",
@@ -282,7 +76,7 @@
           "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM"
         }
       ],
-      "source_collected_at": "2026-11-05T20:05:53.507118+00:00"
+      "source_collected_at": "2026-11-06T06:59:52.998729+00:00"
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
@@ -293,7 +87,7 @@
       "retained": false,
       "coverage": 31,
       "current_14d_weekly_equivalent": 5.75,
-      "anomaly_z": -0.57,
+      "anomaly_z": -0.5,
       "method": "MENA-linked OFAC action velocity over 14 days versus 12 prior weeks.",
       "evidence": [
         {
@@ -309,7 +103,7 @@
             "designat"
           ],
           "weight": 3,
-          "age": 1
+          "age": 2
         },
         {
           "title": "U.S. Sanctions Fraudulent Ship Registries and Aviation Support for Iranian Regime",
@@ -325,7 +119,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 1
+          "age": 2
         },
         {
           "title": "Operation Economic Outcast Targets Global Maritime Fraud Network Supporting Iranian Regime",
@@ -341,7 +135,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 1
+          "age": 2
         },
         {
           "title": "Operation Economic Outcast Targets Iran's Shadow Fleet Networks",
@@ -357,7 +151,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 15
+          "age": 16
         },
         {
           "title": "Sanctioning Cuban State-Owned Banco Internacional de Comercio, S.A. (BICSA)",
@@ -373,7 +167,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 21
+          "age": 22
         },
         {
           "title": "Operation Economic Outcast Targets Iran’s International Financial Networks and Shadow Banking Architecture",
@@ -389,7 +183,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 21
+          "age": 22
         },
         {
           "title": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks",
@@ -405,7 +199,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 21
+          "age": 22
         },
         {
           "title": "Operation Economic Outcast Sanctions on Iran's Shadow Fleet Network",
@@ -422,7 +216,7 @@
             "network"
           ],
           "weight": 5.5,
-          "age": 28
+          "age": 29
         },
         {
           "title": "Operation Economic Outcast Neutralizes Iranian Regime's Remaining Shadow Fleet Network",
@@ -438,7 +232,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 28
+          "age": 29
         },
         {
           "title": "Treasury Announces Third Round of Sanctions Removals, Updates in Modernization Initiative",
@@ -454,10 +248,10 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 31
+          "age": 32
         }
       ],
-      "source_collected_at": "2026-11-05T20:05:53.507118+00:00"
+      "source_collected_at": "2026-11-06T06:59:52.998729+00:00"
     },
     "port_weather": {
       "key": "port_weather",
@@ -465,7 +259,7 @@
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
-      "retained": false,
+      "retained": true,
       "coverage": 8,
       "method": "Seven-day maximum wind and daily precipitation at eight energy ports.",
       "evidence": [
@@ -558,15 +352,11 @@
           "valid_to": "2026-11-12T18:00:00Z"
         }
       ],
-      "source_collected_at": "2026-11-05T20:05:53.507118+00:00"
+      "source_collected_at": "2026-11-05T20:05:53.507118+00:00",
+      "retained_reason": "RuntimeError"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-18T04:45:42.988467+00:00",
-      "score": 23.7,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-18T11:22:23.760296+00:00",
       "score": 23.7,
@@ -860,6 +650,11 @@
     {
       "generated": "2026-11-05T20:05:53.507118+00:00",
       "score": 19.6,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-06T06:59:52.998729+00:00",
+      "score": 23.1,
       "status": "BASELINE"
     }
   ],
