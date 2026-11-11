@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-11-10T19:51:30.895423+00:00",
+    "generated": "2026-11-11T06:45:40.162405+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–14 days",
@@ -63,7 +63,7 @@
           "latest": "2026-11-08"
         }
       ],
-      "source_collected_at": "2026-11-10T19:51:30.895423+00:00"
+      "source_collected_at": "2026-11-11T06:45:40.162405+00:00"
     },
     "energy_port_flow": {
       "key": "energy_port_flow",
@@ -244,7 +244,7 @@
           "latest": "2026-11-06"
         }
       ],
-      "source_collected_at": "2026-11-10T19:51:30.895423+00:00"
+      "source_collected_at": "2026-11-11T06:45:40.162405+00:00"
     },
     "energy_markets": {
       "key": "energy_markets",
@@ -277,7 +277,7 @@
           "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM"
         }
       ],
-      "source_collected_at": "2026-11-10T19:51:30.895423+00:00"
+      "source_collected_at": "2026-11-11T06:45:40.162405+00:00"
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
@@ -288,7 +288,7 @@
       "retained": false,
       "coverage": 33,
       "current_14d_weekly_equivalent": 8.0,
-      "anomaly_z": -0.27,
+      "anomaly_z": -0.25,
       "method": "MENA-linked OFAC action velocity over 14 days versus 12 prior weeks.",
       "evidence": [
         {
@@ -305,7 +305,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 4
+          "age": 5
         },
         {
           "title": "Disrupting Iran's Pursuit of Man-Portable Air-Defense Systems",
@@ -320,7 +320,7 @@
             "designat"
           ],
           "weight": 3,
-          "age": 6
+          "age": 7
         },
         {
           "title": "U.S. Sanctions Fraudulent Ship Registries and Aviation Support for Iranian Regime",
@@ -336,7 +336,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 6
+          "age": 7
         },
         {
           "title": "Operation Economic Outcast Targets Global Maritime Fraud Network Supporting Iranian Regime",
@@ -352,7 +352,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 6
+          "age": 7
         },
         {
           "title": "Operation Economic Outcast Targets Iran's Shadow Fleet Networks",
@@ -368,7 +368,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 20
+          "age": 21
         },
         {
           "title": "Sanctioning Cuban State-Owned Banco Internacional de Comercio, S.A. (BICSA)",
@@ -384,7 +384,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 26
+          "age": 27
         },
         {
           "title": "Operation Economic Outcast Targets Iran’s International Financial Networks and Shadow Banking Architecture",
@@ -400,7 +400,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 26
+          "age": 27
         },
         {
           "title": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks",
@@ -416,7 +416,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 26
+          "age": 27
         },
         {
           "title": "Operation Economic Outcast Sanctions on Iran's Shadow Fleet Network",
@@ -433,7 +433,7 @@
             "network"
           ],
           "weight": 5.5,
-          "age": 33
+          "age": 34
         },
         {
           "title": "Operation Economic Outcast Neutralizes Iranian Regime's Remaining Shadow Fleet Network",
@@ -449,14 +449,14 @@
             "network"
           ],
           "weight": 4,
-          "age": 33
+          "age": 34
         }
       ],
-      "source_collected_at": "2026-11-10T19:51:30.895423+00:00"
+      "source_collected_at": "2026-11-11T06:45:40.162405+00:00"
     },
     "port_weather": {
       "key": "port_weather",
-      "score": 0.4,
+      "score": 0.0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
@@ -465,26 +465,15 @@
       "method": "Seven-day maximum wind and daily precipitation at eight energy ports.",
       "evidence": [
         {
-          "id": "port1090",
-          "name": "Ras Laffan",
-          "country": "Qatar",
-          "lat": 25.90850676482436,
-          "lon": 51.590499257567934,
-          "max_wind_ms": 12.2,
-          "max_precip_24h_mm": 3.1,
-          "pressure": 1.4,
-          "valid_to": "2026-11-17T18:00:00Z"
-        },
-        {
           "id": "port362",
           "name": "Fujayrah Harbor",
           "country": "United Arab Emirates",
           "lat": 25.20017277781963,
           "lon": 56.35942059300059,
-          "max_wind_ms": 9.3,
-          "max_precip_24h_mm": 0.1,
+          "max_wind_ms": 9.4,
+          "max_precip_24h_mm": 1.4,
           "pressure": 0,
-          "valid_to": "2026-11-17T18:00:00Z"
+          "valid_to": "2026-11-18T06:00:00Z"
         },
         {
           "id": "port1342",
@@ -492,10 +481,10 @@
           "country": "Qatar",
           "lat": 24.96358830911533,
           "lon": 51.56713164002737,
-          "max_wind_ms": 10.1,
+          "max_wind_ms": 8.6,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-11-17T18:00:00Z"
+          "valid_to": "2026-11-18T06:00:00Z"
         },
         {
           "id": "port24",
@@ -503,10 +492,10 @@
           "country": "Saudi Arabia",
           "lat": 27.055730142783407,
           "lon": 49.6603902971205,
-          "max_wind_ms": 10.1,
-          "max_precip_24h_mm": 26.4,
+          "max_wind_ms": 10.0,
+          "max_precip_24h_mm": 8.7,
           "pressure": 0,
-          "valid_to": "2026-11-17T18:00:00Z"
+          "valid_to": "2026-11-18T06:00:00Z"
         },
         {
           "id": "port743",
@@ -514,10 +503,10 @@
           "country": "Kuwait",
           "lat": 29.04554779945024,
           "lon": 48.14514573819061,
-          "max_wind_ms": 7.7,
+          "max_wind_ms": 6.7,
           "max_precip_24h_mm": 0.0,
           "pressure": 0,
-          "valid_to": "2026-11-17T18:00:00Z"
+          "valid_to": "2026-11-18T06:00:00Z"
         },
         {
           "id": "port1203",
@@ -525,10 +514,21 @@
           "country": "Bahrain",
           "lat": 26.189356457279832,
           "lon": 50.66794163474652,
-          "max_wind_ms": 11.9,
-          "max_precip_24h_mm": 8.5,
+          "max_wind_ms": 10.5,
+          "max_precip_24h_mm": 11.0,
           "pressure": 0,
-          "valid_to": "2026-11-17T18:00:00Z"
+          "valid_to": "2026-11-18T06:00:00Z"
+        },
+        {
+          "id": "port1090",
+          "name": "Ras Laffan",
+          "country": "Qatar",
+          "lat": 25.90850676482436,
+          "lon": 51.590499257567934,
+          "max_wind_ms": 11.4,
+          "max_precip_24h_mm": 1.8,
+          "pressure": 0,
+          "valid_to": "2026-11-18T06:00:00Z"
         },
         {
           "id": "port988",
@@ -536,10 +536,10 @@
           "country": "Oman",
           "lat": 24.511687426479416,
           "lon": 56.61271789820087,
-          "max_wind_ms": 8.6,
-          "max_precip_24h_mm": 0.5,
+          "max_wind_ms": 9.1,
+          "max_precip_24h_mm": 0.6,
           "pressure": 0,
-          "valid_to": "2026-11-17T18:00:00Z"
+          "valid_to": "2026-11-18T06:00:00Z"
         },
         {
           "id": "port512",
@@ -547,21 +547,16 @@
           "country": "United Arab Emirates",
           "lat": 24.126975861488557,
           "lon": 52.71021364176625,
-          "max_wind_ms": 9.1,
+          "max_wind_ms": 9.7,
           "max_precip_24h_mm": 0.1,
           "pressure": 0,
-          "valid_to": "2026-11-17T18:00:00Z"
+          "valid_to": "2026-11-18T06:00:00Z"
         }
       ],
-      "source_collected_at": "2026-11-10T19:51:30.895423+00:00"
+      "source_collected_at": "2026-11-11T06:45:40.162405+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-21T12:02:27.244675+00:00",
-      "score": 20.8,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-21T17:22:05.099605+00:00",
       "score": 21.2,
@@ -854,6 +849,11 @@
     },
     {
       "generated": "2026-11-10T19:51:30.895423+00:00",
+      "score": 22.8,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-11T06:45:40.162405+00:00",
       "score": 22.8,
       "status": "BASELINE"
     }
