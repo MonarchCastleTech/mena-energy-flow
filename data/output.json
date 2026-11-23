@@ -1,21 +1,25 @@
 {
   "meta": {
     "project": "mena-energy-flow",
-    "generated": "2026-11-22T19:50:42.560119+00:00",
-    "mode": "live",
+    "generated": "2026-11-23T07:53:36.742491+00:00",
+    "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–14 days",
     "classification": "energy-flow-disruption-pressure-not-price-or-conflict-probability",
     "coverage": "5/5",
-    "confidence": "HIGH",
-    "source_notes": []
+    "confidence": "MEDIUM",
+    "source_notes": [
+      "chokepoint_flow: retained (RuntimeError)",
+      "energy_port_flow: retained (RuntimeError)",
+      "port_weather: retained (RuntimeError)"
+    ]
   },
   "warning": {
-    "score": 38.8,
-    "raw_score": 38.8,
+    "score": 39.0,
+    "raw_score": 39.0,
     "concurrence_bonus": 0,
     "status": "WATCH",
-    "headline": "MENA energy-flow disruption pressure is watch at 38.8/100.",
+    "headline": "MENA energy-flow disruption pressure is watch at 39.0/100.",
     "interpretation": "The index combines physical chokepoint and port-flow anomalies with independent market, sanctions and forward-weather evidence. It is a screening warning, not a price or conflict probability."
   },
   "components": {
@@ -25,7 +29,7 @@
       "status": "ELEVATED",
       "weight": 0.35,
       "available": true,
-      "retained": false,
+      "retained": true,
       "coverage": 3,
       "method": "Seven-day vessel flow versus preceding 28 days at Suez, Bab el-Mandeb and Hormuz.",
       "evidence": [
@@ -63,7 +67,8 @@
           "latest": "2026-11-15"
         }
       ],
-      "source_collected_at": "2026-11-22T19:50:42.560119+00:00"
+      "source_collected_at": "2026-11-22T19:50:42.560119+00:00",
+      "retained_reason": "RuntimeError"
     },
     "energy_port_flow": {
       "key": "energy_port_flow",
@@ -71,7 +76,7 @@
       "status": "WATCH",
       "weight": 0.25,
       "available": true,
-      "retained": false,
+      "retained": true,
       "coverage": 12,
       "method": "Energy-port calls: seven-day mean versus preceding 28 days, reliability-shrunk.",
       "evidence": [
@@ -244,7 +249,8 @@
           "latest": "2026-11-13"
         }
       ],
-      "source_collected_at": "2026-11-22T19:50:42.560119+00:00"
+      "source_collected_at": "2026-11-22T19:50:42.560119+00:00",
+      "retained_reason": "RuntimeError"
     },
     "energy_markets": {
       "key": "energy_markets",
@@ -277,18 +283,18 @@
           "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM"
         }
       ],
-      "source_collected_at": "2026-11-22T19:50:42.560119+00:00"
+      "source_collected_at": "2026-11-23T07:53:36.742491+00:00"
     },
     "regional_sanctions": {
       "key": "regional_sanctions",
-      "score": 30.3,
+      "score": 31.7,
       "status": "WATCH",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 36,
       "current_14d_weekly_equivalent": 10.25,
-      "anomaly_z": -0.17,
+      "anomaly_z": 0.18,
       "method": "MENA-linked OFAC action velocity over 14 days versus 12 prior weeks.",
       "evidence": [
         {
@@ -306,7 +312,7 @@
             "designat"
           ],
           "weight": 4,
-          "age": 2
+          "age": 3
         },
         {
           "title": "CHART - Comanchero Outlaw Motorcycle Gang - November 2026",
@@ -321,7 +327,7 @@
             "designat"
           ],
           "weight": 3,
-          "age": 3
+          "age": 4
         },
         {
           "title": "U.S. Sanctions Hizballah Front Organization and Iran-Backed Financial Network",
@@ -339,7 +345,7 @@
             "network"
           ],
           "weight": 7.5,
-          "age": 4
+          "age": 5
         },
         {
           "title": "Operation Economic Outcast Targets Iran's Proxy Networks",
@@ -356,7 +362,7 @@
             "network"
           ],
           "weight": 6,
-          "age": 4
+          "age": 5
         },
         {
           "title": "Operation Economic Outcast Sanctions Eight Canadian Money Services Businesses Enabling Iranian Regime",
@@ -372,7 +378,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 16
+          "age": 17
         },
         {
           "title": "Operation Economic Outcast Targets Global Maritime Fraud Network Supporting Iranian Regime",
@@ -388,7 +394,7 @@
             "network"
           ],
           "weight": 4,
-          "age": 18
+          "age": 19
         },
         {
           "title": "U.S. Sanctions Fraudulent Ship Registries and Aviation Support for Iranian Regime",
@@ -404,7 +410,7 @@
             "designat"
           ],
           "weight": 4.5,
-          "age": 18
+          "age": 19
         },
         {
           "title": "Disrupting Iran's Pursuit of Man-Portable Air-Defense Systems",
@@ -419,7 +425,7 @@
             "designat"
           ],
           "weight": 3,
-          "age": 18
+          "age": 19
         },
         {
           "title": "Operation Economic Outcast Targets Iran's Shadow Fleet Networks",
@@ -435,10 +441,10 @@
             "network"
           ],
           "weight": 4,
-          "age": 32
+          "age": 33
         }
       ],
-      "source_collected_at": "2026-11-22T19:50:42.560119+00:00"
+      "source_collected_at": "2026-11-23T07:53:36.742491+00:00"
     },
     "port_weather": {
       "key": "port_weather",
@@ -446,7 +452,7 @@
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
-      "retained": false,
+      "retained": true,
       "coverage": 8,
       "method": "Seven-day maximum wind and daily precipitation at eight energy ports.",
       "evidence": [
@@ -539,15 +545,11 @@
           "valid_to": "2026-11-29T18:00:00Z"
         }
       ],
-      "source_collected_at": "2026-11-22T19:50:42.560119+00:00"
+      "source_collected_at": "2026-11-22T19:50:42.560119+00:00",
+      "retained_reason": "RuntimeError"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-28T08:11:20.888114+00:00",
-      "score": 17.2,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-28T13:12:40.070707+00:00",
       "score": 19.9,
@@ -841,6 +843,11 @@
     {
       "generated": "2026-11-22T19:50:42.560119+00:00",
       "score": 38.8,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-11-23T07:53:36.742491+00:00",
+      "score": 39.0,
       "status": "WATCH"
     }
   ],
